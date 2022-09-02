@@ -97,6 +97,6 @@ function search(){
 
 window.onload = init;
 function int(){
-    let button1 = document.getElementById("button");
+    
     
 }
