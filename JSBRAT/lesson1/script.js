@@ -92,7 +92,7 @@ for(let i = 0; i < fruitsSort.length; i++){
 document.write('</ul>');
 function search(){
     let searchText = document.getElementById("search").value;
-    console.log(fruits.indexOf(searchText));
+    console.log(fruits.indexOf(searchText.toLowerCase()) > -1 ? `Есть такой фрукт - ${searchText}!` : `Нет такого фрукта!`);
 }
 
 window.onload = init;
