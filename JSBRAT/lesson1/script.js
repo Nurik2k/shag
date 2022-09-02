@@ -96,7 +96,7 @@ function search(){
 }
 
 window.onload = init;
-function int(){
+function init(){
     
     
 }
