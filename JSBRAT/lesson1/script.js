@@ -90,3 +90,13 @@ for(let i = 0; i < fruitsSort.length; i++){
     document.write('</li>');
 }
 document.write('</ul>');
+function search(){
+    let searchText = document.getElementById("search").value;
+    console.log(fruits.indexOf(searchText));
+}
+
+window.onload = init;
+function int(){
+    let button1 = document.getElementById("button");
+    
+}
