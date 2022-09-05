@@ -1,0 +1,13 @@
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\obj\Debug\netcoreapp3.1\ls4.csprojAssemblyReference.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\obj\Debug\netcoreapp3.1\ls4.AssemblyInfoInputs.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\obj\Debug\netcoreapp3.1\ls4.AssemblyInfo.cs
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\obj\Debug\netcoreapp3.1\ls4.csproj.CoreCompileInputs.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\bin\Debug\netcoreapp3.1\ls4.exe
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\bin\Debug\netcoreapp3.1\ls4.deps.json
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\bin\Debug\netcoreapp3.1\ls4.runtimeconfig.json
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\bin\Debug\netcoreapp3.1\ls4.runtimeconfig.dev.json
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\bin\Debug\netcoreapp3.1\ls4.dll
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\bin\Debug\netcoreapp3.1\ls4.pdb
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\obj\Debug\netcoreapp3.1\ls4.dll
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\obj\Debug\netcoreapp3.1\ls4.pdb
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson4\ls4\ls4\obj\Debug\netcoreapp3.1\ls4.genruntimeconfig.cache

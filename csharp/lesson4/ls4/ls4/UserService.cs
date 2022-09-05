@@ -1,20 +1,69 @@
-﻿using System;
+﻿using LiteDB;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace ls4
+namespace KBB.Online.BLL
 {
-    class UserService
+    public class UserService
     {
-        public UserService()
+        public UserService(string Path)
         {
-            Users = mew User[2];
-            Users[0] = new User()
-            {
-                Name = "Nurzhan", SecondName = "Seisenbay", Birth = new DateTime(2004, 07, 15)
-            };
+            this.Path = Path;
         }
-            
-        public User[] Users { get; set; }
+
+        private string Path { get; set; }
+        public List<User> Users { get; set; }
+
+
+        public bool Registration(User user, out string message)
+        {
+            try
+            {
+                using (var db = new LiteDatabase(Path))
+                {
+                    var users = db.GetCollection<User>("Users");
+
+                    if (GetUser(user.IIN) != null)
+                    {
+                        message = "Пользователь с ИИН: " + user.IIN + " уже зарегистрирован!";
+                        return false;
+                    }
+                    else
+                    {
+                        users.Insert(user);
+                    }
+                }
+
+                message = "Successfully";
+                return true;
+            }
+            catch (Exception ex)
+            {
+                message = ex.Message;
+                return false;
+            }
+        }
+
+        public User GetUser(string iin)
+        {
+            User user = null;
+            try
+            {
+                using (var db = new LiteDatabase(Path))
+                {
+                    var users = db.GetCollection<User>("Users");
+                    user = users.FindOne(f => f.IIN == iin);
+                }
+            }
+            catch
+            {
+                user = null;
+            }
+
+            return user;
+        }
     }
 }

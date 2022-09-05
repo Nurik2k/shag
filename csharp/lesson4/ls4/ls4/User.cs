@@ -13,16 +13,17 @@ namespace ls4
         public string IIN { get; set; }
         public string Sex { get; set; }
         public string NumberPhone { get; set; }
-        
+
         public Address Address { get; set; }
-        
         public int Age
         {
             get
             {
-                return DateTime.Now - Birth.Year;
+                return DateTime.Now.Year - Birth.Year;
             }
         }
+
+        
         public string FullName
         {
             get
@@ -38,6 +39,6 @@ namespace ls4
             }
         }
         public string Password { get; set; }
-       
+
     }
 }

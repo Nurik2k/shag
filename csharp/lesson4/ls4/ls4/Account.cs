@@ -16,30 +16,30 @@ namespace ls4
             }
             set
             {
-                if(value < 0)
+                if (value < 0)
                 {
-                    Balance_ = null;
+                    Balance_ = 0;
                 }
                 else
                 {
-                    Balance_= value
+                    Balance_ = value;
                 }
             }
         }
-        public DateTime CreationDate{ get; set; }= DateTime.Now//default значение
+        public DateTime CreationDate { get; set; } = DateTime.Now;//default значение
         public int Currency { get; set; } = 1;//1-kzt, 2-usd
         public Account[] Accounts { get; set; }
         public string GetCurrencyName
         {
             get
             {
-                if(Currency == 1)
+                if (Currency == 1)
                 {
-                    return "tenge"
+                    return "tenge";
                 }
                 else
                 {
-                    retrun "usd"
+                    return "usd";
                 }
             }
         }
@@ -47,7 +47,8 @@ namespace ls4
         {
             get
             {
-                return string.Format("{0} {1}", Balance, GetCurrencyName); 
+                return string.Format("{0} {1}", Balance, GetCurrencyName);
             }
         }
     }
+}

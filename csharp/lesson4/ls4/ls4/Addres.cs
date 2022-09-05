@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ls4
 {
-    internal class Address
+    public class Address
     {
         public string Country { get; set; }
         public string City { get; set; }
