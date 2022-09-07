@@ -1,0 +1,39 @@
+using System;
+
+namespace DZ1
+{
+   internal class Program
+    {
+        static void Main()
+        {
+            Console.Write("Введите ФИО: ");
+            string sure_name = Console.ReadLine();
+            string name = Console.ReadLine();
+            string last_name = Console.ReadLine();
+
+            Console.WriteLine("Приветствую тебя - " + sure_name + " " + name + " " + last_name);
+        }
+    }
+
+
+
+
+}
+___________________________________________________________________________________________________
+Console.Write("Введите число");
+            int first_number = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine();
+
+            Console.Write("Введите число");
+            int second_number = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine();
+
+            int result = first_number + second_number;
+
+            Console.WriteLine(result);
+internal class Program
+    {
+        static void Main(string[] args)
+        {
