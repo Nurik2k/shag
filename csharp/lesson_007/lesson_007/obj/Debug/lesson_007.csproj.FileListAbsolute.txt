@@ -1,0 +1,2 @@
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson_007\lesson_007\obj\Debug\lesson_007.csprojAssemblyReference.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\lesson_007\lesson_007\obj\Debug\lesson_007.csproj.CoreCompileInputs.cache

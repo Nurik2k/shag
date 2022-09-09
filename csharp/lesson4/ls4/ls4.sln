@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ls4", "ls4\ls4.csproj", "{5AE9C6AB-A8BA-479D-95B3-02B9FA03DD43}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KKB.Online", "KKB.Online\KKB.Online.csproj", "{19EB7CA5-2ADA-46E7-AF93-BCA910D25C9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ls5", "ls5\ls5.csproj", "{5C32754D-66B4-49E5-A0D7-1C24C93F4AD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5AE9C6AB-A8BA-479D-95B3-02B9FA03DD43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5AE9C6AB-A8BA-479D-95B3-02B9FA03DD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5AE9C6AB-A8BA-479D-95B3-02B9FA03DD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5AE9C6AB-A8BA-479D-95B3-02B9FA03DD43}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19EB7CA5-2ADA-46E7-AF93-BCA910D25C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19EB7CA5-2ADA-46E7-AF93-BCA910D25C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19EB7CA5-2ADA-46E7-AF93-BCA910D25C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19EB7CA5-2ADA-46E7-AF93-BCA910D25C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C32754D-66B4-49E5-A0D7-1C24C93F4AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C32754D-66B4-49E5-A0D7-1C24C93F4AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C32754D-66B4-49E5-A0D7-1C24C93F4AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C32754D-66B4-49E5-A0D7-1C24C93F4AD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

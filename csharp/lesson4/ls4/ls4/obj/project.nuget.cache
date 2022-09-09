@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YRSnbCwseDCS8It816Ut/6FNSoJuF73VuwDwWR6YzhWybIvdgtDPcHyV9U0wp30/9DZRlEp6uwXJoc2EXOe/GQ==",
+  "dgSpecHash": "sesDUa3IKaqbv+vO+YXTZArsTkACpptzDzbOgNe6ZlQ6lIbZyr+OisEwBeq7s+RomEV17X62gs3f/M7PTR+yVQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\СейсенбайН\\Documents\\shag\\csharp\\lesson4\\ls4\\ls4\\ls4.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\СейсенбайН\\.nuget\\packages\\litedb\\5.0.12\\litedb.5.0.12.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
