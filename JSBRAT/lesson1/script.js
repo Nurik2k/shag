@@ -62,10 +62,25 @@
 // glasnyCount(string);//true
 
 
-let string = 'ТОЛЬКО СЕГОДНЯ! Распродажа! 2 по цене одного! Торопись!';
-function truncate(str, count){
-    if(str.length > count){
-        return `${str.substring(0, count -3)}...`
+// let string = 'ТОЛЬКО СЕГОДНЯ! Распродажа! 2 по цене одного! Торопись!';
+// function truncate(str, count){
+//     if(str.length > count){
+//         return `${str.substring(0, count -3)}...`
+//     }
+// }
+// console.log(truncate('Hello, world!', 8));
+
+
+let string = 'топот';
+function polindrom(str){
+    let left = [];
+    let right = [];
+    if(str.length % 2 !== 0){
+        left = str.substring(0, (str.length - 1) / 2);
+        right = str.substring((str.length + 1) / 2);
+    
+        console.log(left);
+        console.log(right);
     }
 }
-console.log(truncate('Hello, world!', 8));
+polindrom(string);
