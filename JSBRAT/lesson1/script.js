@@ -12,3 +12,10 @@
 // newString += 'не изменилась!';
 // console.log(newString);
 
+// let string = 'Сьешь еще этих мягких французских булок, да выпей чаю.';
+// console.log(string.substring(5, 9));
+
+// let string = 'Сьешь еще этих мягких французских булок, да выпей чаю.';
+// console.log(string.split(' '));//из строки в массив
+
+
