@@ -78,9 +78,29 @@ function polindrom(str){
     if(str.length % 2 !== 0){
         left = str.substring(0, (str.length - 1) / 2);
         right = str.substring((str.length + 1) / 2);
-    
-        console.log(left);
-        console.log(right);
+    }
+    else{
+        left = str.substring(0, (str.length) / 2);
+        right = str.substring((str.length) / 2);
+    }
+    left = left.split('');
+    left = right.split('');
+    let count = 0;
+    for(let i = 0; i <= left.length; i++){
+        for(let j = 0; j <= right.length; j++){
+            if(left[i] === right[j]){
+                count += 1;
+            }
+        }
+    }
+    console.log(count);
+    console.log(left);
+    console.log(right);
+    if(count === left.length){
+        return true;
+    }
+    else{
+        return false;
     }
 }
-polindrom(string);
+console.log(polindrom(string));
