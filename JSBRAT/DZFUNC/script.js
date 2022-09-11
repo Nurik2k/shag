@@ -138,15 +138,18 @@
 // alert(`Время в секндах: ${timeInSeconds(hours, min, sec)}`);
 // _____________________________________________________________
 
-let time = (num) => {
-    let hFloat = num / 3600;
-    let hours = Math.floor(hFloat);
-    let min = Math.floor((hFloat - hours) * 60);
-    let sec = num -((min * 60) + (hours * 3600));
-    function zero (num){
-        return num > 9 ? num : `0${num}`;
-    }
-    return `${zero(hours)}:${zero(min)}:${zero(sec)}`;
-}
-let seconds = prompt("Введите секунды: ");
-alert(time(seconds));
+// let time = (num) => {
+//     let hFloat = num / 3600;
+//     let hours = Math.floor(hFloat);
+//     let min = Math.floor((hFloat - hours) * 60);
+//     let sec = num -((min * 60) + (hours * 3600));
+//     function zero (num){
+//         return num > 9 ? num : `0${num}`;
+//     }
+//     return `${zero(hours)}:${zero(min)}:${zero(sec)}`;
+// }
+// let seconds = prompt("Введите секунды: ");
+// alert(time(seconds));
+// _____________________________________________________________
+
+//10 Не понял
