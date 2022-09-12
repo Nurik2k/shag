@@ -43,4 +43,10 @@
 // console.log(isPrime(3)); //-> true
 // console.log(isPrime(4)); //-> false
 //___________________________________________________
-
+//5 не понял)
+//___________________________________________________
+function fib(n) {
+    return n <= 1 ? n : fib(n - 1) + fib(n - 2);
+  }
+  let num = parseInt(prompt("Введите число: "));
+  alert(fib(num));
