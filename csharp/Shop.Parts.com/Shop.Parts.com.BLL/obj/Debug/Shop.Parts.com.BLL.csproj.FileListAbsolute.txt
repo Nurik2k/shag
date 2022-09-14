@@ -1,0 +1,9 @@
+C:\Users\Nurik\Documents\shag\csharp\Shop.Parts.com\Shop.Parts.com.BLL\bin\Debug\Shop.Parts.com.BLL.dll
+C:\Users\Nurik\Documents\shag\csharp\Shop.Parts.com\Shop.Parts.com.BLL\bin\Debug\Shop.Parts.com.BLL.pdb
+C:\Users\Nurik\Documents\shag\csharp\Shop.Parts.com\Shop.Parts.com.BLL\bin\Debug\LiteDB.dll
+C:\Users\Nurik\Documents\shag\csharp\Shop.Parts.com\Shop.Parts.com.BLL\bin\Debug\LiteDB.xml
+C:\Users\Nurik\Documents\shag\csharp\Shop.Parts.com\Shop.Parts.com.BLL\obj\Debug\Shop.Parts.com.BLL.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\Shop.Parts.com\Shop.Parts.com.BLL\obj\Debug\Shop.Parts.com.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\Shop.Parts.com\Shop.Parts.com.BLL\obj\Debug\Shop.Parts.com.BLL.csproj.CopyComplete
+C:\Users\Nurik\Documents\shag\csharp\Shop.Parts.com\Shop.Parts.com.BLL\obj\Debug\Shop.Parts.com.BLL.dll
+C:\Users\Nurik\Documents\shag\csharp\Shop.Parts.com\Shop.Parts.com.BLL\obj\Debug\Shop.Parts.com.BLL.pdb
