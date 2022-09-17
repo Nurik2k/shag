@@ -1,0 +1,6 @@
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9.BLL\obj\Debug\tasks9.BLL.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9.BLL\obj\Debug\tasks9.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9.BLL\bin\Debug\tasks9.BLL.dll
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9.BLL\bin\Debug\tasks9.BLL.pdb
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9.BLL\obj\Debug\tasks9.BLL.dll
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9.BLL\obj\Debug\tasks9.BLL.pdb

@@ -1,0 +1,11 @@
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9\bin\Debug\tasks9.exe.config
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9\bin\Debug\tasks9.exe
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9\bin\Debug\tasks9.pdb
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9\bin\Debug\tasks9.BLL.dll
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9\bin\Debug\tasks9.BLL.pdb
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9\obj\Debug\tasks9.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9\obj\Debug\tasks9.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9\obj\Debug\tasks9.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9\obj\Debug\tasks9.csproj.CopyComplete
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9\obj\Debug\tasks9.exe
+C:\Users\Nurik\Documents\shag\csharp\tasks9\tasks9\obj\Debug\tasks9.pdb

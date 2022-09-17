@@ -1,0 +1,6 @@
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans.BLL\bin\Debug\Trans.BLL.dll
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans.BLL\bin\Debug\Trans.BLL.pdb
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans.BLL\obj\Debug\Trans.BLL.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans.BLL\obj\Debug\Trans.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans.BLL\obj\Debug\Trans.BLL.dll
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans.BLL\obj\Debug\Trans.BLL.pdb

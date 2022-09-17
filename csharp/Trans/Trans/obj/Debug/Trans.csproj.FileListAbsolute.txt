@@ -1,0 +1,11 @@
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans\bin\Debug\Trans.exe.config
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans\bin\Debug\Trans.exe
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans\bin\Debug\Trans.pdb
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans\bin\Debug\Trans.BLL.dll
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans\bin\Debug\Trans.BLL.pdb
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans\obj\Debug\Trans.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans\obj\Debug\Trans.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans\obj\Debug\Trans.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans\obj\Debug\Trans.csproj.CopyComplete
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans\obj\Debug\Trans.exe
+C:\Users\Nurik\Documents\shag\csharp\Trans\Trans\obj\Debug\Trans.pdb
