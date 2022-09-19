@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WarPlace.BLL\WarPlace.BLL.csproj">
+      <Project>{7cab82e2-a838-492f-b216-8f471bc53ce5}</Project>
+      <Name>WarPlace.BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
