@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeConstruction
+namespace ConsoleApp9
 {
-    internal interface IWorker
+    public interface IWorker
     {
         string name { get; set; }
-        Profession profession { get; set; }
+        profession profession { get; set; }
         double pricePerHour { get; set; }
-        List<Ipart> workLists { get; set; }
-
+        List<IPart> workLists { get; set; }
+        bool isBusy { get; set; }
     }
 }

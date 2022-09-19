@@ -4,22 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeConstruction
+namespace ConsoleApp9
 {
-    public class Roof:Ipart
+    public class Window:IPart
     {
         public string color { get; set; }
         public TimeSpan constructionTime { get; set; }
         public int count { get; set; }
-        public TypeOfMaterial typeOfMaterial { get; set; }
-        public double priceMaterial { get; set; }
+        public typeOfMateryal typeOfMateryal { get; set; }
+        public double materyalPrice { get; set; }
+        public int sort { get; set; } = 4;
+        public bool isComplited { get; set; }
+
         public TimeSpan GetConstructionTime()
         {
             return TimeSpan.FromTicks(constructionTime.Ticks * count);
         }
-        public double GetConstructionCost()
+
+        public double GetСonstructionСost()
         {
-            return priceMaterial * count;
+            return materyalPrice * count;
         }
     }
 }

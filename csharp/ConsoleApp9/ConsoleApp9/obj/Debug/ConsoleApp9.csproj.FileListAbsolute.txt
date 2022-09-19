@@ -1,0 +1,16 @@
+C:\Users\ГерценЕ\source\repos\ConsoleApp9\ConsoleApp9\bin\Debug\ConsoleApp9.exe.config
+C:\Users\ГерценЕ\source\repos\ConsoleApp9\ConsoleApp9\bin\Debug\ConsoleApp9.exe
+C:\Users\ГерценЕ\source\repos\ConsoleApp9\ConsoleApp9\bin\Debug\ConsoleApp9.pdb
+C:\Users\ГерценЕ\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\ConsoleApp9.csproj.AssemblyReference.cache
+C:\Users\ГерценЕ\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\ConsoleApp9.csproj.SuggestedBindingRedirects.cache
+C:\Users\ГерценЕ\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\ConsoleApp9.csproj.CoreCompileInputs.cache
+C:\Users\ГерценЕ\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\ConsoleApp9.exe
+C:\Users\ГерценЕ\source\repos\ConsoleApp9\ConsoleApp9\obj\Debug\ConsoleApp9.pdb
+C:\Users\Nurik\Documents\shag\csharp\ConsoleApp9\ConsoleApp9\bin\Debug\ConsoleApp9.exe.config
+C:\Users\Nurik\Documents\shag\csharp\ConsoleApp9\ConsoleApp9\bin\Debug\ConsoleApp9.exe
+C:\Users\Nurik\Documents\shag\csharp\ConsoleApp9\ConsoleApp9\bin\Debug\ConsoleApp9.pdb
+C:\Users\Nurik\Documents\shag\csharp\ConsoleApp9\ConsoleApp9\obj\Debug\ConsoleApp9.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\ConsoleApp9\ConsoleApp9\obj\Debug\ConsoleApp9.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nurik\Documents\shag\csharp\ConsoleApp9\ConsoleApp9\obj\Debug\ConsoleApp9.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\ConsoleApp9\ConsoleApp9\obj\Debug\ConsoleApp9.exe
+C:\Users\Nurik\Documents\shag\csharp\ConsoleApp9\ConsoleApp9\obj\Debug\ConsoleApp9.pdb

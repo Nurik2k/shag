@@ -1,21 +1,24 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeConstruction
+namespace ConsoleApp9
 {
-    internal interface Ipart
+    public interface IPart
     {
         string color { get; set; }
         TimeSpan constructionTime { get; set; }
         int count { get; set; }
-        TypeOfMaterial typeOfMaterial { get; set; }
-        double priceMaterial { get; set; }
+        typeOfMateryal typeOfMateryal { get; set; }
+        double materyalPrice { get; set; }
+        int sort { get; set; }
+        bool isComplited { get; set; }
+
         TimeSpan GetConstructionTime();
-        double GetConstructionCost();
+        double GetСonstructionСost();
+
 
     }
 }

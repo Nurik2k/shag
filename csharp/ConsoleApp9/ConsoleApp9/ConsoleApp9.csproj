@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{882E303B-F87C-4222-98B9-0A7B6E4F7B78}</ProjectGuid>
+    <ProjectGuid>{18646FAD-7474-41D5-9A43-BF5196E68710}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HomeConstruction</RootNamespace>
-    <AssemblyName>HomeConstruction</AssemblyName>
+    <RootNamespace>ConsoleApp9</RootNamespace>
+    <AssemblyName>ConsoleApp9</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Basemant.cs" />
-    <Compile Include="Door.cs" />
+    <Compile Include="Basement.cs" />
+    <Compile Include="Door .cs" />
     <Compile Include="House.cs" />
-    <Compile Include="Ipart.cs" />
+    <Compile Include="IPart.cs" />
     <Compile Include="IWorker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Roof.cs" />
-    <Compile Include="Walls.cs" />
+    <Compile Include="Teamlid.cs" />
+    <Compile Include="Walls .cs" />
     <Compile Include="Window.cs" />
     <Compile Include="Worker.cs" />
   </ItemGroup>
