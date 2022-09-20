@@ -8,7 +8,12 @@ namespace WarPlace.BLL
 {
     public class TankT34
     {
-        string NameT34 { get; set; }
+        public string NameT34 
+        { 
+            get { return NameT34; }
+            set { NameT34 = value; }
+        }
+        public List<TankT34> tankT34s { get; set; }
         public void T34(int Hp, int Ammo, int Maneuverability)
         {
             Random rnd = new Random();

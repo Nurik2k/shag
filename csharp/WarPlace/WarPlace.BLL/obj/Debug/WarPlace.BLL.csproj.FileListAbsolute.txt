@@ -1,0 +1,6 @@
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace.BLL\bin\Debug\WarPlace.BLL.dll
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace.BLL\bin\Debug\WarPlace.BLL.pdb
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace.BLL\obj\Debug\WarPlace.BLL.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace.BLL\obj\Debug\WarPlace.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace.BLL\obj\Debug\WarPlace.BLL.dll
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace.BLL\obj\Debug\WarPlace.BLL.pdb

@@ -8,7 +8,8 @@ namespace WarPlace.BLL
 {
     internal class TankPantera
     {
-        string NamePantera { get; set; }
+        public string NamePantera { get; set; }
+        public List<TankPantera> tankPanteras { get; set; }
         public void Pantera(int Hp, int Ammo, int Maneuverability)
         {
             Random rnd = new Random();

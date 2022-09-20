@@ -1,0 +1,11 @@
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace\bin\Debug\WarPlace.exe.config
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace\bin\Debug\WarPlace.exe
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace\bin\Debug\WarPlace.pdb
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace\bin\Debug\WarPlace.BLL.dll
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace\bin\Debug\WarPlace.BLL.pdb
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace\obj\Debug\WarPlace.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace\obj\Debug\WarPlace.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace\obj\Debug\WarPlace.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace\obj\Debug\WarPlace.csproj.CopyComplete
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace\obj\Debug\WarPlace.exe
+C:\Users\Nurik\Documents\shag\csharp\WarPlace\WarPlace\obj\Debug\WarPlace.pdb
