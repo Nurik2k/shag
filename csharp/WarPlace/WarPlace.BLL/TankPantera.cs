@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace WarPlace.BLL
 {
-    internal class TankPantera
+    public class TankPantera : Tank
     {
         public string NamePantera { get; set; }
-        public List<TankPantera> tankPanteras { get; set; }
-        public void Pantera(int Hp, int Ammo, int Maneuverability)
+        public static int TotalPoint { get; private set; }
+
+        public static void AddTotalPoint()
         {
-            Random rnd = new Random();
-            Hp = rnd.Next(0, 100);
-            Ammo = rnd.Next(0, 100);
-            Maneuverability = rnd.Next(0, 100);
+            TotalPoint++;
         }
     }
 }
