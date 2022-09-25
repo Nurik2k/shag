@@ -1,0 +1,8 @@
+C:\Users\Nurik\Documents\shag\csharp\CDZ\CDZ\bin\Debug\CDZ.exe.config
+C:\Users\Nurik\Documents\shag\csharp\CDZ\CDZ\bin\Debug\CDZ.exe
+C:\Users\Nurik\Documents\shag\csharp\CDZ\CDZ\bin\Debug\CDZ.pdb
+C:\Users\Nurik\Documents\shag\csharp\CDZ\CDZ\obj\Debug\CDZ.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\CDZ\CDZ\obj\Debug\CDZ.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nurik\Documents\shag\csharp\CDZ\CDZ\obj\Debug\CDZ.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\CDZ\CDZ\obj\Debug\CDZ.exe
+C:\Users\Nurik\Documents\shag\csharp\CDZ\CDZ\obj\Debug\CDZ.pdb
