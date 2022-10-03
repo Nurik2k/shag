@@ -1,0 +1,6 @@
+C:\Users\СейсенбайН\Documents\shag\csharp\KBB.Online\KKB.Online.Lib\obj\Debug\KKB.Online.Lib.csproj.AssemblyReference.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\KBB.Online\KKB.Online.Lib\obj\Debug\KKB.Online.Lib.csproj.CoreCompileInputs.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\KBB.Online\KKB.Online.Lib\bin\Debug\KKB.Online.Lib.dll
+C:\Users\СейсенбайН\Documents\shag\csharp\KBB.Online\KKB.Online.Lib\bin\Debug\KKB.Online.Lib.pdb
+C:\Users\СейсенбайН\Documents\shag\csharp\KBB.Online\KKB.Online.Lib\obj\Debug\KKB.Online.Lib.dll
+C:\Users\СейсенбайН\Documents\shag\csharp\KBB.Online\KKB.Online.Lib\obj\Debug\KKB.Online.Lib.pdb

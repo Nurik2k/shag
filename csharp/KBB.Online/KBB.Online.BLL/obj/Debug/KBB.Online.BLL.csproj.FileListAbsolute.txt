@@ -1,0 +1,2 @@
+C:\Users\СейсенбайН\Documents\shag\csharp\KBB.Online\KBB.Online.BLL\obj\Debug\KBB.Online.BLL.csproj.AssemblyReference.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\KBB.Online\KBB.Online.BLL\obj\Debug\KBB.Online.BLL.csproj.CoreCompileInputs.cache

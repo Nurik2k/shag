@@ -1,4 +1,5 @@
 ﻿using KBB.Online.BLL;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -65,19 +66,8 @@ namespace KKB.Online
                                 {
                                     case 1:
                                         {
-                                            string message_ = "";
-                                            string accountIBAN = "";
 
-                                           if(accountService.CreateAccount(user.UserId, out message_, out accountIBAN))
-                                            {
-                                                Console.WriteLine("Поздравляем Ваш счет {0} {1}", accountIBAN, message_);
-                                            }
-                                           else
-                                            {
-                                                Console.WriteLine(message);
-
-                                            }
-                                           
+                                            accountService.CreateAccount(user.UserId);
                                             break;
                                         }
 

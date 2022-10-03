@@ -1,0 +1,3 @@
+C:\Users\СейсенбайН\Documents\shag\csharp\KBB.Online\KKB.Online\obj\Debug\KKB.Online.csproj.AssemblyReference.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\KBB.Online\KKB.Online\obj\Debug\KKB.Online.csproj.SuggestedBindingRedirects.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\KBB.Online\KKB.Online\obj\Debug\KKB.Online.csproj.CoreCompileInputs.cache
