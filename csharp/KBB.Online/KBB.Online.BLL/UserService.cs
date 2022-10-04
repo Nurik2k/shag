@@ -22,6 +22,9 @@ namespace KBB.Online.BLL
         /// <param name="user">Данные по пользователю</param>
         /// <param name="message">Сообщение об ошибке</param>
         /// <returns></returns>
+        /// 
+
+        
         public bool CreateUser(personal_data user, out string message)
         {
             try

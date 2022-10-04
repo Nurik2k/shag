@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D7634371-A53F-4A69-B53B-61FE216541AD}</ProjectGuid>
+    <ProjectGuid>{0BDDA53B-46A9-413A-96EC-ABE16617C053}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>KKB.Online</RootNamespace>
-    <AssemblyName>KKB.Online</AssemblyName>
+    <RootNamespace>ConsoleApp10</RootNamespace>
+    <AssemblyName>ConsoleApp10</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,13 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KBB.Online.BLL\KBB.Online.BLL.csproj">
-      <Project>{4d44e9f9-4869-466e-9653-6ddc805075f5}</Project>
-      <Name>KBB.Online.BLL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\KKB.Online.Lib\KKB.Online.Lib.csproj">
-      <Project>{db9a3f41-7767-419f-9ebd-a57a3d81beb3}</Project>
-      <Name>KKB.Online.Lib</Name>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
+      <Project>{38bdd68f-4eff-4fe9-af87-fc07c1a9d65b}</Project>
+      <Name>ClassLibrary1</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

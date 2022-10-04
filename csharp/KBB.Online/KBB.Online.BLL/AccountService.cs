@@ -14,12 +14,26 @@ namespace KBB.Online.BLL
         {
             this.Path = Path;
         }
+        public delegate void NotificationHandler(string message, bool result);
+        NotificationHandler del;
+        public delegate void NotificationExHandler(Exception ex, int userId);
+        NotificationExHandler delEx;
 
-        public bool CreateAccount(int userId, out string message, out string accountIBAN)
+        public void RegisterNotifiationHandler(NotificationHandler del)
         {
+            this.del = del;
+        }
+        public void RegisterNotifiationHandler(NotificationExHandler delEx)
+        {
+            this.delEx = delEx;
+        }
+
+        public ResultMessage CreateAccount(int userId)
+        {
+            ResultMessage result = new ResultMessage();
+            Account account = new Account();
             try
             {
-                Account account = new Account();
                 account.UserId = userId;
                 account.Balance = 0;
                 account.CreationDate = DateTime.Now;
@@ -31,19 +45,25 @@ namespace KBB.Online.BLL
                     var accounts = db.GetCollection<Account>("Account");
 
                     accounts.Insert(account);
-
-                    message = "Successfully";
-                    accountIBAN = account.IBAN;
-                    return true;
+                    result.IBAN = account.IBAN;
                 }
             }
             catch (Exception Ex)
             {
-                message = "При создании счета возникла ошибка: " + Ex.Message;
-                accountIBAN = "";
-                return false;
+                result.Result = false;
+                result.Message = "При создании счета возникла ошибка: " + Ex.Message;
+                
+               
             }
-            
+
+            if (del != null)
+            {
+                del.Invoke(result.Message, result.Result, result.IBAN);
+            }
+
+            return result;
+
+
         }
 
         private string GenerateIBAN()
@@ -98,11 +118,18 @@ namespace KBB.Online.BLL
                     return true;
                 }
             }
-            catch (Exception)
+            catch (Exception )
             {
                 return false;
                 
             }
         }
+    }
+
+    public class ResultMessage
+    {
+        public bool Result { get; set; } = true;
+        public string Message { get; set; } = "";
+        public string IBAN { get; set; } = "";
     }
 }
