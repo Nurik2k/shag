@@ -7,23 +7,44 @@
 // findStrok(str1);
 //_____________________________________________________________
 
-let num = prompt("Введите число: ");
-function textToNumber(number) {
-    let first = ['Один', 'Два', 'Три', 'Четыре', 'Пять', 'Шесть', 'Семь', 'Восемь', 'Девять'];
-    let second = ['Десять', 'Одинадцать', 'Двенадцать', 'Тринадцать', 'Четырнадцать', 'Пятнадцать', 'Шестнадцать', 'Семьнадцать', 'Восемьнадцать', 'Девяднадцать', 'Двадвать'];
-    let third = ['Двадцать', 'Тридцать', 'Сорок', 'Пятьдесят', 'Шестьдесят', 'Семьдесят', 'Восемьдесят', 'Девяносто'];
-    if (number > 0 && number <= 9) {
-      return first[number - 1];
+// let num = prompt("Введите число: ");
+// function textToNumber(number) {
+//     let first = ['Один', 'Два', 'Три', 'Четыре', 'Пять', 'Шесть', 'Семь', 'Восемь', 'Девять'];
+//     let second = ['Десять', 'Одинадцать', 'Двенадцать', 'Тринадцать', 'Четырнадцать', 'Пятнадцать', 'Шестнадцать', 'Семьнадцать', 'Восемьнадцать', 'Девяднадцать', 'Двадвать'];
+//     let third = ['Двадцать', 'Тридцать', 'Сорок', 'Пятьдесят', 'Шестьдесят', 'Семьдесят', 'Восемьдесят', 'Девяносто'];
+//     if (number > 0 && number <= 9) {
+//       return first[number - 1];
+//     }
+//     if(number >= 10 && number <= 20){
+//         return second[number - 10];
+//     }
+//     if(number >= 20 && number <= 99){
+//         let str = `${number}`;
+//         str = str.split('');
+//         let firstNum = str[0];
+//         let secondNum = str[1];
+//         return `${third[firstNum - 2]} ${first[secondNum - 1]}`;
+//     }
+// }
+// alert(textToNumber(num));
+//________________________________________________________________________
+
+let string = ('hello MY name is JavaScript and I like your code styLe.');
+ 
+let result = string.replace(/(([A-Za-z])+([a-z]))*([a-z]*[A-Z]+[a-z]*)/g, function replaceLetter (letter) {
+  if(letter === letter.toUpperCase()) {
+    for(let i=0; i = letter.toUpperCase(); i++){
+      letter = letter.toLowerCase();
     }
-    if(number >= 10 && number <= 20){
-        return second[number - 10];
+    return letter;
+  }
+  
+  else {
+    for(let i=0; i = letter.toLowerCase(); i++) {
+      letter = letter.toUpperCase();
     }
-    if(number >= 20 && number <= 99){
-        let str = `${number}`;
-        str = str.split('');
-        let firstNum = str[0];
-        let secondNum = str[1];
-        return `${third[firstNum - 2]} ${first[secondNum - 1]}`;
-    }
-}
-alert(textToNumber(num));
+    return letter;
+  }
+})
+ 
+console.log(result);
