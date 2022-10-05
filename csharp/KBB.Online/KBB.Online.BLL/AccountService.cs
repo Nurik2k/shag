@@ -9,6 +9,12 @@ namespace KBB.Online.BLL
 {
     public class AccountService
     {
+        private Repository<Account> repo;
+        public AccountService(string Path)
+        {
+            this.repo = new Repository<Account>(Path);
+        }
+
         public delegate void NotificationHandler
            (string message, bool result, string accountIBAN);
 
@@ -28,14 +34,7 @@ namespace KBB.Online.BLL
             this.delEx = delEx;
         }
 
-
         public string Path { get; set; }
-
-        public AccountService(string Path)
-        {
-            this.Path = Path;
-        }
-
        
 
         public ResultMessage CreateAccount(int userId)
@@ -51,13 +50,15 @@ namespace KBB.Online.BLL
                 account.Currency = 1;
                 account.IBAN = GenerateIBAN();
 
-                using (var db = new LiteDatabase(Path))
-                {
-                    var accounts = db.GetCollection<Account>("Account");
 
-                    accounts.Insert(account);
-                    result.IBAN = account.IBAN;
-                }
+                this.repo.Create(account);
+                //using (var db = new LiteDatabase(Path))
+                //{
+                //    var accounts = db.GetCollection<Account>("Account");
+
+                //    accounts.Insert(account);
+                //    result.IBAN = account.IBAN;
+                //}
             }
             catch (Exception ex)
             {
@@ -91,13 +92,7 @@ namespace KBB.Online.BLL
             List<Account> accounts = new List<Account>();
             try
             {
-                using (var db = new LiteDatabase(Path))
-                {
-                    var collectionAc = db.GetCollection<Account>("Account");
-
-                    accounts = collectionAc.FindAll().ToList();
-
-                }
+                accounts = repo.GetAll().ToList();
             }
             catch (Exception ex)
             {
@@ -123,15 +118,19 @@ namespace KBB.Online.BLL
             {
                 using (LiteDatabase db = new LiteDatabase(Path))
                 {
-
-                    var accounts = db.GetCollection<Account>("Account");
-
-                    Account account = accounts.FindById(accountId);
+                    Account account = repo.GetObjById(accountId);
                     account.Balance = account.Balance + balance;
 
-                    accounts.Update(account);
-
+                    repo.Update(account);
                     return true;
+
+                    // var accounts = db.GetCollection<Account>("Account");
+                    //Account account = accounts.FindById(accountId);
+                    //account.Balance = account.Balance + balance;
+
+                    //accounts.Update(account);
+
+                    //return true;
                 }
             }
             catch (Exception ex)

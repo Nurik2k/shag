@@ -3,11 +3,13 @@ using Newtonsoft.Json;
 using RestSharp;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace KBB.Online.BLL
 {
     public class UserService
     {
+        private Repository<personal_data> repo = null;
         public UserService(string Path)
         {
             this.Path = Path;
@@ -36,15 +38,18 @@ namespace KBB.Online.BLL
                 }
                 else
                 {
-                    using (var db = new LiteDatabase(Path))
-                    {
-                        var users = db.GetCollection<personal_data>("Users");
+                    repo.Create(user);
+                    message = "Successfully";
+                    return true;
+                    //using (var db = new LiteDatabase(Path))
+                    //{
+                    //    var users = db.GetCollection<personal_data>("Users");
 
-                        users.Insert(user);
+                    //    users.Insert(user);
 
-                        message = "Successfully";
-                        return true;
-                    }
+                    //    message = "Successfully";
+                    //   return true;
+                    //}
                 }
             }
             catch (Exception ex)
@@ -61,11 +66,12 @@ namespace KBB.Online.BLL
             {
                 using (var db = new LiteDatabase(Path))
                 {
-                    var users = db.GetCollection<personal_data>("Users");
-                    user = users.FindOne(f => f.Iin == iin);
+                    var users = repo.GetAll().Where(w => w.Iin == iin);
+                  
                     if (!string.IsNullOrWhiteSpace(psw))
                     {
-                        user = users.FindOne(f => f.Iin == iin && f.Password == psw);
+                        user = users.FirstOrDefault(f => f.Iin == iin 
+                                                            && f.Password == psw);
                     }
                 }
             }
@@ -121,6 +127,8 @@ namespace KBB.Online.BLL
                 return false;
             }
         }
+
+
 
     }
 }

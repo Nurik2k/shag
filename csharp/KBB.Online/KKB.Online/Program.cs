@@ -1,5 +1,4 @@
 ﻿using KBB.Online.BLL;
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -61,12 +60,13 @@ namespace KKB.Online
                                 ch = Convert.ToInt32(Console.ReadLine());
 
                                 AccountService accountService = new AccountService(Path);
+                               
 
                                 switch (ch)
                                 {
                                     case 1:
                                         {
-
+                                            accountService.RegisterNotificationHandler(Lib.Notification.ResultCreateAccount);
                                             accountService.CreateAccount(user.UserId);
                                             break;
                                         }
@@ -83,7 +83,8 @@ namespace KKB.Online
                                                     //    item.IBAN,
                                                     //    item.Balance,
                                                     //    item.GetCurrencyName);
-                                                    Console.WriteLine(item);
+
+                                                    Console.WriteLine(item.ToString());
                                                 }
 
                                                 Console.Write("Какой счет пополнить: ");
