@@ -11,7 +11,8 @@ using System.Timers;
 
 namespace KBB.Online.BLL
 {
-    public class Repository<T>// where t : class ->//здесь обозначаем, что Т являеться классом. А так это шаблон.
+    public class Repository<T> : IRepository<T>
+        // where T : class ->//здесь обозначаем, что Т являеться классом. А так это шаблон.
     {
         public string Path { get; set; }
         public Repository(string Path)
@@ -89,5 +90,14 @@ namespace KBB.Online.BLL
             }
             return list;
         }
+    }
+    public interface IRepository<T>
+    {
+        string Path { get; set; }
+        T Update(T obj);
+        T Create(T obj);
+        T GetObjById(int id);
+        IEnumerable<T> GetAll();
+
     }
 }
