@@ -9,31 +9,42 @@ namespace KBB.Online.BLL
 {
     public class AccountService
     {
-        public string Path { get; set; }
-        public AccountService(string Path)
-        {
-            this.Path = Path;
-        }
-        public delegate void NotificationHandler(string message, bool result);
+        public delegate void NotificationHandler
+           (string message, bool result, string accountIBAN);
+
         NotificationHandler del;
+
         public delegate void NotificationExHandler(Exception ex, int userId);
+
         NotificationExHandler delEx;
 
-        public void RegisterNotifiationHandler(NotificationHandler del)
+        public void RegisterNotificationHandler(NotificationHandler del)
         {
             this.del = del;
         }
-        public void RegisterNotifiationHandler(NotificationExHandler delEx)
+
+        public void RegisterNotificationHandler(NotificationExHandler delEx)
         {
             this.delEx = delEx;
         }
 
+
+        public string Path { get; set; }
+
+        public AccountService(string Path)
+        {
+            this.Path = Path;
+        }
+
+       
+
         public ResultMessage CreateAccount(int userId)
         {
             ResultMessage result = new ResultMessage();
-            Account account = new Account();
+            
             try
             {
+                Account account = new Account();
                 account.UserId = userId;
                 account.Balance = 0;
                 account.CreationDate = DateTime.Now;
@@ -48,22 +59,19 @@ namespace KBB.Online.BLL
                     result.IBAN = account.IBAN;
                 }
             }
-            catch (Exception Ex)
+            catch (Exception ex)
             {
+                if (delEx != null)
+                    delEx.Invoke(ex, userId);
+
                 result.Result = false;
-                result.Message = "При создании счета возникла ошибка: " + Ex.Message;
-                
-               
+                result.Message = "При создании счета возникла ошибка: " + ex.Message;
             }
 
             if (del != null)
-            {
                 del.Invoke(result.Message, result.Result, result.IBAN);
-            }
 
             return result;
-
-
         }
 
         private string GenerateIBAN()
@@ -73,7 +81,7 @@ namespace KBB.Online.BLL
 
             for (int i = 0; i < 20; i++)
             {
-                account = account + rnd.Next(0, 9);    
+                account = account + rnd.Next(0, 9);
             }
             return account;
         }
@@ -81,13 +89,21 @@ namespace KBB.Online.BLL
         public List<Account> GetAllAccounts()
         {
             List<Account> accounts = new List<Account>();
-            using (var db = new LiteDatabase(Path))
+            try
             {
-                var collectionAc = db.GetCollection<Account>("Account");
+                using (var db = new LiteDatabase(Path))
+                {
+                    var collectionAc = db.GetCollection<Account>("Account");
 
-                accounts = collectionAc.FindAll().ToList();
-               
+                    accounts = collectionAc.FindAll().ToList();
+
+                }
             }
+            catch (Exception ex)
+            {
+                if (delEx != null)
+                    delEx.Invoke(ex, 0);
+            }           
 
             return accounts;
         }
@@ -118,10 +134,12 @@ namespace KBB.Online.BLL
                     return true;
                 }
             }
-            catch (Exception )
+            catch (Exception ex)
             {
+                if (delEx != null)
+                    delEx.Invoke(ex, 0);
+
                 return false;
-                
             }
         }
     }
@@ -132,4 +150,5 @@ namespace KBB.Online.BLL
         public string Message { get; set; } = "";
         public string IBAN { get; set; } = "";
     }
+
 }
