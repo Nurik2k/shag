@@ -1,0 +1,8 @@
+C:\Users\СейсенбайН\Documents\shag\csharp\Durak\Durak\bin\Debug\Durak.exe.config
+C:\Users\СейсенбайН\Documents\shag\csharp\Durak\Durak\bin\Debug\Durak.exe
+C:\Users\СейсенбайН\Documents\shag\csharp\Durak\Durak\bin\Debug\Durak.pdb
+C:\Users\СейсенбайН\Documents\shag\csharp\Durak\Durak\obj\Debug\Durak.csproj.AssemblyReference.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\Durak\Durak\obj\Debug\Durak.csproj.SuggestedBindingRedirects.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\Durak\Durak\obj\Debug\Durak.csproj.CoreCompileInputs.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\Durak\Durak\obj\Debug\Durak.exe
+C:\Users\СейсенбайН\Documents\shag\csharp\Durak\Durak\obj\Debug\Durak.pdb
