@@ -54,7 +54,9 @@ $(function(){
       } 
 }); 
  
-
+function createLiveResult(params){
+    return `<li class="list-group-item">${params.title}</li>`
+}
  
  
 function createItem(params){ 
