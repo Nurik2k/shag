@@ -1,0 +1,8 @@
+C:\Users\Nurik\Documents\shag\csharp\DzString\DzString\bin\Debug\DzString.exe.config
+C:\Users\Nurik\Documents\shag\csharp\DzString\DzString\bin\Debug\DzString.exe
+C:\Users\Nurik\Documents\shag\csharp\DzString\DzString\bin\Debug\DzString.pdb
+C:\Users\Nurik\Documents\shag\csharp\DzString\DzString\obj\Debug\DzString.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\DzString\DzString\obj\Debug\DzString.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nurik\Documents\shag\csharp\DzString\DzString\obj\Debug\DzString.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\DzString\DzString\obj\Debug\DzString.exe
+C:\Users\Nurik\Documents\shag\csharp\DzString\DzString\obj\Debug\DzString.pdb
