@@ -1,6 +1,6 @@
 $(function(){ 
     //console.log("AJAX PROJECT"); 
-    $.get("https://dummyjson.com/products/?limit=10", function(response){ 
+    $.get("https://dummyjson.com/products/?limit=12", function(response){ 
         $.each(response.products, function( index, value ){ 
         $('.products').append(createItem(value)); 
         }); 
@@ -9,30 +9,53 @@ $(function(){
     .fail(function(){ 
         alert("error"); 
     }); 
-
-let timeout = null;
-const $searchInput = $('#search');
-
-$searchInput.on('keyup', function(){
-    let that = this;
-    if(timeout !== null){
-        clearTimeout(timeout);
-    }
-    timeout = setTimeout(() => {
-        let searchText = $(this).val();
-        if(searchText.length > 3){
-            console.log($(this).val());
-        }
-    }, 2000);
-});
-
-    $('#search').on('input',function(){
-        let searchtext = $(this).val();
-        if(searchtext.length > 3){
+ 
+    let timeout = null; 
+    const $searchInput = $('#search'); 
+ 
+    $searchInput.on('keyup', function() { 
+ 
+      if(timeout !== null){ 
+        clearTimeout(timeout); 
+      } 
+       
+      timeout = setTimeout(() => { 
+        let searchText = $(this).val(); 
+        if(searchText.length >= 3) { 
+          getElements(searchText); 
+        } 
+      }, 2000); 
+      }); 
+ 
+      
+      /*$('#findbutton').click(function(){ 
+        console.log(this); 
+      });*/ 
+ 
+      function getElements(fraza){ 
+        $.get("https://dummyjson.com/products/?limit=12", function(response){ 
+        let seacrhArray = response.products; 
+        let list = seacrhArray.filter(function(item){ 
+          return item.title.toLowerCase().indexOf(fraza.toLowerCase()) >= 0 
+        }) 
+        $('.products').html('');
+        // 
+        $.each(list, function( index, value ){ 
+          $('.products').append(createItem(value)); 
+          }); 
         
-        }
-    });
+ 
+        
+         
+    }) 
+    .fail(function(){ 
+      alert("error"); 
+  }); 
+      } 
 }); 
+ 
+
+ 
  
 function createItem(params){ 
     return ` 
