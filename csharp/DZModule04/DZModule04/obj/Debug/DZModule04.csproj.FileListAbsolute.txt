@@ -1,0 +1,8 @@
+C:\Users\Nurik\Documents\shag\csharp\DZModule04\DZModule04\bin\Debug\DZModule04.exe.config
+C:\Users\Nurik\Documents\shag\csharp\DZModule04\DZModule04\bin\Debug\DZModule04.exe
+C:\Users\Nurik\Documents\shag\csharp\DZModule04\DZModule04\bin\Debug\DZModule04.pdb
+C:\Users\Nurik\Documents\shag\csharp\DZModule04\DZModule04\obj\Debug\DZModule04.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\DZModule04\DZModule04\obj\Debug\DZModule04.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nurik\Documents\shag\csharp\DZModule04\DZModule04\obj\Debug\DZModule04.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\DZModule04\DZModule04\obj\Debug\DZModule04.exe
+C:\Users\Nurik\Documents\shag\csharp\DZModule04\DZModule04\obj\Debug\DZModule04.pdb
