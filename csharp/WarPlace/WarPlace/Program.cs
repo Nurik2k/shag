@@ -1,40 +1,50 @@
-﻿using WarPlace.BLL;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WarPlace.BLL;
 
 namespace WarPlace
 {
-    public class Program
+
+   
+
+    class Program
     {
         static void Main(string[] args)
         {
-            string WinT34 = null;
-            string WinPantera = null;
-
-            TankT34[] t34 = new TankT34[5];
-            TankPantera[] pantera = new TankPantera[5];
-
-            for (int i = 1; i < 5; i++)
+            Random rand = new Random();
+            Tank[] VIN = new Tank[5];
+            Tank[] T34 = new Tank[5];
+            for (int i = 0; i < T34.Length; i++)
             {
-                Tank.Ataka(t34[i], pantera[i]);
-
-                if (TankT34.TotalPoint > TankPantera.TotalPoint)
+                VIN[i] = new Tank();
+            }
+            for (int i = 0; i < T34.Length; i++)
             {
-                WinT34 = string.Format("Танк T34 под номером {0} победил!", t34[i]);
-                Console.WriteLine(WinT34);
+                T34[i] = new Tank(rand.Next(0, 100), rand.Next(0, 100), rand.Next(0, 100), "T34");
             }
-            else
+            Tank[] pantera = new Tank[5];
+            for (int i = 0; i < T34.Length; i++)
             {
-                WinPantera = string.Format("Танк Pantera под номером {0} победил!", pantera[i]);
-                Console.WriteLine(WinPantera);
+                pantera[i] = new Tank(rand.Next(0, 100), rand.Next(0, 100), rand.Next(0, 100), "Pantera");
             }
+            for (int i = 0; i < 5; i++)
+            {
+                T34[i].Print();
+                pantera[i].Print(); ;
+                VIN[i] = T34[i] * pantera[i];
+                Console.WriteLine();
+                Console.WriteLine($"В {i + 1} схватке победил");
+                VIN[i].Print();
+                Console.WriteLine();
+                Console.WriteLine();
             }
-            
 
-           
+
+
+
         }
     }
 }
