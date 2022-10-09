@@ -1,0 +1,8 @@
+C:\Users\Nurik\Documents\shag\csharp\Edition\Edition\obj\Debug\Edition.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\Edition\Edition\obj\Debug\Edition.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nurik\Documents\shag\csharp\Edition\Edition\obj\Debug\Edition.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\Edition\Edition\bin\Debug\Edition.exe.config
+C:\Users\Nurik\Documents\shag\csharp\Edition\Edition\bin\Debug\Edition.exe
+C:\Users\Nurik\Documents\shag\csharp\Edition\Edition\bin\Debug\Edition.pdb
+C:\Users\Nurik\Documents\shag\csharp\Edition\Edition\obj\Debug\Edition.exe
+C:\Users\Nurik\Documents\shag\csharp\Edition\Edition\obj\Debug\Edition.pdb
