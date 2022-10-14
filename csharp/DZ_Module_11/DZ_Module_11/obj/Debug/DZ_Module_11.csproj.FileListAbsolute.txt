@@ -1,0 +1,8 @@
+C:\Users\Nurik\Documents\shag\csharp\DZ_Module_11\DZ_Module_11\bin\Debug\DZ_Module_11.exe.config
+C:\Users\Nurik\Documents\shag\csharp\DZ_Module_11\DZ_Module_11\bin\Debug\DZ_Module_11.exe
+C:\Users\Nurik\Documents\shag\csharp\DZ_Module_11\DZ_Module_11\bin\Debug\DZ_Module_11.pdb
+C:\Users\Nurik\Documents\shag\csharp\DZ_Module_11\DZ_Module_11\obj\Debug\DZ_Module_11.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\DZ_Module_11\DZ_Module_11\obj\Debug\DZ_Module_11.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nurik\Documents\shag\csharp\DZ_Module_11\DZ_Module_11\obj\Debug\DZ_Module_11.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\DZ_Module_11\DZ_Module_11\obj\Debug\DZ_Module_11.exe
+C:\Users\Nurik\Documents\shag\csharp\DZ_Module_11\DZ_Module_11\obj\Debug\DZ_Module_11.pdb
