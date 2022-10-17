@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lesson011._2
 {
+    
     public enum Status { on, off}
+    [Serializable]
     public class PC
     {
         public string Brand { get; set; }

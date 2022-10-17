@@ -11,6 +11,7 @@ namespace Lesson011._2
 {
     internal class Program
     {
+        [Serializable]
         static void Main(string[] args)
         {
             List<PC> pcs = new List<PC>();
@@ -19,7 +20,7 @@ namespace Lesson011._2
             using(FileStream fs = new FileStream("pc.xml", FileMode.OpenOrCreate))
             {
                 XmlSerializer formatter = new XmlSerializer(typeof(PC[]));
-                formatter.Serialize(fs, pcs);
+                formatter.Serialize(fs, pcs.ToArray());
 
             }
         }

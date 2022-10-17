@@ -1,0 +1,8 @@
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011.2\Lesson011.2\bin\Debug\Lesson011.2.exe.config
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011.2\Lesson011.2\bin\Debug\Lesson011.2.exe
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011.2\Lesson011.2\bin\Debug\Lesson011.2.pdb
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011.2\Lesson011.2\obj\Debug\Lesson011.2.csproj.AssemblyReference.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011.2\Lesson011.2\obj\Debug\Lesson011.2.csproj.SuggestedBindingRedirects.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011.2\Lesson011.2\obj\Debug\Lesson011.2.csproj.CoreCompileInputs.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011.2\Lesson011.2\obj\Debug\Lesson011.2.exe
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011.2\Lesson011.2\obj\Debug\Lesson011.2.pdb
