@@ -1,0 +1,30 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/clr/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <SOAP-ENV:Body>
+    <SOAP-ENC:Array id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Lesson011/Lesson011%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull" SOAP-ENC:arrayType="a1:Usercv[3]">
+      <item href="#ref-2" />
+      <item href="#ref-3" />
+      <item href="#ref-4" />
+    </SOAP-ENC:Array>
+    <a1:Usercv id="ref-2" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Lesson011/Lesson011%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_x003C_UserId_x003E_k__BackingField>0</_x003C_UserId_x003E_k__BackingField>
+      <_x003C_FName_x003E_k__BackingField id="ref-5">Seisenbai Nurzan</_x003C_FName_x003E_k__BackingField>
+      <_x003C_SName_x003E_k__BackingField id="ref-6" />
+      <_x003C_PhoneNumber_x003E_k__BackingField>12312312</_x003C_PhoneNumber_x003E_k__BackingField>
+      <_x003C_Dob_x003E_k__BackingField>0001-01-01T00:00:00.1232132+06:00</_x003C_Dob_x003E_k__BackingField>
+    </a1:Usercv>
+    <a1:Usercv id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Lesson011/Lesson011%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_x003C_UserId_x003E_k__BackingField>0</_x003C_UserId_x003E_k__BackingField>
+      <_x003C_FName_x003E_k__BackingField id="ref-7">Dusembayeva Kamilya</_x003C_FName_x003E_k__BackingField>
+      <_x003C_SName_x003E_k__BackingField href="#ref-6" />
+      <_x003C_PhoneNumber_x003E_k__BackingField>343413</_x003C_PhoneNumber_x003E_k__BackingField>
+      <_x003C_Dob_x003E_k__BackingField>0001-01-01T00:00:00.1232321+06:00</_x003C_Dob_x003E_k__BackingField>
+    </a1:Usercv>
+    <a1:Usercv id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Lesson011/Lesson011%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_x003C_UserId_x003E_k__BackingField>0</_x003C_UserId_x003E_k__BackingField>
+      <_x003C_FName_x003E_k__BackingField id="ref-8">Bezverhova Katya</_x003C_FName_x003E_k__BackingField>
+      <_x003C_SName_x003E_k__BackingField href="#ref-6" />
+      <_x003C_PhoneNumber_x003E_k__BackingField>12313</_x003C_PhoneNumber_x003E_k__BackingField>
+      <_x003C_Dob_x003E_k__BackingField>0001-01-01T00:00:01.2312312+06:00</_x003C_Dob_x003E_k__BackingField>
+    </a1:Usercv>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

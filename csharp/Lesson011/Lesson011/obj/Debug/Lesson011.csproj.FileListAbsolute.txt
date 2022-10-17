@@ -1,0 +1,10 @@
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011\Lesson011\bin\Debug\Lesson011.exe.config
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011\Lesson011\bin\Debug\Lesson011.exe
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011\Lesson011\bin\Debug\Lesson011.pdb
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011\Lesson011\obj\Debug\Lesson011.csproj.AssemblyReference.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011\Lesson011\obj\Debug\Lesson011.csproj.SuggestedBindingRedirects.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011\Lesson011\obj\Debug\Lesson011.csproj.CoreCompileInputs.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011\Lesson011\obj\Debug\Lesson011.exe
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011\Lesson011\obj\Debug\Lesson011.pdb
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011\Lesson011\bin\Debug\SoapFormatter.dll
+C:\Users\СейсенбайН\Documents\shag\csharp\Lesson011\Lesson011\obj\Debug\Lesson011.csproj.CopyComplete
