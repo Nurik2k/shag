@@ -2,8 +2,8 @@ C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ.BLL\bin\Debu
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ.BLL\bin\Debug\Car_EKZ.BLL.pdb
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ.BLL\bin\Debug\LiteDB.Core.dll
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ.BLL\bin\Debug\LiteDB.Platform.dll
-C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ.BLL\obj\Debug\Car_EKZ.BLL.csproj.AssemblyReference.cache
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ.BLL\obj\Debug\Car_EKZ.BLL.csproj.CoreCompileInputs.cache
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ.BLL\obj\Debug\Car_EKZ.BLL.csproj.CopyComplete
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ.BLL\obj\Debug\Car_EKZ.BLL.dll
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ.BLL\obj\Debug\Car_EKZ.BLL.pdb
+C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ.BLL\obj\Debug\Car_EKZ.BLL.csprojAssemblyReference.cache

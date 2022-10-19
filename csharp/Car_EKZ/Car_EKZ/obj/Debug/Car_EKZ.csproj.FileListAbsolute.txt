@@ -1,11 +1,10 @@
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\Car_EKZ.exe.config
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\Car_EKZ.exe
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\Car_EKZ.pdb
-C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.csproj.AssemblyReference.cache
-C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.csproj.SuggestedBindingRedirects.cache
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.csproj.CoreCompileInputs.cache
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.exe
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.pdb
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\Car_EKZ.BLL.dll
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\Car_EKZ.BLL.pdb
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.csproj.CopyComplete
+C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.csprojAssemblyReference.cache

@@ -11,7 +11,7 @@ namespace Lesson011._2
 {
     internal class Program
     {
-        [Serializable]
+        
         static void Main(string[] args)
         {
             List<PC> pcs = new List<PC>();

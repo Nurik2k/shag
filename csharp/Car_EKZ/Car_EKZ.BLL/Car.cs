@@ -8,10 +8,16 @@ namespace Car_EKZ.BLL
 {
     public class Car:ICar
     {
+        public int CarID { get; set; }
         public string CarName { get; set; }
         public string Type { get; set; }
         public int GarageNumber { get; set; }
         public DateTime PublishYear { get; set; }
+        
+        public Car()
+        {
+
+        }
         public Car( string carName, string type, int garageNumber, int publishYear)
         {
             CarName = carName;
