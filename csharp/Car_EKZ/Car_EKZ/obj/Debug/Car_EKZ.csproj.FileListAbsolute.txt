@@ -8,3 +8,5 @@ C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\Ca
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\Car_EKZ.BLL.pdb
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.csproj.CopyComplete
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.csprojAssemblyReference.cache
+C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\LiteDB.dll
+C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\LiteDB.xml
