@@ -50,7 +50,8 @@ namespace Car_EKZ
                             CreateModel();
                             break;
                         case 2:
-                            Components components = new Components();
+                            Console.Clear();
+                            Component components = new Component();
                             AddComponents();
                             break;
                         case 6:
@@ -78,10 +79,6 @@ namespace Car_EKZ
             } while (true);
 
         }
-
-
-
-
         static ReturnResult CreateModel()
         {
             CarService cs = new CarService(Path);
@@ -119,41 +116,37 @@ namespace Car_EKZ
         }
         static void AddComponents()
         {
-            Components components = new Components(Path);
-            List<Components> componentsArr = new List<Components>();
+            ComponentsService cts = new ComponentsService(Path);
+            Component comp = new Component();
+            ReturnResult result = new ReturnResult();
             try
             {
-
-                string cmpnts = null;
-                int ch = 0;
-                do
-                {
+               
                     Console.WriteLine("Добавить компонент: ");
                     Console.WriteLine("1. Добавить компоненты");
-                    Console.WriteLine("2. Выход");
-                    Console.WriteLine("3. Показать все компоненты");
-                    ch = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("2. Показать все компоненты");
+                    Console.WriteLine("0. Выход");
+                    int ch = Convert.ToInt32(Console.ReadLine());
                     switch (ch)
                     {
                         case 1:
-                            Console.WriteLine("Введите название компонента: ");
-                            cmpnts = Convert.ToString(Console.ReadLine());
-                            componentsArr.Add(components);
+                            Console.Write("Введите название компонента: ");
+                            comp.ComponentsName = Console.ReadLine();
+                            result = cts.CreateComponents(comp);
                             Console.Clear();
-                            Console.WriteLine();
-                            break;
-                        case 3:
-                            components.GetComponents();
+                            Console.WriteLine("Компонент создан!");
                             Thread.Sleep(1000);
-                            Console.Clear();
+                            break;
+                        case 2:
+                            Console.WriteLine(cts.PrintComponents(cts.GetComponents()));
                             break;
                     }
 
 
                     Thread.Sleep(1000);
-                }
+                
 
-                while (ch != 2);
+               
             }
             catch (Exception) { }
         }
