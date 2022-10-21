@@ -36,10 +36,9 @@ namespace Car_EKZ
                     Console.WriteLine("");
                     Console.WriteLine("1. Создать машину");
                     Console.WriteLine("2. Создать компонент");
-                    Console.WriteLine("3. Создать проект");
-                    Console.WriteLine("4. Создать аккаунт");
-                    Console.WriteLine("5. Создать останову");
-                    Console.WriteLine("6. Список машин");
+                    Console.WriteLine("3. Aккаунт");
+                    Console.WriteLine("4. Создать останову");
+                    Console.WriteLine("5. Список машин");
                     Console.WriteLine("0. Выйти");
                     Console.Write("Выберете пункты меню: ");
                     ch = Convert.ToInt32(Console.ReadLine());
@@ -51,10 +50,13 @@ namespace Car_EKZ
                             break;
                         case 2:
                             Console.Clear();
-                            Component components = new Component();
                             AddComponents();
                             break;
-                        case 6:
+                        case 3:
+                            Console.Clear();
+                            Account();
+                            break;
+                        case 5:
                             CarService carService = new CarService(Path);
 
                             Console.WriteLine(carService.PrintCar(carService.GetCars()));
@@ -106,7 +108,7 @@ namespace Car_EKZ
 
                 result = cs.CreateCar(car);
                 Console.Clear();
-                
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Машина создана!");
                 Thread.Sleep(1000);
             }
@@ -114,7 +116,7 @@ namespace Car_EKZ
             return result;
 
         }
-        static void AddComponents()
+        static ReturnResult AddComponents()
         {
             ComponentsService cts = new ComponentsService(Path);
             Component comp = new Component();
@@ -134,7 +136,8 @@ namespace Car_EKZ
                             comp.ComponentsName = Console.ReadLine();
                             result = cts.CreateComponents(comp);
                             Console.Clear();
-                            Console.WriteLine("Компонент создан!");
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("Компонент создан!");
                             Thread.Sleep(1000);
                             break;
                         case 2:
@@ -149,8 +152,43 @@ namespace Car_EKZ
                
             }
             catch (Exception) { }
+            return result;
         }
-
+        static ReturnResult Account()
+        {
+            User user = new User();
+            UserService USV = new UserService(Path);
+            ReturnResult result = new ReturnResult();
+            Console.WriteLine("1. Создать Аккаунт");
+            Console.WriteLine("2. Вывести Аккаунты");
+            Console.WriteLine("0. Вернуться");
+            int ch = Convert.ToInt32(Console.ReadLine());
+            switch (ch)
+            {
+                case 1:
+                    Console.Write("Введите Логин: ");
+                    user.Login = Console.ReadLine();
+                    Console.Write("Введите Пароль: ");
+                    user.Password = Console.ReadLine();
+                    Console.Write("Введите права на доступ: ");
+                    user.AccessRights = Console.ReadLine();
+                    result = USV.CreateUser(user);
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Аккаунт создан!");
+                    Thread.Sleep(1000);
+                    Console.Clear();
+                    break;
+                case 2:
+                    Console.WriteLine(USV.PrintUsers(USV.GetUsers()));
+                    Thread.Sleep(2000);
+                    Console.Clear();
+                    break;
+                case 0:
+                    Console.Clear();
+                    break;
+            }
+            return result;
+        }
     }
     
 }
