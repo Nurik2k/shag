@@ -10,3 +10,16 @@ C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Ca
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.csprojAssemblyReference.cache
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\LiteDB.dll
 C:\Users\СейсенбайН\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\LiteDB.xml
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\Car_EKZ.exe.config
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\Car_EKZ.exe
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\Car_EKZ.pdb
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\Car_EKZ.BLL.dll
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\LiteDB.dll
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\Car_EKZ.BLL.pdb
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\bin\Debug\LiteDB.xml
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.csproj.AssemblyReference.cache
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.csproj.CoreCompileInputs.cache
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.csproj.CopyComplete
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.exe
+C:\Users\Nurik\Documents\shag\csharp\Car_EKZ\Car_EKZ\obj\Debug\Car_EKZ.pdb

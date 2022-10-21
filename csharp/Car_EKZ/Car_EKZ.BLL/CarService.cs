@@ -28,26 +28,31 @@ namespace Car_EKZ.BLL
 
             using (var db = new LiteDatabase(Path))
             {
-                var cars = db.GetCollection<Car>("Cars");
+                var cars = db.GetCollection<Car>(typeof(Car).Name);
                 cars.Insert(car);
             }
 
             return result;
         }
-        public List<Car> GetCars(){
+        public List<Car> GetCars()
+        {
             List<Car> ListCar = new List<Car>();
             using (var db = new LiteDatabase(Path))
             {
-                var cars = db.GetCollection<Car>("Cars");
-                
-                foreach (Car item in cars.FindAll())
-                {
-                    ListCar.Add(item);
-                    
-                }
-                
+                var cars = db.GetCollection<Car>(typeof(Car).Name);
+                ListCar = cars.FindAll().ToList();
+                return ListCar;            
             }
-            return ListCar;
+
+        }
+        public string PrintCar(List<Car> Cars)
+        {
+            string result = "";
+                foreach (var item in Cars)
+                {
+                result += item.ToString();
+                }
+            return result;
         }
     }
 }

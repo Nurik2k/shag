@@ -29,7 +29,7 @@ namespace Car_EKZ.BLL
         }
         public override string ToString()
         {
-            return String.Format("{0} {1} {2} {3} {4}", CarModel, CarName, Type, GarageNumber);
+            return string.Format("{0} {1} {2} {3}\n", CarModel, CarName, Type, GarageNumber);
 
         }
     }
