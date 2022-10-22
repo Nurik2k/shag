@@ -25,7 +25,7 @@ namespace Car_EKZ.BLL
         public User() { }
         public override string ToString()
         {
-            return String.Format("{0} {1}", Login, AccessRights);
+            return String.Format("{0} {1}\n", Login, AccessRights);
         }
     }
 }

@@ -19,17 +19,18 @@ namespace Car_EKZ.BLL
         {
 
         }
-        public Car( string carModel,string carName, string type, int garageNumber, int publishYear)
+        public Car( string carModel,string carName, string type, int garageNumber, int publishYear, int carID)
         {
             CarModel = carModel;
             CarName = carName;
             Type = type;
             GarageNumber = garageNumber;
             PublishYear = new DateTime(publishYear);
+            CarID = carID;
         }
         public override string ToString()
         {
-            return string.Format("{0} {1} {2} {3}\n", CarModel, CarName, Type, GarageNumber);
+            return string.Format("{0} | {1} | {2} | {3} | {4}\n", CarModel, CarName, Type, GarageNumber, CarID);
 
         }
     }

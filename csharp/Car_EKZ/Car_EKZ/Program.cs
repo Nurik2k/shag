@@ -34,8 +34,8 @@ namespace Car_EKZ
 
                     Console.WriteLine("Добро пожаловать в СТО");
                     Console.WriteLine("");
-                    Console.WriteLine("1. Создать машину");
-                    Console.WriteLine("2. Создать компонент");
+                    Console.WriteLine("1. Машины");
+                    Console.WriteLine("2. Компоненты");
                     Console.WriteLine("3. Aккаунт");
                     Console.WriteLine("4. Создать останову");
                     Console.WriteLine("5. Список машин");
@@ -105,6 +105,8 @@ namespace Car_EKZ
                 car.Type = Console.ReadLine();
                 Console.WriteLine("Введите гаражный номер машины");
                 car.GarageNumber = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Введите ID машины");
+                car.CarID = Convert.ToInt32(Console.ReadLine());
 
                 result = cs.CreateCar(car);
                 Console.Clear();
@@ -188,6 +190,24 @@ namespace Car_EKZ
                     break;
             }
             return result;
+        }
+        static ReturnResult ShutdownC()
+        {
+            Shutdown shutdown = new Shutdown();
+            ShutdownService STD = new ShutdownService(Path);
+            ReturnResult result = new ReturnResult();
+            Console.WriteLine("1. Создать Останову");
+            Console.WriteLine("2. Вывести все Остановы");
+            Console.WriteLine("0. Вернуться");
+            int ch = Convert.ToInt32(Console.ReadLine());
+            switch (ch)
+            {
+                case 1:
+                    shutdown.DateCreat = DateTime.Now;
+                    Console.WriteLine("Введите ");
+                    break;
+            }
+
         }
     }
     
