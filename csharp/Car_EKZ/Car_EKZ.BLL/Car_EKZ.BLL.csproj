@@ -50,7 +50,6 @@
     <Compile Include="Component.cs" />
     <Compile Include="ComponentsService.cs" />
     <Compile Include="ICar.cs" />
-    <Compile Include="Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReturnResult.cs" />
     <Compile Include="Shutdown.cs" />

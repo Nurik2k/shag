@@ -10,11 +10,11 @@ namespace Car_EKZ.BLL
     {
         public DateTime DateCreat { get; set; }
         public Car CarSD { get; set; }
-        public string Breakdown { get; set; }
+        public Component Breakdown { get; set; }
         public string RecommendsForFix { get; set; }
         public User UserSD { get; set; }
         public Shutdown() { }
-        public Shutdown(DateTime dateCreat, Car carSD, string breakdown, string recommendsForFix, User userSD)
+        public Shutdown(DateTime dateCreat, Car carSD, Component breakdown, string recommendsForFix, User userSD)
         {
             DateCreat = dateCreat;
             CarSD = carSD;
@@ -24,7 +24,11 @@ namespace Car_EKZ.BLL
         }
         public override string ToString()
         {
-            return String.Format("{0} {0}  {0} {0} {0}\n", DateCreat, CarSD, Breakdown, RecommendsForFix, UserSD);
+            return String.Format("Дата создания: {0}" +
+                "\nМашина: {1}" +
+                "Поломка: {2}" +
+                "Рекомендации: {3}\n" +
+                "Пользователь: {4}", DateCreat, CarSD, Breakdown, RecommendsForFix, UserSD);
         }
     }
 }

@@ -52,5 +52,17 @@ namespace Car_EKZ.BLL
             }
             return result;
         }
+        public Component GetComponentID(int ID)
+        {
+            List<Component> ListComponents = new List<Component>();
+            Component component = new Component();
+            using (var db = new LiteDatabase(Path))
+            {
+                var components = db.GetCollection<Component>(typeof(Component).Name);
+                ListComponents = components.FindAll().ToList();
+                component = ListComponents.Find(x => x.ComponentID == ID);
+            }
+            return component;
+        }
     }
 }

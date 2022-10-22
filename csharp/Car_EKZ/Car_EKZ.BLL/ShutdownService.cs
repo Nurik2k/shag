@@ -26,7 +26,7 @@ namespace Car_EKZ.BLL
             return result;
 
         }
-        public List<Shutdown> GetUsers()
+        public List<Shutdown> GetShutdown()
         {
             List<Shutdown> ListShutdowns = new List<Shutdown>();
             using (var db = new LiteDatabase(Path))
@@ -36,7 +36,7 @@ namespace Car_EKZ.BLL
             }
             return ListShutdowns;
         }
-        public string PrintUsers(List<Shutdown> ListShutdowns)
+        public string PrintShutdown(List<Shutdown> ListShutdowns)
         {
             string result = "";
             foreach (var item in ListShutdowns)

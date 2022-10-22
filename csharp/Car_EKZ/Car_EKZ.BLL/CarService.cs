@@ -54,5 +54,17 @@ namespace Car_EKZ.BLL
                 }
             return result;
         }
+        public Car GetCarID(int carID)
+        {
+            Car car = new Car();
+            List<Car> ListCar = new List<Car>();
+            using (var db = new LiteDatabase(Path))
+            {
+                var cars = db.GetCollection<Car>(typeof(Car).Name);
+                ListCar = cars.FindAll().ToList();
+                car = ListCar.Find(x => x.CarID == carID);
+            }
+            return car;
+        }
     }
 }

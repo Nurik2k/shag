@@ -1,10 +1,14 @@
 ﻿using Car_EKZ.BLL;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Car_EKZ
 {
@@ -37,8 +41,7 @@ namespace Car_EKZ
                     Console.WriteLine("1. Машины");
                     Console.WriteLine("2. Компоненты");
                     Console.WriteLine("3. Aккаунт");
-                    Console.WriteLine("4. Создать останову");
-                    Console.WriteLine("5. Список машин");
+                    Console.WriteLine("4. Останова");
                     Console.WriteLine("0. Выйти");
                     Console.Write("Выберете пункты меню: ");
                     ch = Convert.ToInt32(Console.ReadLine());
@@ -56,11 +59,11 @@ namespace Car_EKZ
                             Console.Clear();
                             Account();
                             break;
-                        case 5:
-                            CarService carService = new CarService(Path);
-
-                            Console.WriteLine(carService.PrintCar(carService.GetCars()));
+                        case 4:
+                            Console.Clear();
+                            ShutdownC();
                             break;
+                        
                     }
 
                 }
@@ -88,35 +91,37 @@ namespace Car_EKZ
 
             Car car = new Car();
             Console.WriteLine("1. Создать машину");
+            Console.WriteLine("2. Список машин");
             Console.WriteLine("0. Назад");
-            int ch1 = Convert.ToInt32(Console.ReadLine());
-            if (ch1 == 0)
+            int ch = Convert.ToInt32(Console.ReadLine());
+            switch (ch)
             {
-                Console.Clear();
-                ConsoleCar();
+                case 0:
+                    Console.Clear();
+                    ConsoleCar();
+                    break;
+                case 1:
+                    car.PublishYear = DateTime.Now;
+                    Console.WriteLine("Введите модель машины");
+                    car.CarModel = Console.ReadLine();
+                    Console.WriteLine("Введите имя машины");
+                    car.CarName = Console.ReadLine();
+                    Console.WriteLine("Введите тип машины");
+                    car.Type = Console.ReadLine();
+                    Console.WriteLine("Введите гаражный номер машины");
+                    car.GarageNumber = Convert.ToInt32(Console.ReadLine());
+                    result = cs.CreateCar(car);
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Машина создана!");
+                    Thread.Sleep(1000);
+                    break;
+                case 2:
+                    CarService carService = new CarService(Path);
+                    Console.WriteLine(carService.PrintCar(carService.GetCars()));
+                    break;
             }
-            else
-            {
-                Console.WriteLine("Введите модель машины");
-                car.CarModel = Console.ReadLine();
-                Console.WriteLine("Введите имя машины");
-                car.CarName = Console.ReadLine();
-                Console.WriteLine("Введите тип машины");
-                car.Type = Console.ReadLine();
-                Console.WriteLine("Введите гаражный номер машины");
-                car.GarageNumber = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Введите ID машины");
-                car.CarID = Convert.ToInt32(Console.ReadLine());
-
-                result = cs.CreateCar(car);
-                Console.Clear();
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Машина создана!");
-                Thread.Sleep(1000);
-            }
-
             return result;
-
         }
         static ReturnResult AddComponents()
         {
@@ -195,6 +200,9 @@ namespace Car_EKZ
         {
             Shutdown shutdown = new Shutdown();
             ShutdownService STD = new ShutdownService(Path);
+            CarService crl = new CarService(Path);
+            ComponentsService cmpt = new ComponentsService(Path);
+            UserService us = new UserService(Path);
             ReturnResult result = new ReturnResult();
             Console.WriteLine("1. Создать Останову");
             Console.WriteLine("2. Вывести все Остановы");
@@ -203,10 +211,52 @@ namespace Car_EKZ
             switch (ch)
             {
                 case 1:
+                    Console.Clear();
                     shutdown.DateCreat = DateTime.Now;
-                    Console.WriteLine("Введите ");
+                    Console.WriteLine(crl.PrintCar(crl.GetCars()));
+                    Console.Write("Введите ID машины:");
+                    int ch1 = Convert.ToInt32(Console.ReadLine());
+                    shutdown.CarSD = crl.GetCarID(ch1);
+                    Console.Clear();
+
+                    Console.WriteLine(cmpt.PrintComponents(cmpt.GetComponents()));
+                    Console.Write("Введите ID компонента, которая поломалась:");
+                    int ch2 = Convert.ToInt32(Console.ReadLine());
+                    shutdown.Breakdown = cmpt.GetComponentID(ch2);
+                    Console.Clear();
+
+                    Console.WriteLine("Введите рекомендации по ремонту:");
+                    shutdown.RecommendsForFix = Console.ReadLine();
+                    Console.Clear();
+
+                    Console.WriteLine(us.PrintUsers(us.GetUsers()));
+                    Console.Write("Кто делал останову? Введите ID:");
+                    int ch3 = Convert.ToInt32(Console.ReadLine());
+                    shutdown.UserSD = us.GetUserID(ch3);
+                    Console.Clear();
+
+                    result = STD.CreateShutdown(shutdown);
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Останова создана!");
+                    Thread.Sleep(1000);
+                    Console.Clear();
+                    break;
+                case 2:
+                    Console.WriteLine(STD.PrintShutdown(STD.GetShutdown()));
+                    Console.WriteLine("0. Вернуться");
+                    int ch4 = Convert.ToInt32(Console.ReadLine());
+                    if(ch4 == 0)
+                    {
+                        Console.Clear();
+                        ConsoleCar();
+                    }
+                    break;
+                case 0:
+                    Console.Clear();
                     break;
             }
+           
+            return result;
 
         }
     }
