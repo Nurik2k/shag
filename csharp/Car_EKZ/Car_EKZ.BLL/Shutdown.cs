@@ -28,7 +28,9 @@ namespace Car_EKZ.BLL
                 "\nМашина: {1}" +
                 "Поломка: {2}" +
                 "Рекомендации: {3}\n" +
-                "Пользователь: {4}", DateCreat, CarSD, Breakdown, RecommendsForFix, UserSD);
+                "Пользователь: {4}" +
+                "_____________________________________________________\n", 
+                DateCreat, CarSD, Breakdown, RecommendsForFix, UserSD);
         }
     }
 }
