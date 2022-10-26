@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.6.1",
+    "jquery-lazyload": "^1.9.7",
+    "jquery.cookie": "^1.4.1"
+  }
+}
