@@ -1,0 +1,147 @@
+html {
+	font-size: 14px;
+}
+
+body {
+	background-color: #f5f9fc;
+	font-size: 16px;
+}
+
+.alert {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	z-index: 1;
+	font-size: 18px;
+	width: calc(100% - 20px);
+
+	.icon-emoji {
+		width: 30px;
+		height: 30px;
+	}
+
+	@media (min-width: 576px) {
+		left: 50%;
+		width: auto;
+		min-width: 400px;
+		transform: translateX(-50%);
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+.container {
+	max-width: 960px;
+}
+
+.pricing-header {
+	max-width: 700px;
+}
+
+.card-deck .card {
+	min-width: 220px;
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+.dice {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+
+	&-wrapper {
+		height: 100px;
+	}
+
+	&.dice-1 {
+		background-image: url("../img/dice_one_icon.svg");
+	}
+
+	&.dice-2 {
+		background-image: url("../img/dice_two_icon.svg");
+	}
+
+	&.dice-3 {
+		background-image: url("../img/dice_three_icon.svg");
+	}
+
+	&.dice-4 {
+		background-image: url("../img/dice_four_icon.svg");
+	}
+
+	&.dice-5 {
+		background-image: url("../img/dice_five_icon.svg");
+	}
+
+	&.dice-6 {
+		background-image: url("../img/dice_six_icon.svg");
+	}
+}
+
+.icon-emoji {
+	&__success {
+		background-image: url("../img/emoji_success_icon.svg");
+	}
+
+	&__danger {
+		background-image: url("../img/emoji_danger_icon.svg");
+	}
+
+	&__warning {
+		background-image: url("../img/emoji_warning_icon.svg");
+	}
+}
+
+.modal {
+	&-header {
+		border-bottom: none;
+		padding: 15px 1.5rem;
+		user-select: none;
+	}
+
+	&-body {
+		font-size: 24px;
+		font-weight: bold;
+
+		.icon-emoji {
+			width: 60px;
+			height: 60px;
+			display: flex;
+			margin: 15px auto;
+		}
+
+		.title {
+			&.success {
+				color: #00b87a;
+			}
+
+			&.danger {
+				color: #e62e5c;
+			}
+		}
+	}
+
+	&-footer {
+		border-top: none;
+		padding: 0;
+	}
+}
+

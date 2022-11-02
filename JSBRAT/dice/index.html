@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		  name="viewport">
+	<meta content=""
+		  name="description">
+
+	<title>Dice	Game</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script crossorigin="anonymous"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script crossorigin="anonymous"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+
+	<!-- Bootstrap core CSS -->
+	<link crossorigin="anonymous"
+		  href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+		  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+		  rel="stylesheet"/>
+	<link href="css/main.css"
+		  rel="stylesheet"/>
+	<link href="css/utilities.css"
+		  rel="stylesheet"/>
+
+	<link href="css/style.css"
+		  rel="stylesheet"/>
+</head>
+<body>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+	<h5 class="my-5 mr-md-auto font-weight-normal">IT Step</h5>
+</div>
+<div class="container">
+	<div class="alert-wrapper">
+		<div class="alert alert-success alert-dismissible fade"
+			 role="alert">
+			<div class="d-flex flex-row align-items-center">
+				<i class="icon-emoji icon-emoji__success mr-2"></i> Вы выиграли!
+			</div>
+			<button aria-label="Close"
+					class="close alert-close"
+					type="button">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+		<div class="alert alert-danger alert-dismissible fade"
+			 role="alert">
+			<div class="d-flex flex-row align-items-center">
+				<i class="icon-emoji icon-emoji__danger mr-2"></i> Вы проиграли!
+			</div>
+
+			<button aria-label="Close"
+					class="close alert-close"
+					type="button">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+		<div class="alert alert-warning alert-dismissible fade"
+			 role="alert">
+			<div class="d-flex flex-row align-items-center">
+				<i class="icon-emoji icon-emoji__warning mr-2"></i> Ничья!
+			</div>
+			<button aria-label="Close"
+					class="close alert-close"
+					type="button">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+	</div>
+</div>
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+	<h1 class="display-4">
+		Игра в кости</h1>
+	<p class="lead">
+		Игроки по очереди бросают игральные кости, после чего результат броска используется для определения победителя или проигравшего. <br>
+		Выигрывает тот, кто первым наберет 10 побед.</p>
+</div>
+
+<div class="container mb-12">
+	<div class="card-deck mb-3 text-center">
+		<div class="card mb-4 shadow-sm">
+			<div class="card-header">
+				<h2 class="my-0 font-weight-normal">
+					CPU</h2>
+			</div>
+			<div class="card-body">
+				<div id="cpu" class="dice-wrapper"></div>
+				<hr>
+				<h2>
+					<small class="text-muted">Выигрыши</small>
+				</h2>
+				<h2 id="totalCpu" class="card-title pricing-card-title">
+					0
+				</h2>
+				<div class="progress">
+					<div id="progressCpu" class="progress-bar bg-primary progress-bar-striped progress-bar-animated"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="card mb-4 shadow-sm">
+			<div class="card-header">
+				<h2 class="my-0 font-weight-normal">
+					Вы</h2>
+			</div>
+			<div class="card-body">
+				<div id="user" class="dice-wrapper"></div>
+				<hr>
+				<h2>
+					<small class="text-muted">Выигрыши</small>
+				</h2>
+				<h2 id="totalUser" class="card-title pricing-card-title">
+					0
+				</h2>
+				<div class="progress">
+					<div id="progressUser" class="progress-bar bg-primary progress-bar-striped progress-bar-animated"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button id="start" class="btn btn-lg btn-block btn-primary"
+			type="button">
+		<span class="spinner spinner-border spinner-border-sm d-none" role="status"></span>
+		Бросить	кости [Пробел]
+	</button>
+
+	<div class="modal fade" id="final" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Игра окончена</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body text-center">
+					<div class="final-result"></div>
+					<p>Начать заново?</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Нет</button>
+					<button type="button" class="btn btn-primary" id="Yes">Да</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
