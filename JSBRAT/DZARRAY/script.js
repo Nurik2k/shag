@@ -63,4 +63,38 @@
 // showProductList(ProductList);
 //__________________________________________________________
 
+$('#print_check').click(function() {
+    let arr = [{
+        name: 'Apple',
+        bill: parseInt('230')
+    }, {
+        name: 'Potato',
+        bill: parseInt('80')
+    }, {
+        name: 'Banana',
+        bill: parseInt('50')
+    }, ];
+    
+        
+  GetCheck(arr);
+});
+
+
+  function GetCheck(arr){
+
+    document.write('<ol start="1">');
+    arr.forEach(ar => {
+        document.write(<li> <span style="color: red;">${ar.name}</span> ${ar.bill} tenge.</li>);
+    });
+    document.write('<ol>'); 
+    AllCountPrice(arr);
+  }
+  function AllCountPrice(arr){
+    let sum = 0;
+    for(let i = 0; i<arr.lenght; i++){
+        sum += arr.bill[i++];
+    }
+    document.write(sum);
+}
+
 
