@@ -29,22 +29,36 @@
 // alert(textToNumber(num));
 //________________________________________________________________________
 
-let string = ('hello MY name is JavaScript and I like your code styLe.');
+// let string = ('hello MY name is JavaScript and I like your code styLe.');
  
-let result = string.replace(/(([A-Za-z])+([a-z]))*([a-z]*[A-Z]+[a-z]*)/g, function replaceLetter (letter) {
-  if(letter === letter.toUpperCase()) {
-    for(let i=0; i = letter.toUpperCase(); i++){
-      letter = letter.toLowerCase();
-    }
-    return letter;
-  }
+// let result = string.replace(/(([A-Za-z])+([a-z]))*([a-z]*[A-Z]+[a-z]*)/g, function replaceLetter (letter) {
+//   if(letter === letter.toUpperCase()) {
+//     for(let i=0; i = letter.toUpperCase(); i++){
+//       letter = letter.toLowerCase();
+//     }
+//     return letter;
+//   }
   
-  else {
-    for(let i=0; i = letter.toLowerCase(); i++) {
-      letter = letter.toUpperCase();
-    }
-    return letter;
-  }
-})
+//   else {
+//     for(let i=0; i = letter.toLowerCase(); i++) {
+//       letter = letter.toUpperCase();
+//     }
+//     return letter;
+//   }
+// })
  
-console.log(result);
+// console.log(result);  
+//________________________________________________________________________
+
+// function CamelCase(str) {
+//   if (str in document.body.style) {
+//     return str.replace(/-(\w)/g, (s, l) => l.toUpperCase());
+//   } else {
+//     throw new TypeError("Не css");
+//   }
+// }
+//______________________________________________________________________
+function makeAb(words){
+  return words.split(' ').reduce((prevVal, curWords)=> prevVal + (curWords ? curWords[0]: ''), '').toUpperCase();
+}
+console.log(makeAb('cascading style sheets'));
