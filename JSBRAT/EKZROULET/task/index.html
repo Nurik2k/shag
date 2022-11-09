@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Игра в кости</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Игра в кости</h1>
+
+      <div class="game-action">
+        <div class="radio-group">
+          <div class="radio-item">
+            <label for="red">Красный</label>
+            <input
+              type="radio"
+              name="numberType"
+              id="red"
+              value="red"
+              class="input-radio"
+            />
+          </div>
+          <div class="radio-item">
+            <label for="rblacked">Черный</label>
+            <input
+              type="radio"
+              name="numberType"
+              id="black"
+              value="black"
+              class="input-radio"
+            />
+          </div>
+          <div class="radio-item">
+            <label for="even">Чет</label>
+            <input
+              type="radio"
+              name="numberType"
+              id="even"
+              value="even"
+              class="input-radio"
+            />
+          </div>
+          <div class="radio-item">
+            <label for="odd">Нечет</label>
+            <input
+              type="radio"
+              name="numberType"
+              id="odd"
+              value="odd"
+              class="input-radio"
+            />
+          </div>
+        </div>
+
+        <p class="number"></p>
+        <button disabled class="btn">Старт</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
