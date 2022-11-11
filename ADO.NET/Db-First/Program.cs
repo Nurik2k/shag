@@ -22,7 +22,7 @@ namespace Db_First
                 foreach (var userBasket in user.Baskets)
                 {
                     
-                    foreach (var basket in userBasket.BasketProducts)
+                    foreach (var userBasketProduct in userBasket.BasketProducts)
                     {
                         Console.WriteLine($"User {userBasket.User.Name} has - {userBasketProduct.Product.Name}");
 
