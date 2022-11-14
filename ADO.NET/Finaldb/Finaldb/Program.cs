@@ -91,10 +91,8 @@ namespace FinalDb
                 const string SqlQuery = "SELECT [login], [password] FROM dbo.Users WHERE login = @Login";
                 using var SqlConnection = new SqlConnection(ConnectionString);
                 SqlConnection.Open();
-
                 SqlCommand cmd = new SqlCommand(SqlQuery, SqlConnection);
                 cmd.Parameters.Add("Login", SqlDbType.VarChar, 500).Value = login;
-
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
@@ -115,6 +113,35 @@ namespace FinalDb
             catch (Exception ex) { Console.WriteLine(ex.Message); return false; }
 
 
+        }
+        static void SendMessage(ChatDbContext db)
+        {
+
+            var newMessage = new PrivateMessage();
+            newMessage.CreateDate = DateTime.Now;
+            newMessage.Message = Console.ReadLine();
+            db.Add(newMessage);
+            db.SaveChanges();
+
+        }
+        static void ShowMessage(ChatDbContext db)
+        {
+            const string sqlQuery = "SELECT [login] FROM dbo.Users";
+            const string SqlQuery = "SELECT [message], [create_date] FROM dbo.PrivateMessage";
+            using var SqlConnection = new SqlConnection(ConnectionString);
+            SqlConnection.Open();
+            SqlCommand cmd = new SqlCommand(SqlQuery, SqlConnection);
+            SqlCommand cm = new SqlCommand(sqlQuery, SqlConnection);
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                var login = reader.GetString(0);
+                var message = reader.GetString(0);
+                var date = reader.GetDateTime(1);
+                Console.WriteLine(login+ ":\n" + message + date);
+            }
+            
+            
         }
     }
 }
