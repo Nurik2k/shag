@@ -34,12 +34,17 @@ namespace FinalDb
                     case 2:
                         string login = "", password = "";
                         Console.Write("Enter login: ");
-                        
+                        //if (!isDebug)
+                        //{
                             login = Console.ReadLine();
                             Console.Write("Enter password: ");
                             password = Console.ReadLine();
-                        
-                        
+                        //}
+                        //else
+                        //{
+                        //    login = "Assir";
+                        //    password = "321";
+                        //}
 
                         SignIn(login, password);
                         break;
