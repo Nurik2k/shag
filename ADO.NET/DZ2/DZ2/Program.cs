@@ -88,6 +88,7 @@ namespace DZ2
             };
             using var db = new StockContext();
             db.Stocks.Add(stock);
+            db.SaveChanges();
             Console.BackgroundColor= ConsoleColor.Green;
             Console.WriteLine("Added.");
             Thread.Sleep(1500);
