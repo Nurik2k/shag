@@ -36,9 +36,9 @@ namespace FinalDb
                         Console.Write("Enter login: ");
                         //if (!isDebug)
                         //{
-                            login = Console.ReadLine();
-                            Console.Write("Enter password: ");
-                            password = Console.ReadLine();
+                        login = Console.ReadLine();
+                        Console.Write("Enter password: ");
+                        password = Console.ReadLine();
                         //}
                         //else
                         //{
@@ -114,35 +114,37 @@ namespace FinalDb
 
 
         }
-        static void SendMessage(ChatDbContext db)
+        static void UserMenu(bool signIn)
         {
-
-            var newMessage = new PrivateMessage();
-            newMessage.CreateDate = DateTime.Now;
-            newMessage.Message = Console.ReadLine();
-            db.PrivateMessages.Add(newMessage);
-            db.SaveChanges();
-
-        }
-        static void ShowPrivateMessage(ChatDbContext db)
-        {
-            const string sqlQuery = "SELECT [login] FROM dbo.Users";
-            const string SqlQuery = "SELECT [message], [create_date] FROM dbo.PrivateMessage";
-            using var SqlConnection = new SqlConnection(ConnectionString);
-            SqlConnection.Open();
-            SqlCommand cmd = new SqlCommand(SqlQuery, SqlConnection);
-            SqlCommand cm = new SqlCommand(sqlQuery, SqlConnection);
-            SqlDataReader reader = cmd.ExecuteReader();
-            while (reader.Read())
+            if(signIn == true) 
             {
-                var login = reader.GetString(0);
-                var message = reader.GetString(0);
-                var date = reader.GetDateTime(1);
-                Console.WriteLine(login+ ":\n" + message + date);
+                Console.WriteLine("1. Send message to user");
+                Console.WriteLine("2. Send message to group");
+                Console.WriteLine("3. Add group");
+                Console.WriteLine("4. Block user");
+                Console.WriteLine("0. Log out");
+                int ch = int.Parse(Console.ReadLine());
+                switch(ch)
+                {
+                    case 1:
+
+                        break;
+                    case 2:
+
+                        break;
+                    case 3:
+
+                        break;
+                    case 4:
+
+                        break;
+                    case 0:
+
+                        break;
+                }
             }
-            
-            
         }
-    }
+
+    }  
 }
 
