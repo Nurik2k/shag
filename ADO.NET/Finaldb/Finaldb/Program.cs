@@ -120,11 +120,11 @@ namespace FinalDb
             var newMessage = new PrivateMessage();
             newMessage.CreateDate = DateTime.Now;
             newMessage.Message = Console.ReadLine();
-            db.Add(newMessage);
+            db.PrivateMessages.Add(newMessage);
             db.SaveChanges();
 
         }
-        static void ShowMessage(ChatDbContext db)
+        static void ShowPrivateMessage(ChatDbContext db)
         {
             const string sqlQuery = "SELECT [login] FROM dbo.Users";
             const string SqlQuery = "SELECT [message], [create_date] FROM dbo.PrivateMessage";
