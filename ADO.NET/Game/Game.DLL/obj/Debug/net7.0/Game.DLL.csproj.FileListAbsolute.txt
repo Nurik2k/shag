@@ -1,0 +1,14 @@
+D:\shag\ADO.NET\Game\Game.DLL\bin\Debug\net7.0\Game.DLL.deps.json
+D:\shag\ADO.NET\Game\Game.DLL\bin\Debug\net7.0\Game.DLL.runtimeconfig.json
+D:\shag\ADO.NET\Game\Game.DLL\bin\Debug\net7.0\Game.DLL.dll
+D:\shag\ADO.NET\Game\Game.DLL\bin\Debug\net7.0\Game.DLL.pdb
+D:\shag\ADO.NET\Game\Game.DLL\obj\Debug\net7.0\Game.DLL.csproj.AssemblyReference.cache
+D:\shag\ADO.NET\Game\Game.DLL\obj\Debug\net7.0\Game.DLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\ADO.NET\Game\Game.DLL\obj\Debug\net7.0\Game.DLL.AssemblyInfoInputs.cache
+D:\shag\ADO.NET\Game\Game.DLL\obj\Debug\net7.0\Game.DLL.AssemblyInfo.cs
+D:\shag\ADO.NET\Game\Game.DLL\obj\Debug\net7.0\Game.DLL.csproj.CoreCompileInputs.cache
+D:\shag\ADO.NET\Game\Game.DLL\obj\Debug\net7.0\Game.DLL.dll
+D:\shag\ADO.NET\Game\Game.DLL\obj\Debug\net7.0\refint\Game.DLL.dll
+D:\shag\ADO.NET\Game\Game.DLL\obj\Debug\net7.0\Game.DLL.pdb
+D:\shag\ADO.NET\Game\Game.DLL\obj\Debug\net7.0\Game.DLL.genruntimeconfig.cache
+D:\shag\ADO.NET\Game\Game.DLL\obj\Debug\net7.0\ref\Game.DLL.dll
