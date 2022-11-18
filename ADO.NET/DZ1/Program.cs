@@ -1,4 +1,5 @@
-﻿using Azure.Core;
+﻿//file:///D:/Downloads/ADO_NET_%D0%94%D0%97_%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C_01_%D1%87%D0%B0%D1%81%D1%82%D1%8C_01%20(1).pdf
+using Azure.Core;
 using Microsoft.Data.SqlClient;
 using System;
 namespace DZ1

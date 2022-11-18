@@ -3469,11 +3469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\shag\\ADO.NET\\DZ3\\DZ3\\DZ3.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\shag\\ADO.NET\\DZ3\\DZ3\\DZ3.csproj",
       "projectName": "DZ3",
-      "projectPath": "D:\\shag\\ADO.NET\\DZ3\\DZ3\\DZ3.csproj",
+      "projectPath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\DZ3\\DZ3\\DZ3.csproj",
       "packagesPath": "C:\\Users\\nurkw\\.nuget\\packages\\",
-      "outputPath": "D:\\shag\\ADO.NET\\DZ3\\DZ3\\obj\\",
+      "outputPath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\DZ3\\DZ3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nurkw\\AppData\\Roaming\\NuGet\\NuGet.Config",

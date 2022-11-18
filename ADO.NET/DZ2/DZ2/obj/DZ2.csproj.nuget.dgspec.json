@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\shag\\ADO.NET\\DZ2\\DZ2\\DZ2.csproj": {}
+    "D:\\Documents\\GitHub\\shag\\ADO.NET\\DZ2\\DZ2\\DZ2.csproj": {}
   },
   "projects": {
-    "D:\\shag\\ADO.NET\\DZ2\\DZ2\\DZ2.csproj": {
+    "D:\\Documents\\GitHub\\shag\\ADO.NET\\DZ2\\DZ2\\DZ2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\shag\\ADO.NET\\DZ2\\DZ2\\DZ2.csproj",
+        "projectUniqueName": "D:\\Documents\\GitHub\\shag\\ADO.NET\\DZ2\\DZ2\\DZ2.csproj",
         "projectName": "DZ2",
-        "projectPath": "D:\\shag\\ADO.NET\\DZ2\\DZ2\\DZ2.csproj",
+        "projectPath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\DZ2\\DZ2\\DZ2.csproj",
         "packagesPath": "C:\\Users\\nurkw\\.nuget\\packages\\",
-        "outputPath": "D:\\shag\\ADO.NET\\DZ2\\DZ2\\obj\\",
+        "outputPath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\DZ2\\DZ2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nurkw\\AppData\\Roaming\\NuGet\\NuGet.Config",

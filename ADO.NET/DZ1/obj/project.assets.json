@@ -2570,11 +2570,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\shag\\ADO.NET\\DZ1\\DZ1.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\shag\\ADO.NET\\DZ1\\DZ1.csproj",
       "projectName": "DZ1",
-      "projectPath": "D:\\shag\\ADO.NET\\DZ1\\DZ1.csproj",
+      "projectPath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\DZ1\\DZ1.csproj",
       "packagesPath": "C:\\Users\\nurkw\\.nuget\\packages\\",
-      "outputPath": "D:\\shag\\ADO.NET\\DZ1\\obj\\",
+      "outputPath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\DZ1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nurkw\\AppData\\Roaming\\NuGet\\NuGet.Config",

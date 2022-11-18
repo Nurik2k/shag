@@ -3469,11 +3469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\shag\\ADO.NET\\Game\\Game.DLL\\Game.DLL.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\shag\\ADO.NET\\Game\\Game.DLL\\Game.DLL.csproj",
       "projectName": "Game.DLL",
-      "projectPath": "D:\\shag\\ADO.NET\\Game\\Game.DLL\\Game.DLL.csproj",
+      "projectPath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\Game\\Game.DLL\\Game.DLL.csproj",
       "packagesPath": "C:\\Users\\nurkw\\.nuget\\packages\\",
-      "outputPath": "D:\\shag\\ADO.NET\\Game\\Game.DLL\\obj\\",
+      "outputPath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\Game\\Game.DLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nurkw\\AppData\\Roaming\\NuGet\\NuGet.Config",

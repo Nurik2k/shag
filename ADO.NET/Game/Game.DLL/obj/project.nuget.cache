@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bYBi8AIB6I/gcL5ulHPDK3B/9SD/oMbQ4AzXPHpsCh2KErj7w1azFboiUNuSx4+litgaNBfn3T/jaZeovIQwOQ==",
+  "dgSpecHash": "9plxWmvSxg4OBvITM5EhKi2/AsYMgdvlsFJbpWmZq/bxjDpYXMRGKGe6rlU3kBrFy/2UKD0ietb7K4IEQwqvCg==",
   "success": true,
-  "projectFilePath": "D:\\shag\\ADO.NET\\Game\\Game.DLL\\Game.DLL.csproj",
+  "projectFilePath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\Game\\Game.DLL\\Game.DLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nurkw\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\nurkw\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

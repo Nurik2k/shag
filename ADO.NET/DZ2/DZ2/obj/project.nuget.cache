@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h6noojdTvKR9KJm8/qKwv1KzlslF4Pt2XI7EybvB446+9DT64yReglW5JjGY2M941/KHVhDaQAbt+OznA20ygA==",
+  "dgSpecHash": "Tp/jZZ7+ecV22epGLn6/8gGLXbECzaidY+ZRfQ1WzBpdv2kpuJ0JqVMqcXPZhvcsy7xqXofmpROEALwOIYH52g==",
   "success": true,
-  "projectFilePath": "D:\\shag\\ADO.NET\\DZ2\\DZ2\\DZ2.csproj",
+  "projectFilePath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\DZ2\\DZ2\\DZ2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nurkw\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\nurkw\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
