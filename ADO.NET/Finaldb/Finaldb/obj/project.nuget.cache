@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oSIETm7/FxdL99I7lmONz5fYP3LdPlQm+uxLuukUzxgcAD0amcRcE0fRlo2dKmYRfhAHyeqfa1t2DGvHXVqZig==",
+  "dgSpecHash": "jB6ILSgMR1Ovb0c1ygtGo8jb0+2lH7DC8dM3yJKw4MWpkyaJiBvXPkPLFG8E3NiFwoA8+2tleSbMzNxdSVd6QQ==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\Finaldb\\Finaldb\\Finaldb.csproj",
+  "projectFilePath": "D:\\shag\\ADO.NET\\Finaldb\\Finaldb\\Finaldb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nurkw\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\nurkw\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

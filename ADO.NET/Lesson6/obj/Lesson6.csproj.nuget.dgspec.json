@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nurik\\Documents\\shag\\ADO.NET\\Lesson6\\Lesson6.csproj": {}
+    "D:\\shag\\ADO.NET\\Lesson6\\Lesson6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nurik\\Documents\\shag\\ADO.NET\\Lesson6\\Lesson6.csproj": {
+    "D:\\shag\\ADO.NET\\Lesson6\\Lesson6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nurik\\Documents\\shag\\ADO.NET\\Lesson6\\Lesson6.csproj",
+        "projectUniqueName": "D:\\shag\\ADO.NET\\Lesson6\\Lesson6.csproj",
         "projectName": "Lesson6",
-        "projectPath": "C:\\Users\\Nurik\\Documents\\shag\\ADO.NET\\Lesson6\\Lesson6.csproj",
-        "packagesPath": "C:\\Users\\Nurik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nurik\\Documents\\shag\\ADO.NET\\Lesson6\\obj\\",
+        "projectPath": "D:\\shag\\ADO.NET\\Lesson6\\Lesson6.csproj",
+        "packagesPath": "C:\\Users\\nurkw\\.nuget\\packages\\",
+        "outputPath": "D:\\shag\\ADO.NET\\Lesson6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Nurik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nurkw\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

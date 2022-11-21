@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\GitHub\\shag\\ADO.NET\\Finaldb\\Finaldb\\Finaldb.csproj": {}
+    "D:\\shag\\ADO.NET\\Finaldb\\Finaldb\\Finaldb.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\GitHub\\shag\\ADO.NET\\Finaldb\\Finaldb\\Finaldb.csproj": {
+    "D:\\shag\\ADO.NET\\Finaldb\\Finaldb\\Finaldb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\GitHub\\shag\\ADO.NET\\Finaldb\\Finaldb\\Finaldb.csproj",
+        "projectUniqueName": "D:\\shag\\ADO.NET\\Finaldb\\Finaldb\\Finaldb.csproj",
         "projectName": "Finaldb",
-        "projectPath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\Finaldb\\Finaldb\\Finaldb.csproj",
+        "projectPath": "D:\\shag\\ADO.NET\\Finaldb\\Finaldb\\Finaldb.csproj",
         "packagesPath": "C:\\Users\\nurkw\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\GitHub\\shag\\ADO.NET\\Finaldb\\Finaldb\\obj\\",
+        "outputPath": "D:\\shag\\ADO.NET\\Finaldb\\Finaldb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nurkw\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,5 +1,6 @@
 ﻿using Finaldb.Data;
 using Finaldb.Models;
+using FinalDb;
 using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace Finaldb
 {
     public class UserService
     {
-        const string ConnectionString = "Server=NURIK;Database=ChatDb;Trusted_Connection=true;Encrypt=false";
+        ConnectServer connect = new ConnectServer();
 
         public void Registration(ChatDbContext db)
         {
@@ -41,33 +42,38 @@ namespace Finaldb
             );
             return Convert.ToBase64String(hash);
         }
-        public bool SignIn(string login, string password)
+        public void SignIn(string login, string password)
         {
+            Menu mn= new Menu();
             try
             {
-                const string SqlQuery = "SELECT [login], [password] FROM dbo.Users WHERE login = @Login";
-                using var SqlConnection = new SqlConnection(ConnectionString);
+                const string SqlQuery = "SELECT [id] [login], [password] FROM dbo.Users WHERE login = @Login";
+                using var SqlConnection = new SqlConnection(connect.Connect());
                 SqlConnection.Open();
                 SqlCommand cmd = new SqlCommand(SqlQuery, SqlConnection);
                 cmd.Parameters.Add("Login", SqlDbType.VarChar, 500).Value = login;
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    var pass = reader.GetString(1);
-                    if (HashPass(password) == reader["password"].ToString())
+                    var pass = reader["password"].ToString();
+                    if (pass == HashPass(password))
                     {
-                        Console.WriteLine("Wellcome!");
-                        return true;
+                        var user = new User()
+                        {
+                            Id = reader.GetInt32(0),
+                            Login = login,
+                            Password = password
+                        };
+                        mn.UserMenu(user); 
                     }
                     else
                     {
                         Console.WriteLine("Password is wrong!");
-                        return false;
                     }
                 }
-                return false;
+                
             }
-            catch (Exception ex) { Console.WriteLine(ex.Message); return false; }
+            catch (Exception ex) { Console.WriteLine(ex.Message); }
 
 
         }

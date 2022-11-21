@@ -13,13 +13,14 @@ using Finaldb;
 
 namespace FinalDb
 {
-    internal class Program
+    public class Program
     {
-        const string ConnectionString = "Server=NURIK;Database=ChatDb;Trusted_Connection=true;Encrypt=false";
+        ConnectServer connect = new ConnectServer();
         static void Main(string[] args)
         {
             Menu menu = new Menu();
             menu.MainMenu();
+            
         }
 
         
