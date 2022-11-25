@@ -10,7 +10,8 @@ namespace Finaldb
     {
         public string Connect()
         {
-            const string ConnectionString = "Server=NURIK;Database=ChatDb;Trusted_Connection=true;Encrypt=false";
+            //UserId=student;Password=123
+            const string ConnectionString = "Server=185.213.156.185;Database=ChatDb;User Id=student;Password=123;Encrypt=false;Application Name=Nurik";
             return ConnectionString;
         }
     }

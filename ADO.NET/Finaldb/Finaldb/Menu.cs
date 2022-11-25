@@ -21,6 +21,7 @@ namespace Finaldb
             using var DbContext = new ChatDbContext();
             try
             {
+                Console.Clear();
                 bool isDebug = true;
 
                 Console.WriteLine("Select menu item:");
@@ -30,9 +31,11 @@ namespace Finaldb
                 switch (ch)
                 {
                     case 1:
+                        Console.Clear();
                         userService.Registration(DbContext);
                         break;
                     case 2:
+                        Console.Clear();
                         string login = "", password = "";
                         Console.Write("Enter login: ");
                         //if (!isDebug)
@@ -62,42 +65,81 @@ namespace Finaldb
         {
             UserService users = new UserService();
             using var DbContext = new ChatDbContext();
+            Group group = new Group();
+            
             if (user != null)
             {
                 Console.WriteLine("1. Send message to user");
                 Console.WriteLine("2. Send message to group");
                 Console.WriteLine("3. Show messages");
                 Console.WriteLine("4. Add group");
-                Console.WriteLine("5. Block user");
+                Console.WriteLine("5. Show groups");
+                Console.WriteLine("6. Add user to group");
+                Console.WriteLine("7. Send group msg");
                 Console.WriteLine("0. Log out");
                 int ch = int.Parse(Console.ReadLine());
                 switch (ch)
                 {
                     case 1:
+                        Console.Clear();
+                        Console.WriteLine($"Hello, {user.Login}");
+                        Console.WriteLine("_______________________");
                         GetActiveUsers();
                         Console.Write("Enter id: ");
-
                         int tou = int.Parse(Console.ReadLine());
                         SendMessage(user, tou, DbContext);
                         break;
                     case 2:
+                        Console.Clear();
+                        Console.WriteLine($"Hello, {user.Login}");
+                        Console.WriteLine("_______________________");
 
                         break;
                     case 3:
+                        Console.Clear();
+                        Console.WriteLine($"Hello, {user.Login}");
+                        Console.WriteLine("_______________________");
                         GetActiveUsers();
                         Console.Write("Enter id: ");
                         user.Id = int.Parse(Console.ReadLine());
                         ShowMessage(user.Id);
                         break;
-                    case 0:
-
+                    case 4:
+                        Console.Clear();
+                        Console.WriteLine($"Hello, {user.Login}");
+                        Console.WriteLine("_______________________");
+                        users.AddGroup(DbContext, user);
+                        break;
+                    case 6:
+                        Console.Clear();
+                        Console.WriteLine($"Hello, {user.Login}");
+                        Console.WriteLine("_______________________");
+                        users.ShowAllGroups();
+                        Console.Write("Enter groupID:");
+                        var id = int.Parse(Console.ReadLine());
+                         users.AddUserToGroup(DbContext, id);
+                        
+                        break;
+                    case 5:
+                        Console.Clear();
+                        Console.WriteLine($"Hello, {user.Login}");
+                        Console.WriteLine("_______________________");
+                        users.ShowAllGroups();
+                        break;
+                    case 7:
+                        Console.Clear();
+                        Console.WriteLine($"Hello, {user.Login}");
+                        Console.WriteLine("_______________________");
+                        users.ShowAllGroups();
+                        Console.WriteLine("Enter groupID");
+                        var id1 = int.Parse(Console.ReadLine());
+                        users.SendGroupMessage(DbContext, id1, user);
                         break;
                 }
             }
         }
         public void SendMessage(User fromu,int tou, ChatDbContext db)
         {
-            Console.Clear();
             
             try
             {
@@ -147,7 +189,6 @@ namespace Finaldb
         {
             try
             {
-                
                 const string SqlQuery = "SELECT * FROM dbo.Users";
                 using var SqlConnection = new SqlConnection(connect.Connect());
                 SqlConnection.Open();
@@ -162,5 +203,6 @@ namespace Finaldb
             }
             catch (Exception ex) { Console.WriteLine(String.Format("Error: GetActiveUsers, {0}", ex.Message));}
         }
+        
     }
 }
