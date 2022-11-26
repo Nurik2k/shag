@@ -139,6 +139,30 @@ namespace Finaldb
                 Console.WriteLine(ex);
             }
         }
+        public void RemoveUserFromGroup(ChatDbContext db, int id2)
+        {
+            UserGroup ug = new UserGroup();
+            Menu mn = new Menu();
+            User user = new User();
+            try
+            {
+                ug.GroupId = id2;
+                mn.GetActiveUsers();
+                Console.Write("Enter userID: ");
+                var id = Convert.ToInt32(Console.ReadLine());
+                var ruser = db.UserGroups.First(f=>f.Id== id);
+                db.UserGroups.Remove(ruser); 
+                db.SaveChanges();
+                Console.Clear();
+                Console.WriteLine("Deleted");
+                Thread.Sleep(1500);
+                mn.UserMenu(user);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+        }
         public void SendGroupMessage(ChatDbContext db, int id, User fromu)
         {
             try

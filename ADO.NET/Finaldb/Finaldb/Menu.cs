@@ -76,6 +76,7 @@ namespace Finaldb
                 Console.WriteLine("5. Show groups");
                 Console.WriteLine("6. Add user to group");
                 Console.WriteLine("7. Send group msg");
+                Console.WriteLine("8. Remove user from group");
                 Console.WriteLine("0. Log out");
                 int ch = int.Parse(Console.ReadLine());
                 switch (ch)
@@ -115,7 +116,7 @@ namespace Finaldb
                         Console.WriteLine($"Hello, {user.Login}");
                         Console.WriteLine("_______________________");
                         users.ShowAllGroups();
-                        Console.Write("Enter groupID:");
+                        Console.Write("Enter groupID: ");
                         var id = int.Parse(Console.ReadLine());
                          users.AddUserToGroup(DbContext, id);
                         
@@ -131,9 +132,18 @@ namespace Finaldb
                         Console.WriteLine($"Hello, {user.Login}");
                         Console.WriteLine("_______________________");
                         users.ShowAllGroups();
-                        Console.WriteLine("Enter groupID");
+                        Console.Write("Enter groupID: ");
                         var id1 = int.Parse(Console.ReadLine());
                         users.SendGroupMessage(DbContext, id1, user);
+                        break;
+                        case 8:
+                        Console.Clear();
+                        Console.WriteLine($"Hello, {user.Login}");
+                        Console.WriteLine("_______________________");
+                        users.ShowAllGroups();
+                        Console.Write("Enter groupID: ");
+                        var id2 = int.Parse(Console.ReadLine());
+                        users.RemoveUserFromGroup(DbContext, id2);
                         break;
                 }
             }
