@@ -116,6 +116,15 @@ namespace Finaldb
                 Console.WriteLine($"|{id}|{name}|{ownerId}|");
             }
         }
+        public void ShowUserInGroup()
+        {
+            const string SqlQuery = "SELECT * FROM dbo.UserGroups";
+            using var SqlConnection = new SqlConnection(connect.Connect());
+            SqlConnection.Open();
+            SqlCommand cmd = new SqlCommand(SqlQuery, SqlConnection);
+            SqlDataReader reader = cmd.ExecuteReader();
+
+        }
         public void AddUserToGroup(ChatDbContext db, int id)
         {
             UserGroup ug = new UserGroup();

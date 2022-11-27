@@ -1,6 +1,7 @@
 ﻿using Finaldb.Data;
 using Finaldb.Models;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -72,11 +73,7 @@ namespace Finaldb
                 Console.WriteLine("1. Send message to user");
                 Console.WriteLine("2. Send message to group");
                 Console.WriteLine("3. Show messages");
-                Console.WriteLine("4. Add group");
-                Console.WriteLine("5. Show groups");
-                Console.WriteLine("6. Add user to group");
-                Console.WriteLine("7. Send group msg");
-                Console.WriteLine("8. Remove user from group");
+                Console.WriteLine("4. Group");
                 Console.WriteLine("0. Log out");
                 int ch = int.Parse(Console.ReadLine());
                 switch (ch)
@@ -109,42 +106,9 @@ namespace Finaldb
                         Console.Clear();
                         Console.WriteLine($"Hello, {user.Login}");
                         Console.WriteLine("_______________________");
-                        users.AddGroup(DbContext, user);
+                        GroupMenu(user);
                         break;
-                    case 6:
-                        Console.Clear();
-                        Console.WriteLine($"Hello, {user.Login}");
-                        Console.WriteLine("_______________________");
-                        users.ShowAllGroups();
-                        Console.Write("Enter groupID: ");
-                        var id = int.Parse(Console.ReadLine());
-                         users.AddUserToGroup(DbContext, id);
-                        
-                        break;
-                    case 5:
-                        Console.Clear();
-                        Console.WriteLine($"Hello, {user.Login}");
-                        Console.WriteLine("_______________________");
-                        users.ShowAllGroups();
-                        break;
-                    case 7:
-                        Console.Clear();
-                        Console.WriteLine($"Hello, {user.Login}");
-                        Console.WriteLine("_______________________");
-                        users.ShowAllGroups();
-                        Console.Write("Enter groupID: ");
-                        var id1 = int.Parse(Console.ReadLine());
-                        users.SendGroupMessage(DbContext, id1, user);
-                        break;
-                        case 8:
-                        Console.Clear();
-                        Console.WriteLine($"Hello, {user.Login}");
-                        Console.WriteLine("_______________________");
-                        users.ShowAllGroups();
-                        Console.Write("Enter groupID: ");
-                        var id2 = int.Parse(Console.ReadLine());
-                        users.RemoveUserFromGroup(DbContext, id2);
-                        break;
+                    
                 }
             }
         }
@@ -213,6 +177,64 @@ namespace Finaldb
             }
             catch (Exception ex) { Console.WriteLine(String.Format("Error: GetActiveUsers, {0}", ex.Message));}
         }
-        
+        public void GroupMenu(User user)
+        {
+            UserService users = new UserService();
+            using var DbContext = new ChatDbContext();
+            Group group = new Group();
+            Console.WriteLine("1. Add group");
+            Console.WriteLine("2. Show groups");
+            Console.WriteLine("3. Add user to group");
+            Console.WriteLine("4. Send group msg");
+            Console.WriteLine("5. Remove user from group");
+            int ch = int.Parse(Console.ReadLine());
+            switch(ch)
+            {
+                case 1:
+                    Console.Clear();
+                    Console.WriteLine($"Hello, {user.Login}");
+                    Console.WriteLine("_______________________");
+                    users.AddGroup(DbContext, user);
+                    break;
+                case 2:
+                    Console.Clear();
+                    Console.WriteLine($"Hello, {user.Login}");
+                    Console.WriteLine("_______________________");
+                    users.ShowAllGroups();
+                    break;
+                case 3:
+                    Console.Clear();
+                    Console.WriteLine($"Hello, {user.Login}");
+                    Console.WriteLine("_______________________");
+                    users.ShowAllGroups();
+                    Console.Write("Enter groupID: ");
+                    var id = int.Parse(Console.ReadLine());
+                    users.AddUserToGroup(DbContext, id);
+                    break;
+                    case 4:
+                    Console.Clear();
+                    Console.WriteLine($"Hello, {user.Login}");
+                    Console.WriteLine("_______________________");
+                    users.ShowAllGroups();
+                    Console.Write("Enter groupID: ");
+                    var id1 = int.Parse(Console.ReadLine());
+                    users.SendGroupMessage(DbContext, id1, user);
+                    break;
+                case 5:
+                    Console.Clear();
+                    Console.WriteLine($"Hello, {user.Login}");
+                    Console.WriteLine("_______________________");
+                    users.ShowAllGroups();
+                    Console.Write("Enter groupID: ");
+                    var id2 = int.Parse(Console.ReadLine());
+                    users.RemoveUserFromGroup(DbContext, id2);
+                    break;
+                case 0:
+                    Console.Clear();
+                    UserMenu(user);
+                    break;
+
+            }
+        }
     }
 }
