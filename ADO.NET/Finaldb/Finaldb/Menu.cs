@@ -231,6 +231,8 @@ namespace Finaldb
                     break;
                 case 0:
                     Console.Clear();
+                    Console.WriteLine($"Hello, {user.Login}");
+                    Console.WriteLine("_______________________");
                     UserMenu(user);
                     break;
 
