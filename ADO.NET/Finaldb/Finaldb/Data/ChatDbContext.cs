@@ -28,8 +28,8 @@ public partial class ChatDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=185.213.156.185;Database=ChatDb;User Id=student;Password=123;Encrypt=false;Application Name=Nurik");
-
+        => optionsBuilder.UseSqlServer("Server=185.213.156.185;Database=ChatDb;User Id=student;Password=123;Encrypt=false;Application Name=Nurik;");
+    //Server=185.213.156.185;Database=ChatDb;User Id=student;Password=123;Encrypt=false;Application Name=Nurik
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.UseCollation("Cyrillic_General_CI_AS");
