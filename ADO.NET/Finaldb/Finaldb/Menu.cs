@@ -42,9 +42,9 @@ namespace Finaldb
                         Console.Write("Enter login: ");
                         //if (!isDebug)
                         //{
-                        login = Console.ReadLine();
+                        login = "Nurik2k";
                         Console.Write("Enter password: ");
-                        password = Console.ReadLine();
+                        password = "56f";
                         //}
                         //else
                         //{
@@ -296,6 +296,7 @@ namespace Finaldb
                         Console.Clear();
                         Console.WriteLine($"Hello, {user.Login}");
                         Console.WriteLine("_______________________");
+                    users.ShowAllGroups();
                         Console.Write("Enter group id: ");
                         var idg = int.Parse(Console.ReadLine());
                         users.UserInGroup1(DbContext, idg);
