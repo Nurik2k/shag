@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XfxjZ6ugwza14Po+AABeQkWGX0EzuhuMrDs4oo35Q5dGUlqds3k+a1HOPnsSulQzRspvOcR/A+9SoylWkIz5Pg==",
+  "success": true,
+  "projectFilePath": "D:\\shag\\WPF\\Lesson_2\\Lesson_2\\Lesson_2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nurkw\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
