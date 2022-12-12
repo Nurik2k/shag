@@ -108,6 +108,9 @@
             <TabItem Header="Calendar">
                 <Calendar></Calendar>
             </TabItem>
+            <TabItem Header="DatePicker">
+                <DatePicker></DatePicker>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>
