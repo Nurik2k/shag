@@ -6,9 +6,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DZ1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="650">
+        Title="MainWindow" Height="650" Width="450">
     <Grid>
-        <Label x:Name="Lb"></Label>
-                
+        <StackPanel>
+        <Label  x:Name="labelTitle">Title</Label>
+        <Label  x:Name="labelDescription">Description</Label>
+        <Label  x:Name="labelManagingEditor">ManagingEditor</Label>
+        <Label  x:Name="labelGenerator">Generator</Label>
+        <Label  x:Name="labelPubdate">Pubdate</Label>
+            <TextBox Margin=""></TextBox>
+            
+        </StackPanel>
+        <DockPanel LastChildFill="False" VerticalAlignment="Bottom">
+            <Button HorizontalAlignment="Left" Margin="10"  x:Name="CreateXML" Content="Create XML" Click="CreateXML_Click"/>
+            <Button  x:Name="btnInfo" Margin="10" Content="Get Information" Click="btnInfo_Click"/>
+        </DockPanel>
     </Grid>
 </Window>
