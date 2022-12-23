@@ -1,0 +1,56 @@
+﻿<Page x:Class="KIWI.pageOperatorList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KIWI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="pageOperatorList">
+
+    <Grid>
+        <StackPanel>
+            <Grid>
+                <!--<ListBox x:Name="lbxOperatorList">
+                <ListBoxItem>
+                    <WrapPanel>
+                        <Label>Префиксы номеров телефонов</Label>
+                        <Label>Логотип компании</Label>
+                        <Label>Наименование сотового оператора</Label>
+                        <Label>Процент за обслуживание</Label>
+                    </WrapPanel>
+                </ListBoxItem>
+            </ListBox>-->
+            </Grid>
+            <ListView x:Name="lvOperatorList">
+                <ListView.View>
+                    <ListView.ContextMenu>
+                        <ContextMenu>
+                        <MenuItem Header="Edit"></MenuItem>
+                        </ContextMenu>
+                    </ListView.ContextMenu>
+                <GridView>
+                        <GridView.ColumnHeaderContextMenu>
+                            <ContextMenu>
+                                
+                            </ContextMenu>
+                        </GridView.ColumnHeaderContextMenu>
+                        <GridView.Columns>
+                            <GridViewColumn Header="Префиксы номеров телефонов" DisplayMemberBinding="{Binding Path=Prefix}" Width="250"></GridViewColumn>
+                            <GridViewColumn Header="Логотип компании">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Image Source="{Binding Path=Logo}" Width="30"></Image>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Наименование сотового оператора" DisplayMemberBinding="{Binding Path=Name}" Width="250"></GridViewColumn>
+                            <GridViewColumn Header="Процент за обслуживание" DisplayMemberBinding="{Binding Path=Percent}" Width="250"></GridViewColumn>
+                        </GridView.Columns>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Button Content="Edit" Width="200" x:Name="btnEdit" HorizontalAlignment="Right" Margin="0,10,10,0" Click="btnEditData_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Page>

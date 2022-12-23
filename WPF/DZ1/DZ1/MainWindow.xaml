@@ -14,7 +14,7 @@
         <Label  x:Name="labelManagingEditor">ManagingEditor</Label>
         <Label  x:Name="labelGenerator">Generator</Label>
         <Label  x:Name="labelPubdate">Pubdate</Label>
-            <TextBox Margin=""></TextBox>
+            
             
         </StackPanel>
         <DockPanel LastChildFill="False" VerticalAlignment="Bottom">
