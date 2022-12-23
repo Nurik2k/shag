@@ -23,3 +23,13 @@ D:\shag\WPF\KIWI\KIWI\obj\Debug\net7.0-windows\MainAuthWindow.g.cs
 D:\shag\WPF\KIWI\KIWI\obj\Debug\net7.0-windows\MainAuthWindow.baml
 D:\shag\WPF\KIWI\KIWI\obj\Debug\net7.0-windows\pageOperatorList.g.cs
 D:\shag\WPF\KIWI\KIWI\obj\Debug\net7.0-windows\pageOperatorList.baml
+D:\shag\WPF\KIWI\KIWI\bin\Debug\net7.0-windows\KIWI.dll.config
+D:\shag\WPF\KIWI\KIWI\bin\Debug\net7.0-windows\EntityFramework.SqlServer.dll
+D:\shag\WPF\KIWI\KIWI\bin\Debug\net7.0-windows\EntityFramework.dll
+D:\shag\WPF\KIWI\KIWI\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+D:\shag\WPF\KIWI\KIWI\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+D:\shag\WPF\KIWI\KIWI\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+D:\shag\WPF\KIWI\KIWI\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+D:\shag\WPF\KIWI\KIWI\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\shag\WPF\KIWI\KIWI\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\shag\WPF\KIWI\KIWI\obj\Debug\net7.0-windows\KIWI.csproj.CopyComplete

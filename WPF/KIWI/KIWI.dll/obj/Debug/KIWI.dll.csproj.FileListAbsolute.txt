@@ -1,0 +1,2 @@
+D:\shag\WPF\KIWI\KIWI.dll\obj\Debug\KIWI.dll.csproj.AssemblyReference.cache
+D:\shag\WPF\KIWI\KIWI.dll\obj\Debug\KIWI.dll.csproj.CoreCompileInputs.cache
