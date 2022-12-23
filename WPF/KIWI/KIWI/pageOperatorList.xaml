@@ -23,12 +23,13 @@
             </ListBox>-->
             </Grid>
             <ListView x:Name="lvOperatorList">
-                <ListView.View>
-                    <ListView.ContextMenu>
-                        <ContextMenu>
+                <ListView.ContextMenu>
+                    <ContextMenu>
                         <MenuItem Header="Edit"></MenuItem>
-                        </ContextMenu>
-                    </ListView.ContextMenu>
+                    </ContextMenu>
+                </ListView.ContextMenu>
+                <ListView.View>
+                   
                 <GridView>
                         <GridView.ColumnHeaderContextMenu>
                             <ContextMenu>
