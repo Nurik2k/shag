@@ -53,6 +53,8 @@
     <Compile Include="AccoutService.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="EntityModel.cs" />
+    <Compile Include="Operator.cs" />
+    <Compile Include="OperatorService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

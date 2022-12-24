@@ -4,6 +4,21 @@
     "D:\\shag\\WPF\\KIWI\\KIWI\\KIWI.csproj": {}
   },
   "projects": {
+    "D:\\shag\\WPF\\KIWI\\KIWI.dll\\KIWI.dll.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\shag\\WPF\\KIWI\\KIWI.dll\\KIWI.dll.csproj",
+        "projectName": "KIWI.dll",
+        "projectPath": "D:\\shag\\WPF\\KIWI\\KIWI.dll\\KIWI.dll.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "D:\\shag\\WPF\\KIWI\\KIWI\\KIWI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +42,11 @@
         "frameworks": {
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\shag\\WPF\\KIWI\\KIWI.dll\\KIWI.dll.csproj": {
+                "projectPath": "D:\\shag\\WPF\\KIWI\\KIWI.dll\\KIWI.dll.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

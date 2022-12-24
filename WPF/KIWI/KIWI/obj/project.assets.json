@@ -333,6 +333,15 @@
             "rid": "win"
           }
         }
+      },
+      "KIWI.dll/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/KIWI.dll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KIWI.dll.dll": {}
+        }
       }
     }
   },
@@ -1071,11 +1080,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "KIWI.dll/1.0.0": {
+      "type": "project",
+      "path": "../KIWI.dll/KIWI.dll.csproj",
+      "msbuildProject": "../KIWI.dll/KIWI.dll.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
-      "EntityFramework >= 6.4.4"
+      "EntityFramework >= 6.4.4",
+      "KIWI.dll >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1104,7 +1119,11 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\shag\\WPF\\KIWI\\KIWI.dll\\KIWI.dll.csproj": {
+              "projectPath": "D:\\shag\\WPF\\KIWI\\KIWI.dll\\KIWI.dll.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

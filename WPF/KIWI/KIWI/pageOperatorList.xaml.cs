@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using KIWI.dll;
 namespace KIWI
 {
     /// <summary>
@@ -23,15 +23,9 @@ namespace KIWI
         public pageOperatorList()
         {
             InitializeComponent();
-            List<Operator> operators = new List<Operator>();
-            operators.Add(new Operator()
-            {
-                Prefix = "+7 777",
-                Logo = "https://play-lh.googleusercontent.com/YSMd2aaFMmeUZrnivoPFXVmfE6756FefmGhKAWEIvbvMju5jhlIEj_bXlKiP1wMyiPk",
-                Name = "Beeline",
-                Percent = 0.5
-            });
-            lvOperatorList.ItemsSource = operators;
+         
+            OperatorService operatorService = new OperatorService();
+            lvOperatorList.ItemsSource = operatorService.GetOperators();
         }
         private void btnEditData_Click(object sender, RoutedEventArgs e)
         {

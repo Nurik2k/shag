@@ -10,6 +10,7 @@ namespace KIWI.dll
     public partial class AccoutService
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Key]
         public int Id { get; set; }
 
         [Required]

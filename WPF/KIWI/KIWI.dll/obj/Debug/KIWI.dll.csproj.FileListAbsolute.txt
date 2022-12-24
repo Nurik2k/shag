@@ -1,2 +1,12 @@
 D:\shag\WPF\KIWI\KIWI.dll\obj\Debug\KIWI.dll.csproj.AssemblyReference.cache
 D:\shag\WPF\KIWI\KIWI.dll\obj\Debug\KIWI.dll.csproj.CoreCompileInputs.cache
+D:\shag\WPF\KIWI\KIWI.dll\bin\Debug\KIWI.dll.dll.config
+D:\shag\WPF\KIWI\KIWI.dll\bin\Debug\KIWI.dll.dll
+D:\shag\WPF\KIWI\KIWI.dll\bin\Debug\KIWI.dll.pdb
+D:\shag\WPF\KIWI\KIWI.dll\bin\Debug\EntityFramework.dll
+D:\shag\WPF\KIWI\KIWI.dll\bin\Debug\EntityFramework.SqlServer.dll
+D:\shag\WPF\KIWI\KIWI.dll\bin\Debug\EntityFramework.xml
+D:\shag\WPF\KIWI\KIWI.dll\bin\Debug\EntityFramework.SqlServer.xml
+D:\shag\WPF\KIWI\KIWI.dll\obj\Debug\KIWI.dll.csproj.CopyComplete
+D:\shag\WPF\KIWI\KIWI.dll\obj\Debug\KIWI.dll.dll
+D:\shag\WPF\KIWI\KIWI.dll\obj\Debug\KIWI.dll.pdb

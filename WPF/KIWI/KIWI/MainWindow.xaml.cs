@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using KIWI.dll;
 namespace KIWI
 {
     /// <summary>
@@ -45,5 +45,6 @@ namespace KIWI
             mainAuthWindow.Show();
             this.Close();
         }
+
     }
 }

@@ -8,11 +8,12 @@ namespace KIWI.dll
     public partial class EntityModel : DbContext
     {
         public EntityModel()
-            : base("name=Model1")
+            : base("name=EntityModel")
         {
         }
 
         public virtual DbSet<AccoutService> AccoutServices { get; set; }
+        public virtual DbSet<Operator> Operators { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
