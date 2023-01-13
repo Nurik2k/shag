@@ -1,0 +1,15 @@
+D:\shag\csharp\Tasks\Tasks\bin\Debug\net7.0\Tasks.exe
+D:\shag\csharp\Tasks\Tasks\bin\Debug\net7.0\Tasks.deps.json
+D:\shag\csharp\Tasks\Tasks\bin\Debug\net7.0\Tasks.runtimeconfig.json
+D:\shag\csharp\Tasks\Tasks\bin\Debug\net7.0\Tasks.dll
+D:\shag\csharp\Tasks\Tasks\bin\Debug\net7.0\Tasks.pdb
+D:\shag\csharp\Tasks\Tasks\obj\Debug\net7.0\Tasks.csproj.AssemblyReference.cache
+D:\shag\csharp\Tasks\Tasks\obj\Debug\net7.0\Tasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\csharp\Tasks\Tasks\obj\Debug\net7.0\Tasks.AssemblyInfoInputs.cache
+D:\shag\csharp\Tasks\Tasks\obj\Debug\net7.0\Tasks.AssemblyInfo.cs
+D:\shag\csharp\Tasks\Tasks\obj\Debug\net7.0\Tasks.csproj.CoreCompileInputs.cache
+D:\shag\csharp\Tasks\Tasks\obj\Debug\net7.0\Tasks.dll
+D:\shag\csharp\Tasks\Tasks\obj\Debug\net7.0\refint\Tasks.dll
+D:\shag\csharp\Tasks\Tasks\obj\Debug\net7.0\Tasks.pdb
+D:\shag\csharp\Tasks\Tasks\obj\Debug\net7.0\Tasks.genruntimeconfig.cache
+D:\shag\csharp\Tasks\Tasks\obj\Debug\net7.0\ref\Tasks.dll
