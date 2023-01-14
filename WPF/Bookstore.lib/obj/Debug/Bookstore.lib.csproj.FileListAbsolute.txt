@@ -1,0 +1,6 @@
+D:\shag\WPF\Bookstore.lib\bin\Debug\Bookstore.lib.dll
+D:\shag\WPF\Bookstore.lib\bin\Debug\Bookstore.lib.pdb
+D:\shag\WPF\Bookstore.lib\obj\Debug\Bookstore.lib.csproj.AssemblyReference.cache
+D:\shag\WPF\Bookstore.lib\obj\Debug\Bookstore.lib.csproj.CoreCompileInputs.cache
+D:\shag\WPF\Bookstore.lib\obj\Debug\Bookstore.lib.dll
+D:\shag\WPF\Bookstore.lib\obj\Debug\Bookstore.lib.pdb
