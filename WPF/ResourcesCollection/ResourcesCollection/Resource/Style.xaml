@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="BigFontButtonStyle">
+        <Setter Property="Control.FontFamily" Value="Times New Roman"/>
+        <Setter Property="Control.FontSize" Value="18"/>
+        <Setter Property="Control.FontWeight" Value="Bold"/>
+    </Style>
+    <Style TargetType="Label">
+        <Setter Property="FontStyle" Value="Italic"/>
+    </Style>
+    <Style x:Key="BigFontStyle">
+        <Setter Property="Button.FontFamily" Value="Times New Roman"/>
+        <Setter Property="Button.FontSize" Value="18"/>
+        <Setter Property="TextBox.FontFamily" Value="Arial"/>
+        <Setter Property="Button.FontSize" Value="10"/>
+    </Style>
+    <Style x:Key="TitledElement">
+        <Setter Property="Control.Background">
+            <Setter.Value>
+                <ImageBrush TileMode="Tile" ViewboxUnits="Absolute" Viewport="0 0 32 32" ImageSource="/img/1.jpg" Opacity="0.3"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

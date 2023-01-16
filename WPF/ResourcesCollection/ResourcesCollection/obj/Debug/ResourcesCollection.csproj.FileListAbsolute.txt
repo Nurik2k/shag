@@ -1,0 +1,17 @@
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\bin\Debug\ResourcesCollection.exe.config
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\bin\Debug\ResourcesCollection.exe
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\bin\Debug\ResourcesCollection.pdb
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\ResourcesCollection.csproj.AssemblyReference.cache
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\ResourcesCollection.csproj.SuggestedBindingRedirects.cache
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\Resource\Style.baml
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\MainWindow.g.cs
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\App.g.cs
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\ResourcesCollection_MarkupCompile.cache
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\ResourcesCollection_MarkupCompile.lref
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\MainWindow.baml
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\ResourcesCollection.g.resources
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\ResourcesCollection.Properties.Resources.resources
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\ResourcesCollection.csproj.GenerateResource.cache
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\ResourcesCollection.csproj.CoreCompileInputs.cache
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\ResourcesCollection.exe
+D:\shag\WPF\ResourcesCollection\ResourcesCollection\obj\Debug\ResourcesCollection.pdb
