@@ -1,0 +1,12 @@
+D:\shag\WPF\FinalExam\FinalExam.lib\bin\Debug\FinalExam.lib.dll.config
+D:\shag\WPF\FinalExam\FinalExam.lib\bin\Debug\FinalExam.lib.dll
+D:\shag\WPF\FinalExam\FinalExam.lib\bin\Debug\FinalExam.lib.pdb
+D:\shag\WPF\FinalExam\FinalExam.lib\bin\Debug\EntityFramework.dll
+D:\shag\WPF\FinalExam\FinalExam.lib\bin\Debug\EntityFramework.SqlServer.dll
+D:\shag\WPF\FinalExam\FinalExam.lib\bin\Debug\EntityFramework.xml
+D:\shag\WPF\FinalExam\FinalExam.lib\bin\Debug\EntityFramework.SqlServer.xml
+D:\shag\WPF\FinalExam\FinalExam.lib\obj\Debug\FinalExam.lib.csproj.AssemblyReference.cache
+D:\shag\WPF\FinalExam\FinalExam.lib\obj\Debug\FinalExam.lib.csproj.CoreCompileInputs.cache
+D:\shag\WPF\FinalExam\FinalExam.lib\obj\Debug\FinalExam.lib.csproj.CopyComplete
+D:\shag\WPF\FinalExam\FinalExam.lib\obj\Debug\FinalExam.lib.dll
+D:\shag\WPF\FinalExam\FinalExam.lib\obj\Debug\FinalExam.lib.pdb

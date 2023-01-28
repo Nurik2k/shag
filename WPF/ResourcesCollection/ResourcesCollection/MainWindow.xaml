@@ -25,6 +25,10 @@
         <StackPanel Style="{StaticResource TitledElement}">
             <Button Content="Image"></Button>
         </StackPanel>
+
+        <StackPanel Orientation="Vertical">
+            <Button></Button>
+        </StackPanel>
     </StackPanel>
 
 </Window>
