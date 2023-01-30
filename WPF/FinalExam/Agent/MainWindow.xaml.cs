@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using System.Security.Policy;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -38,20 +39,21 @@ namespace Agent
                     this.Show();
                     this.WindowState = WindowState.Normal;
                 };
+            List<site> sites = ss.GetSites();
+            NotifyIcon notifyIcon = new NotifyIcon();
+            notifyIcon.Icon = new System.Drawing.Icon("Main.ico");
+            notifyIcon.Visible = true;
             while (true)
             {
-                List<site> sites = ss.GetSites();
                 foreach (site Site in sites)
                 {
-                    if (PingHost(Site)) { }
-                    else
-                    {
-                        NotifyIcon notifyIcon = new NotifyIcon();
-                        notifyIcon.Icon = new System.Drawing.Icon("Main.ico");
-                        notifyIcon.Visible = true;
+                    if (!PingHost(Site)) 
+                    { 
                         notifyIcon.ShowBalloonTip(5000, "Site is not available", Site.url, ToolTipIcon.Info);
                     }
                 }
+                Thread.Sleep(5000);
+                sites = ss.GetSites();
             }
         }
 
