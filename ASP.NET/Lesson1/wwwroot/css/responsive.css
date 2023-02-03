@@ -1,0 +1,272 @@
+/* Large desktop :1920px. */
+@media (min-width: 1920px) {
+    .container{width: 1230px}  
+    .header-area::after {width: 35.5%;}
+    .mailchimp-alerts {padding-left: 75px;}
+    .col-md-2:nth-child(3) .single-footer-widget {padding-left: 50px;}
+    .col-md-4:last-child .single-footer-widget {padding: 0 0 0 80px;}
+    .thumb > img {width: 100%;}
+    .single-room > img {width: 100%;}
+    .room-grid .hover-text {padding: 0 30px;}
+    .room-list .p-amount{width: 170px}
+    .team-image > img {max-width: 100%; width: 100%;}
+    .small .event-text > p {width: 86%;}
+    .location-image img {width: 100%;} 
+    .hover-text > p{padding: 0 20px}
+    .single-room:hover .hover-text > h3, .single-room.large:hover .hover-text > h3 {top: 35%;}
+    .hover-text .room-btn, .single-room.large .hover-text > .room-btn {bottom: 34%;}
+    .hover-text > p, .large .hover-text > p {bottom: 46%;}
+    .medium .hover-text > p {padding: 0 42px;}
+    .large .hover-text > p {padding: 0 80px;}
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+    .container{width: 970px}
+    .header-area::after {width: 35%;}
+    .box-select .select {margin-right: 15px; width: 150px;}
+    form.search-form {padding: 50px 45px;}
+    .p-amount {right: 6px;}
+    .p-amount > span {font-size: 20px;}
+    .hover-text .default-btn {margin-top: 12px;}
+    .tab-pane > img {max-width: 100%;}
+    span.title, span.text {margin: 0; padding-left: 70px;}
+    .nav-tabs > li > a {padding: 6px 0 8px;}
+    .nav-tabs > li {margin-bottom: 10px;}
+    span.image {left: 15px;}
+    .section-title {padding: 0 15px 37px;}
+    .team-image > img {max-width: 100%;}
+    .team-hover {padding: 28px 7px 25px;}
+    .advertise-text > h1 {font-size: 40px;}
+    .blog-hover {padding: 18px 0 6px;}
+    .post-info > span {padding-right: 14px;}
+    .blog-hover .default-btn {margin-top: 20px;}
+    .col-lg-4:last-child .single-footer-widget {padding: 0;}  
+    .main-menu ul li ul.submenu.megamenu > li {width: 142px;}
+    .room-grid .single-room:hover::after {transform: scaleY(0.78);}
+    .room-list img {width: 100%;}
+    .room-list-text {padding: 21px 0 16px;}
+    .event-text > p {width: 59%;}   
+    .single-event.small:hover .event-text > p {bottom: 20px;}
+    .banner-content h1 {padding-top: 120px;}
+    .hover-text .room-btn {bottom: 16%;}
+    .single-room:hover .hover-text > h3 {top: 18%;}
+    .hover-text > p {bottom: 32%;}
+    .single-room.large:hover .hover-text > h3 {top: 22%;}
+    .single-room.large .hover-text > p {bottom: 39%;}
+    .single-room.large .hover-text > .room-btn {bottom: 21%;}
+    .room-grid .single-room:hover .hover-text > h3 {top: 25%;}
+    .room-grid .single-room .hover-text .room-btn {bottom: 23%;}
+    .room-grid .single-room .hover-text > p {bottom: 41%; padding: 0;}
+    .room-grid .p-amount {top: 31%;}
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{width:750px} 
+    .header-area::after {height: 92px; width: 39%;}
+    .logo {padding: 24px 0;}
+    .header-top {border: 0 none; padding: 21px 0;}
+    .banner-content h1 {font-size: 50px;}
+    form.search-form {
+        box-shadow: none;
+        margin-top: 0;
+        padding: 50px 0;
+    }
+    .box-select .select {margin-right: 7px; width: 160px;}
+    .search-form button {width: 158px;}
+    .box-select .select.arrow {width: 107px;}
+    .hover-text > p, .team-hover > p, .main-menu, .room-list-text h4, .event-text > p {
+        display: none;
+    }
+    .hover-text .default-btn {margin-top: 0;}
+    .tab-pane > img {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .team-image > img {max-width: 100%;}
+    .team-links > a {margin: 0 10px;}
+    .advertise-text > h1 {font-size: 30px;}
+    .package-name > h1 {
+        font-size: 30px;
+        padding: 13px 0 19px;
+    }
+    .package-name > h3 {padding: 17px 0 15px;}
+    .signup-btn {padding: 0;}
+    .single-pricing {padding-bottom: 30px;}
+    .section-title {padding: 0 10px 37px;}
+    .post-info > span {padding-right: 16px;}
+    .blog-hover .default-btn {margin-top: 35px;}
+    .newsletter-container > h3 {font-size: 22px;}
+    .mailchimp-alerts {padding-left: 28px;}
+    .social-icons > a {margin-right: 10px;}
+    .c-info > span:last-child {padding-left: 42px;}
+    .col-lg-4:last-child .single-footer-widget {padding: 0;}
+    .footer-img img {width: 68px;}
+    .mobile-menu-area {display: block;}
+    .room-grid .hover-text > p {display: block;}
+    .room-list img {max-width: 100%;}
+    .room-list-text {padding: 3px 0;}
+    .room-list-text > h3 {margin-bottom: 5px;}
+    .room-service p {width: 75%;}
+    .room-list .p-amount {
+        height: 78px;
+        padding-top: 8px;
+        width: 84px;
+    }
+     .single-portfolio-item > img {max-width: 100%;}
+    .single-event:hover .event-title {bottom: 84px;}
+    .single-event:hover .event-text .author-name {bottom: 51px;}
+    .event-text::after {display: none;}
+    .event-text {padding-left: 20px;}
+    .event-menu button {padding: 0 6px;}
+    .link-social {margin-bottom: 50px;}
+    .header-sticky.sticky {position: inherit;}
+    .header-sticky.sticky .logo img {width: 100%;}
+    .room-details .box-select .select.arrow {width: 100%;}
+    .single-room.large .hover-text > .room-btn {bottom: 33%;}
+    .single-room:hover .hover-text > h3 {top: 36%;}
+    .hover-text .room-btn {bottom: 33%;}
+    .video-wrapper {margin-top: 0;}
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .container{width:300px}
+    .mobile-menu-area {display: block;}
+    .main-menu{display: none}
+    .header-area {
+        background: #b5876d none repeat scroll 0 0;
+        position: inherit;
+    }
+    .header-area::after, .banner-content p {display: none;}
+    .logo {padding: 28px 0; text-align: center;}
+    .banner-content h1 {font-size: 34px; padding-top: 0;}
+    .slider-area {height: 300px;}
+    form.search-form {
+        box-shadow: none;
+        margin: 0;
+        padding: 30px 0;
+    }
+    .box-select .select {
+        margin-bottom: 10px;
+        margin-right: 0;
+        width: 100%;
+    }
+    .search-form button {width: 100%;}
+    .owl-nav div {top: 33%;}
+    .section-title {padding: 0 0 20px;}
+    .single-room, .single-room.large, .single-room.small, .single-room.medium {margin-bottom: 20px; width: 100%;}
+    .ptb-90 {padding: 50px 0;}
+    .pt-90 {padding-top: 50px;}
+    .pb-90 {padding-bottom: 50px;}
+    .single-room.medium {margin-bottom: 0;}
+    .section-title > h3 {font-size: 20px;}
+    span.title, span.text {padding-left: 64px;}
+    span.image {left: 13px;}
+    .tab-pane img {margin-top: 20px; max-width: 100%;}
+    .single-fun-factor > h1 {font-size: 42px;}
+    .single-fun-factor > h4 {padding-top: 6px;}
+    .single-fun-factor {padding: 8px 0;}
+    .fun-factor-area {padding: 30px 0 35px;}
+    .gallery-filter button {padding: 0 5px;}
+    .gallery-item {width: 100%;}
+    .team-image > img {max-width: 100%;}
+    .team-hover {padding: 23px 0 15px;}
+    .single-team {margin-bottom: 20px;}
+    .team-section .single-team {margin-bottom: 30px;}
+    .advertise-text > h1 {
+        display: block;
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .advertise-text {padding: 32px 0; text-align: center;}
+    .advertise-text .default-btn {float: none; margin-top: 17px;}
+    .package-name > h1 {padding: 7px 0 13px;}
+    .package-name > h3 {padding: 15px 0;}
+    .package-offer > span {margin: 12px 0;}
+    .signup-btn {padding-top: 15px;}
+    .single-pricing {margin-bottom: 29px; padding-bottom: 30px;}
+    .col-md-4:last-child .single-pricing {margin-bottom: 0;}
+    .blog-hover {padding: 15px 0 20px;}
+    .post-info > span {padding: 0 3px;}
+    .blog-hover .default-btn {margin-top: 18px;}
+    .client-area {padding: 40px 0;}
+    .newsletter-form {
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    .newsletter-container > h3 {font-size: 19px;}
+    .newsletter-form input {margin: 10px 0; width: 100%;}
+    .newsletter-form button {float: none;}
+    .newsletter-area {padding: 40px 0;}
+    .footer-widget-area {padding: 50px 0 0;}
+    .col-lg-3:nth-child(2) .single-footer-widget {float: left;}
+    .col-lg-2:nth-child(3) .single-footer-widget, .col-lg-4:last-child .single-footer-widget {padding: 0;}
+    .single-footer-widget > h3 {margin-bottom: 20px;}
+    .single-footer-widget {margin-bottom: 45px;}
+    .c-info:last-child {margin: 0;}
+    .footer-img img {width: 82px;}
+    .team-area {padding: 50px 0 30px;}
+    .room-grid .hover-text {padding: 0;}
+    .room-grid .single-room:hover::after {transform: scaleY(0.8);}
+    .room-grid .single-room {margin-bottom: 25px;}
+    .breadcrumb-area {padding: 60px 0 50px;}
+    .breadcrumb-text h2 {font-size: 26px;}
+    .breadcrumb-bar .breadcrumb {padding: 7px 0 0; text-align: center;}
+    .breadcrumb-text > p, .event-text > p, .event-text::after {
+        display: none;
+    }
+    .room-list img {width: 100%;}
+    .room-list-text {padding: 15px 10px;}
+    .room-list-text > h3 {margin-bottom: 5px;}
+    .room-list-text h4 {padding: 3px 0 10px;}
+    .room-list {margin-bottom: 25px;}
+    .room-service p {width: 100%;}
+    .single-event:hover .event-title {bottom: 84px;}
+    .single-event:hover .event-text .author-name {bottom: 51px;}
+    .event-text {padding-left: 20px;}
+    .event-menu button {padding: 0 4px; line-height: 23px;}
+    .event-menu {margin-bottom: 30px;}
+    .event-area .single-event:nth-child(5) {margin-bottom: 10px;}
+    .sidebar-widget .box-select .select.arrow {width: 100%;}
+    .cost {height: 62px; padding: 0; width: 90px;}
+    .room-details-title {font-size: 22px;}
+    .room-details-text > p {margin-bottom: 10px;}
+    .single-facility {width: 100%;}
+    .room-details .single-room.large .hover-text {padding: 0 10px;}
+    .link-social {margin-bottom: 40px;}
+    .header-sticky.sticky {position: inherit;}
+    .header-sticky.sticky .logo img {width: 100%;}
+    .thumb > img {width: 100%;}
+    .newsletter-container h3, .newsletter-form form {float: none;}
+    .newsletter-form {display: block; float: none;}
+    .location-image img {width: 100%;}
+    .location-text > h3 {font-size: 22px;}
+    .single-room.large:hover .hover-text > h3 {top: 22%;}
+    .single-room.large .hover-text > p {bottom: 39%;}
+    .single-room.large .hover-text > .room-btn {bottom: 21%;}
+    .room-grid .single-room:hover .hover-text > h3 {top: 25%;}
+    .room-grid .single-room .hover-text .room-btn {bottom: 23%;}
+    .room-grid .single-room .hover-text > p {bottom: 41%; padding: 0;}
+    .room-grid .p-amount {top: 31%;}
+    .video-wrapper {margin-top: 0;}
+    .about-text {padding-top: 50px;}
+}
+    
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}  
+    .room-grid .single-room > img {width: 100%;}
+    .room-grid .single-room .hover-text > p {bottom: 43%; padding: 0 58px;}
+    .single-room img {width: 100%;}
+    .instagram-image .footer-img:nth-child(3) {margin-right: 8px;}
+    .room-grid .single-room:hover .hover-text > h3 {top: 30%;}
+    .room-grid .single-room .hover-text .room-btn {bottom: 28%;}
+    .room-grid .p-amount {top: 36%;}
+    .footer-img img {width: 62px;}
+    .hover-text{display: none}
+    .team-hover > p {padding: 0 20px;}
+}

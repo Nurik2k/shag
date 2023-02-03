@@ -1,0 +1,1134 @@
+/*-----------------------------------------------------------------------------------
+    
+    Template Name: Hotel ATR
+    Template URI: https://devitems.com/html/hotel-atr-preview/
+    Description: This is html5 template
+    Author: HasTech
+    Author URI: https://devitems.com/
+    Version: 1.0
+    
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. About Area
+    2. Room Area
+    3. Services Area
+    4. Fun Factor Area
+    5. Gallery Area
+    6. Team Area
+    7. Advertise Area
+    8. Pricing Area
+    9. Blog Area
+    10. Client Area
+    11. Newsletter Area
+    12. Room Grid / List Page
+    13. Room Details Page
+    14. Location Page
+    15. Event Page
+    16. Contact Page
+
+-----------------------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+/*  1. About Area
+/*----------------------------------------*/
+form.search-form {
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+    margin-top: -50px;
+    padding: 50px 70px;
+    position: relative;
+    z-index: 2;
+}
+.box-select .select {
+    border: 1px solid #dddddd;
+    float: left;
+    height: 48px;
+    margin-right: 30px;
+    width: 182px;
+}
+.select > select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 99;
+}
+.select > select:focus{outline: 0}
+.search-form button {
+    border: 0 none;
+    color: #ffffff;
+    line-height: 48px;
+    text-transform: uppercase;
+    width: 182px;
+}
+.box-select .select {position: relative;}
+.box-select .select::after {
+    content: "";
+    font-family: "Material-Design-Iconic-Font";
+    font-size: 18px;
+    position: absolute;
+    right: 9px;
+    top: 14px;
+    z-index: 1;
+}
+.box-select .select::after {content: "\f331";}
+.box-select .select.arrow::after {content: "\f2f2"; font-size: 24px; top: 8px}
+.about-text {padding-top: 90px;}
+.about-text .section-title {padding: 0;}
+.about-links > a {
+    border: 1px solid #f1f1f1;
+    color: #b5876d;
+    display: table;
+    float: left;
+    font-size: 18px;
+    height: 38px;
+    margin-right: 15px;
+    text-align: center;
+    transition: all 0.3s linear 0s;
+    width: 38px;
+}
+.about-links > a i {
+    display: table-cell;
+    vertical-align: middle;
+}
+.about-links > a:hover {
+    background: #b5876d none repeat scroll 0 0;
+    border-color: #b5876d;
+    color: #ffffff;
+}
+.about-links {padding-top: 37px;}
+.video-wrapper, .video-overlay {position: relative;}
+.video-overlay::after {
+    background: rgba(0, 0, 0, 0.25) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.video-wrapper:hover .video-overlay::after {opacity: 1;}
+.video-overlay > img {width: 100%;}
+.video-popup {
+    bottom: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 72px;
+    height: 60px;
+    left: 0;
+    line-height: 58px;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 60px;
+    z-index: 2;
+}
+.video-popup i {line-height: 58px}
+.video-wrapper .video-popup:hover {color: #c6c6c6}
+.video-wrapper:hover .video-popup {opacity: 1}
+/*----------------------------------------*/
+/*  2. Room Area
+/*----------------------------------------*/
+.room-area .container-fluid {padding: 0;}
+.single-room {
+    float: left;
+    width: 25%;
+    position: relative
+}
+.single-room.small { width: 22.95%;}
+.single-room.large {width: 29.1%;}
+.single-room.medium {width: 25%;}
+.single-room img {max-width: 100%;}
+.room-hover {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.room-hover:after {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease-in 0.4s;
+    width: 100%;
+}
+.single-room:hover .room-hover:after {opacity: 1; transition-delay: 0.2s;}
+.single-room > h3 {
+    color: #ffffff;
+    left: 50%;
+    margin-bottom: 19px;
+    opacity: 1;
+    padding: 0 20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.2s ease 0s;
+    width: 100%;
+    z-index: 1;
+}
+.single-room:hover > h3 {opacity: 0; transition-delay: 0s}
+.hover-text > h3 {
+    color: #ffffff;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.single-room:hover .hover-text > h3 {top: 26%;}
+.hover-text > p {
+    bottom: 41%;
+    color: #ffffff;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    transform: translateY(100px);
+    transition: all 0.3s ease-in-out 0.1s;
+}
+.large .hover-text > p{padding: 0 10px}
+.single-room:hover p {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.2s;
+}
+.hover-text > h3:hover a {color: #b5876d;}
+.hover-text {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.hover-text .room-btn {
+    bottom: 25%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    transform: translateY(100px);
+    transition: all 0.3s ease-in-out 0.1s;
+}
+.single-room:hover .room-btn {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: 0.5s;
+}
+.hover-text .default-btn {
+    display: inline-block;
+    line-height: 38px;
+    margin-top: 37px;
+    padding: 0 22px;
+}
+.p-amount {
+    bottom: 26px;
+    color: #ffffff;
+    position: absolute;
+    right: 28px;
+    transform: translateX(100px);
+    transition: all 0.3s ease-in-out 0.1s;
+    z-index: 2;
+}
+.p-amount > span {
+    display: block;
+    font-family: "Raleway",sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.p-amount > span.count {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 3px;
+}
+.single-room:hover .p-amount {
+    opacity: 1;
+    transform: translateX(0px);
+    transition-delay: 0.3s;
+}
+.single-room.large:hover .hover-text > h3 {top: 29%;}
+.single-room.large .hover-text > p {bottom: 44%;}
+.single-room.large .hover-text > .room-btn {bottom: 26%;}
+/*----------------------------------------*/
+/*  3. Services Area
+/*----------------------------------------*/
+.nav.nav-tabs {border: 0 none;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background: #b5876d none repeat scroll 0 0;
+    border: 0 none;
+    color: #ffffff;
+}
+.nav-tabs > li > a {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    line-height: 24px;
+    margin: 0;
+    padding: 10px 0 12px;
+}
+.title {
+    font-family: "raleway";
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+span.title, span.text {
+    color: #444444;
+    display: block;
+    padding-left: 80px;
+}
+span.image {
+    display: block;
+    left: 20px;
+    position: absolute;
+    top: 27px;
+}
+.nav-tabs > li {margin-bottom: 20px; width: 100%}
+.nav-tabs > li.active > a .title, .nav-tabs > li.active > a:focus .title, .nav-tabs > li.active > a:hover .title {
+    color: #ffffff;
+}
+.nav-tabs > li.active > a .text, .nav-tabs > li.active > a:focus .text, .nav-tabs > li.active > a:hover .text {
+    color: #ffffff;
+}
+.nav-tabs > li > a span {transition: all 0.2s ease 0s;}
+.nav-tabs > li:last-child {margin: 0;}
+
+span.image.s-img {
+    display: none;
+}
+.nav-tabs > li.active > a span.s-img, .nav-tabs > li.active > a:focus span.s-img, .nav-tabs > li.active > a:hover span.s-img {
+    display: block;
+}
+/*----------------------------------------*/
+/*  4. Fun Factor Area
+/*----------------------------------------*/
+.fun-factor-area {padding: 57px 0 69px;}
+.single-fun-factor > h1 {
+    color: #ffffff;
+    font-family: "Lato",sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.single-fun-factor > h4 {
+    color: #ffffff;
+    font-family: "Lato",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 17px;
+    text-transform: uppercase;
+}
+/*----------------------------------------*/
+/*  5. Gallery Area
+/*----------------------------------------*/
+.gallery-item {width: 25%; overflow: hidden;}
+.thumb > img {max-width: 100%;}
+.gallery-hover a {
+    border: 1px solid #fbfafa;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-table;
+    font-size: 24px;
+    height: 38px;
+    margin: 0 8px;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s linear 0s;
+    width: 38px;
+}
+.gallery-hover {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scaleY(0);
+    transition: all 0.5s ease 0s;
+    visibility: hidden;
+    width: 100%;
+}
+.gallery-item:hover .gallery-hover {
+    opacity: 1;
+    transform: scaleY(1);
+    visibility: visible;
+}
+.gallery-icon {
+    bottom: 0;
+    height: 40px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+.gallery-hover a i {
+    display: table-cell;
+    vertical-align: middle;
+}
+.gallery-hover a:hover {
+    background: #ffffff none repeat scroll 0 0;
+    color: #b5876d;
+}
+.gallery-filter, .event-menu {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.gallery-filter button, .event-menu button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color: #444444;
+    font-family: "raleway";
+    font-size: 18px;
+    line-height: 17px;
+    padding: 0 21px;
+}
+.gallery-filter button:focus, .gallery-filter button.active, .event-menu button:focus, .event-menu button.active {
+    color: #b5876d;
+}
+.gallery-icon span {
+    left: 50%;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    vertical-align: middle;
+}
+.gallery-icon span img{transition: all 0.3s ease-in-out 0s}
+.gallery-icon span.s-img, .gallery-icon a:hover span.p-img {display: none;}
+.gallery-icon a:hover span.s-img {display: block;}
+/*----------------------------------------*/
+/*  6. Team Area
+/*----------------------------------------*/
+.single-team {
+    position: relative;
+    text-align: center;
+    overflow: hidden
+}
+.team-image > img {max-width: 100%;}
+.team-hover > h4 {
+    color: #ffffff;
+    margin-bottom: 2px;
+    transform: translate3d(0px, 200%, 0px);
+    transition: transform 0.25s ease 0s;
+}
+.single-team:hover .team-hover h4 {
+    transform: translate3d(0px, 0px, 0px);
+    transition-delay: 0.3s;
+}
+.team-hover span {
+    color: #ffffff;
+    font-family: "raleway";
+    font-size: 16px;
+    margin-bottom: 14px;
+    transform: translate3d(0px, 200%, 0px);
+    transition: transform 0.25s ease 0s;
+}
+.single-team:hover .team-hover span {
+    transform: translate3d(0px, 0px, 0px);
+    transition-delay: 0.4s;
+}
+.team-hover > p {
+    color: #ffffff;
+    margin-bottom: 12px;
+    transform: translate3d(0px, 200%, 0px);
+    transition: transform 0.25s ease 0s;
+}
+.single-team:hover .team-hover p {
+    transform: translate3d(0px, 0px, 0px);
+    transition-delay: 0.5s;
+}
+.team-links a {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 20px;
+    transform: translate3d(0px, 200%, 0px);
+    transition: transform 0.35s ease 0s;
+}
+.single-team:hover .team-links a {transform: translate3d(0px, 0px, 0px);}
+.single-team:hover .team-links a:nth-child(1) {transition-delay: 0.7s;}
+.single-team:hover .team-links a:nth-child(2) {transition-delay: 0.9s;}
+.single-team:hover .team-links a:nth-child(3) {transition-delay: 1.1s;}
+.team-links > a:hover {color: #b5876d;}
+.team-hover {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: -100%;
+    left: 0;
+    padding: 28px 32px 25px;
+    position: absolute;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+}
+.single-team:hover .team-hover {bottom: 0;}
+.team-section .single-team {margin-bottom: 50px}
+/*----------------------------------------*/
+/*  7. Advertise Area
+/*----------------------------------------*/
+.advertise-text {
+    overflow: hidden;
+    padding: 75px 0;
+}
+.advertise-text > h1 {
+  color: #ffffff;
+  float: left;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+.advertise-text span {color: #b5876d;}
+.advertise-text .default-btn {
+    float: right;
+    line-height: 48px;
+    padding: 0 25px;
+    text-transform: uppercase;
+}
+/*----------------------------------------*/
+/*  8. Pricing Area
+/*----------------------------------------*/
+.package-name > h3 {
+    color: #252525;
+    font-family: "Lato",sans-serif;
+    padding: 44px 0 25px;
+}
+.single-pricing {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-bottom: 1px solid #b5876d;
+    border-top: 1px solid #b5876d;
+    padding-bottom: 49px;
+    text-align: center;
+}
+.package-name > h1 {
+    background: #ffffff none repeat scroll 0 0;
+    color: #535353;
+    font-family: "Lato",sans-serif;
+    font-size: 50px;
+    padding: 30px 0 36px;
+}
+.package-name h1 span {font-size: 20px;}
+.package-name h1 .currency {
+    position: relative;
+    top: -20px;
+}
+.package-offer {padding-top: 10px;}
+.package-offer > span {
+    color: #606060;
+    display: block;
+    font-size: 18px;
+    margin: 16px 0;
+}
+.signup-btn {padding-top: 33px;}
+.signup-btn a {
+    background: #ffffff none repeat scroll 0 0;
+    color: #606060;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 38px;
+    padding: 0 21px;
+    text-transform: uppercase;
+}
+.signup-btn a::before {
+    background: #b5876d none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scaleY(0);
+    transform-origin: 50% 0 0;
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    z-index: -1;
+}
+.signup-btn a:hover, .signup-btn a:focus, .signup-btn a:active {}
+.signup-btn a:hover::before, .signup-btn a:focus::before, .signup-btn a:active::before {
+    transform: scaleY(1);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.single-pricing.best-offer {box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);}
+.best-offer .package-name > h1, .best-offer .signup-btn a {color: #b5876d;}
+.signup-btn a:hover {color: #ffffff;}
+.package-offer > span.light {color: #bbbbbb;}
+/*----------------------------------------*/
+/*  9. Blog Area
+/*----------------------------------------*/
+.single-blog-wrapper {position: relative; overflow: hidden}
+.blog-text {border: 1px solid #dfdfdf; padding: 26px 0 29px;}
+.single-blog {text-align: center;}
+.blog-text > h3, .blog-hover > h3 {
+    color: #252525;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+}
+.blog-text .time, .blog-hover > span {
+    color: #909090;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+.blog-text .time, .blog-hover > span{color: }
+.blog-text .time i, .blog-hover > span i {font-size: 14px; padding-right: 5px;}
+.blog-hover {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #dfdfdf;
+    bottom: 0;
+    height: 100%;
+    left: -100%;
+    padding: 26px 26px 6px;
+    position: absolute;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.blog-hover > p {color: #252525; padding-top: 13px;}
+.post-info > span {
+    display: inline-block;
+    font-size: 13px;
+    padding-right: 35px;
+}
+.post-info > span a {color: #909090;}
+.post-info > span a:hover {color: #444;}
+.post-info > span i {padding-right: 5px;}
+.post-info > span:last-child {padding-right: 0;}
+.post-info {padding-top: 14px;}
+.blog-hover .default-btn {
+    line-height: 38px;
+    margin-top: 48px;
+    padding: 0 21px;
+}
+.blog-hover .default-btn::before {background: #131313 none repeat scroll 0 0;}
+.blog-hover .default-btn::hover {color: #fff;}
+.blog-hover .default-btn::before {color: #B5876D;}
+.single-blog-wrapper:hover .blog-hover {left: 0;}
+.blog-hover > h3:hover a{color: #B5876D}
+.blog-hover > p {transform: translate3d(0px, 350%, 0px); transition: transform 1s ease 0s;}
+.post-info > span {transition: transform 1s ease 0s;}
+.post-info > span:first-child {transform: translate3d(-500%, 0px, 0px);}
+.post-info > span:nth-child(2) {transform: translate3d(-550%, 0px, 0px);}
+.post-info > span:nth-child(3) {transform: translate3d(-600%, 0px, 0px);}
+.blog-hover .default-btn {transform: translate3d(0px, 700%, 0px); transition: transform 0.4s ease 0s;}
+.single-blog-wrapper:hover .blog-hover > p, .single-blog-wrapper:hover .post-info > span, .single-blog-wrapper:hover .blog-hover .default-btn {
+    transform: translate3d(0px, 0px, 0px);
+}
+.single-blog-wrapper:hover .blog-hover > p {transition-delay: .4s;}
+.single-blog-wrapper:hover .post-info > span:last-child {transition-delay: 1.2s;}
+.single-blog-wrapper:hover .post-info > span:nth-child(2) {transition-delay: 1.7s;}
+.single-blog-wrapper:hover .post-info > span:first-child {transition-delay: 2s;}
+.single-blog-wrapper:hover .blog-hover .default-btn {transition-delay: 2.3s;}
+/*----------------------------------------*/
+/*  10. Client Area
+/*----------------------------------------*/
+.client-area {padding: 68px 0 61px;}
+.client-image > a {display: table-cell; vertical-align: middle;}
+.single-client {
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+.client-image {display: inline-table; height: 100%;}
+.owl-carousel .owl-item .client-image .s-img, .single-client:hover .p-img {display: none;}
+.owl-carousel .owl-item .single-client:hover .client-image .s-img {display: block;}
+/*----------------------------------------*/
+/*  11. Newsletter Area
+/*----------------------------------------*/
+.newsletter-container h3 {
+    float: left;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+.newsletter-container {overflow: hidden; padding: 0 25px;}
+.newsletter-form {overflow: hidden;}
+.newsletter-area { padding: 80px 0;}
+.newsletter-form input {
+    border: 1px solid #b7b6b6;
+    color: #4d4d4d;
+    font-family: "raleway";
+    font-size: 14px;
+    height: 38px;
+    padding: 0 8px;
+    width: 284px;
+}
+.newsletter-form input#mc-email::-moz-placeholder {color: #4d4d4d;} 
+.newsletter-form input[type="email"]::-webkit-input-placeholder {color: #4d4d4d;}
+.newsletter-form form {float: right;}
+.mailchimp-alerts {
+    display: block;
+    overflow: hidden;
+    padding-left: 53px;
+    width: 100%;
+}
+.newsletter-form button {
+    border: 0 none;
+    float: right;
+    line-height: 38px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+.newsletter-form button::before, .search-form button:before {background: #131313 none repeat scroll 0 0;}
+.newsletter-form button:hover, .search-form button:hover {color: #fff}
+/*----------------------------------------*/
+/*  12. Room Grid / List Page
+/*----------------------------------------*/
+.room-grid {position: relative;}
+.room-grid .single-room {padding: 0; width: 100%;}
+.room-grid .p-amount {
+    left: 0;
+    margin-bottom: 6px;
+    opacity: 0;
+    right: 0;
+    top: 36%;
+    transition: all 0.3s ease-in-out 0.2s;
+    bottom: auto
+}
+.room-grid .single-room:hover .p-amount {opacity: 1;}
+.room-grid .p-amount > span {
+    display: inline-block;
+    font-size: 24px;
+}
+.room-grid .p-amount > span.count {font-size: 15px;}
+.room-grid .hover-text h3 {margin-bottom: 18px;}
+.room-grid .single-room:hover .hover-text > h3 {top: 30%;}
+.room-grid .single-room .hover-text .room-btn {bottom: 28%;}
+.room-grid .hover-text .default-btn {margin-top: 26px;}
+.room-grid .single-room {margin-bottom: 50px;}
+.room-grid .single-room .room-hover {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
+.room-grid .single-room::after {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: scaleY(1);
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.room-grid .hover-text {z-index: 2;}
+.room-grid .single-room:hover::after {transform: scaleY(0.57);}
+.room-grid .single-room .hover-text > p {bottom: 42%; padding: 0 20px;}
+.room-grid .single-room:hover .hover-text .default-btn {bottom: 28%;}
+.room-list a {display: block;}
+.room-list-text > h3:hover a {color: #b5876d;}
+.room-service p {font-family: "raleway"; width: 77%;}
+.room-list-text > h3 {margin-bottom: 15px;}
+.room-list-text h4 {padding: 15px 0 18px;}
+.room-list {
+    margin-bottom: 50px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.room-list::after {
+    background: #ffffff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+.room-list img {position: relative; z-index: 2;}
+.room-list .p-amount {
+    background: #b5876d none repeat scroll 0 0;
+    bottom: 0;
+    height: 101px;
+    opacity: 0;
+    padding-top: 20px;
+    right: 15px;
+    text-align: center;
+    transform: translateX(0px);
+    transition: all 0.3s ease 0s;
+    width: 150px;
+}
+.room-list-text {
+    padding-bottom: 48px;
+    padding-top: 58px;
+}
+.room-list:hover .p-amount {opacity: 1;}
+.room-list:hover::after {background: #b5876d none repeat scroll 0 0;}
+.room-list:hover {box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.1);}
+/*----------------------------------------*/
+/*  13. Room Details Page
+/*----------------------------------------*/
+.slick-list{padding: 0 !important}
+.slick-slide img {width: 100%;}
+.slider-nav .slick-slide {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.nav-row {
+    margin-left: -11px;
+    margin-right: -11px;
+}
+.room-slider {margin-bottom: 20px;}
+.slider-nav {
+    position: relative;
+    overflow: hidden;
+}
+.slick-prev, .slick-next {font-size: 0; padding: 0}
+.slick-arrow {
+    background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+    border: 0 none;
+    height: 100%;
+    left: 11px;
+    position: absolute;
+    top: 0;
+    width: 30px;
+    z-index: 9;
+}
+.slick-next {left: auto; right: 9px;}
+.slick-prev::before, .slick-next::before {
+    color: #444444;
+    content: "\f2f4";
+    font-family: "Material-Design-Iconic-Font";
+    font-size: 48px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transition: all 0.3s ease 0s;
+    width: 16px;
+    transform: translate(-50%, -50%)
+}
+.slick-next:before {content: "\f2f6";}
+.room-details-title {
+    line-height: 18px;
+    margin-bottom: 34px;
+    position: relative;
+    text-transform: uppercase;
+}
+.room-details-title::after {
+    background: #b5876d none repeat scroll 0 0;
+    bottom: -10px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 90px;
+}
+.room-details-text {padding-top: 50px;}
+.room-details-text > p {margin-bottom: 24px;}
+.room-facilities {
+    margin-bottom: 32px;
+    overflow: hidden;
+    padding-top: 22px;
+}
+.single-facility > span {
+    display: block;
+    font-family: "raleway";
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.single-facility {float: left; width: 33.3333%;}
+.single-faciity {padding-top: 1px;}
+.single-facility span i {font-size: 18px; padding-right: 10px;}
+.cost > h2, .cost span {color: #ffffff;}
+.cost {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    height: 100px;
+    padding: 20px 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 170px;
+}
+.cost > span {
+    display: block;
+    font-family: "raleway";
+    font-size: 15px;
+    padding-top: 5px;
+}
+.zmdi-check {color: #1db000;}
+.zmdi-close {color: #ff0101;}
+.room-area .room-details-title {margin-bottom: 40px;}
+.cost > h2, .cost span {color: #ffffff;}
+.cost {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    height: 100px;
+    padding: 20px 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 170px;
+}
+.cost > span {
+    display: block;
+    font-family: "raleway";
+    font-size: 15px;
+    padding-top: 5px;
+}
+.sidebar-widget form.search-form {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar-widget .box-select .select {
+    background: #ffffff none repeat scroll 0 0;
+    border-color: #ffffff;
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 100%;
+}
+.sidebar-widget .search-form button {
+    margin-top: 20px;
+    width: 100%;
+}
+.sidebar-widget {
+    background: #f1f1f1 none repeat scroll 0 0;
+    margin-bottom: 50px;
+    padding: 24px 20px 30px;
+}
+.sidebar-widget .room-details-title {
+    font-size: 18px;
+    margin-bottom: 27px;
+    padding-top: 6px;
+}
+.sidebar-widget .room-details-title::after {bottom: -7px;}
+.sidebar-widget .c-info > span:first-child {
+    border: 0 none;
+    text-align: left
+}
+.sidebar-widget .c-info:hover > span:first-child{background: transparent; color: #252525}
+.sidebar-widget .c-info {margin-bottom: 12px;}
+.sidebar-widget .c-info-text{margin-bottom: 12px}
+.sidebar-widget .c-info:last-child {margin: 0;}
+.sidebar-widget .c-info > span:last-child {padding-left: 44px;}
+.post-img > img {max-width: 100%;}
+.post-img {float: left;}
+.post-content {
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.post-text {
+    overflow: hidden;
+    padding-left: 24px;
+}
+.post-text h4 {
+    font-family: "Lato",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 11px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+}
+.post-text h4:hover a {color: #b5876d;}
+.post-text > span {
+    color: #909090;
+    display: block;
+    font-size: 13px;
+}
+.post-content:last-child {margin: 0;}
+
+.room-details .single-room.large .hover-text {padding: 0 80px;}
+/*----------------------------------------*/
+/*  14. Location Page
+/*----------------------------------------*/
+.location-image a {
+    display: block;
+    position: relative;
+    overflow: hidden
+}
+.location-image a::before {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scaleY(0);
+    transition: all 0.5s ease 0s;
+    visibility: hidden;
+    width: 100%;
+}
+.location-image a:hover::before {
+    opacity: 1;
+    transform: scaleY(1);
+    visibility: visible;
+}
+.location-image a::after {
+    color: #ffffff;
+    content: "";
+    font-family: "Material-Design-Iconic-Font";
+    font-size: 48px;
+    left: 50%;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease 0s;
+}
+.location-image a:hover::after {opacity: 1;}
+.location-text > h3 {
+    color: #252525;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+.location-text > h3:hover a {color: #b5876d;}
+.location-text {padding-top: 25px;}
+.address-distance > span {display: inline-block; font-size: 15px;}
+.address-distance > span:first-child {float: left;}
+.address-distance > span:last-child {float: right;}
+.single-location {margin-bottom: 70px;}
+/*----------------------------------------*/
+/*  15. Event Page
+/*----------------------------------------*/
+.event-items {margin-left: -5px; margin-right: -5px}
+.single-event {
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+.single-event-item > img {width: 100%;}
+.single-event-item {position: relative;}
+.event-text {
+    height: 100%;
+    left: 0;
+    padding-left: 39px;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.event-text::before {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.single-event:hover .event-text::before {opacity: 1;}
+.event-title {
+    bottom: 45px;
+    color: #ffffff;
+    position: absolute;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    z-index: 1;
+}
+.single-event:hover .event-title {bottom: 140px;}
+.event-text .author-name {
+    bottom: -90%;
+    color: #b5876d;
+    position: absolute;
+    transition: all 0.8s ease 0s;
+    z-index: 1;
+}
+.event-text > p {
+    bottom: -200%;
+    color: #ffffff;
+    position: absolute;
+    transition: all 1s ease 0s;
+    width: 48%;
+    z-index: 1;
+}
+.small .event-text > p {width: 93%;}
+.single-event:hover .event-text > p {bottom: 37px; transition-delay: 0.25s;}
+.single-event:hover .event-text .author-name {
+    bottom: 108px;
+    transition-delay: 0.1s;
+}
+.event-text::after {
+    background: #ffffff none repeat scroll 0 0;
+    bottom: 53px;
+    content: "";
+    height: 0;
+    left: 29px;
+    position: absolute;
+    transition: all 0.8s ease 0s;
+    width: 1px;
+}
+.single-event:hover .event-text::after {
+    height: 110px;
+    transition-delay: 0.5s;
+}
+.event-area .single-event:nth-child(5), .event-area .single-event:nth-child(6) {margin: 0;}
+/*----------------------------------------*/
+/*  16. Contact Page
+/*----------------------------------------*/
+h4.contact-title {
+    font-size: 24px;
+    line-height: 18px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.contact-text > p {
+    line-height: 24px;
+    margin-bottom: 13px;
+}
+.contact-text i {font-size: 18px;}
+span.c-icon {display: inline-block; float: left;}
+span.c-icon i {
+    position: relative;
+    top: 3px;
+    width: 27px;
+}
+span.c-text {display: inline-block;}
+.contact-text {margin-bottom: 55px;}
+.link-social > a {
+    color: #444;
+    display: inline-block;
+    line-height: 19px;
+    margin-right: 27px;
+}
+.link-social > a:hover {color: #B5876D}
+.link-social > a i {font-size: 20px;}
+.contact-form-area input, .contact-form-area textarea {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border: 0 none;
+    color: #444444;
+    font-size: 14px;
+    height: 48px;
+    margin-bottom: 20px;
+    padding: 0px 15px;
+    width: 100%;
+}
+.contact-form-area textarea {
+    height: 150px;
+    padding-top: 13px;
+    resize: none;
+}
+#contact-form input::-moz-placeholder, #contact-form textarea::-moz-placeholder {color: #444;} 
+#contact-form input::-webkit-input-placeholder, #contact-form textarea::-webkit-input-placeholder {color: #444;}
+#contact-form button.default-btn {
+    border: 0 none;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 35px;
+}
+#contact-form button.default-btn::before {background: #333333 none repeat scroll 0 0;}

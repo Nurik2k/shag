@@ -1,0 +1,105 @@
+/* -----------------------------------
+Template Name: Hotel ATR
+Template URI: https://devitems.com/html/hotel-atr-preview/
+Description: This is html5 template
+Author: HasTech
+Author URI: https://devitems.com/
+Version: 1.0
+NOTE: This is Slider style file. All Slider related style included in this file.
+
+--------------------------------------*/
+.slider-area {position: relative; overflow: hidden;}
+.slider-area img {width: 100%;}
+.slider-area, .banner-content,.single-slide, .owl-item, .owl-stage, .slider-wrapper, .owl-stage-outer, .banner-content .container, .banner-content .row, .banner-content .col-md-10, .banner-content .text-content-wrapper, .banner-content .text-content, .banner-content .display-table, .banner-content .display-table-cell{
+    height: 100%;
+} 
+.slider-area {position: relative; overflow: hidden; height: 100vh;}
+.text-content-wrapper, .slider-area img {width: 100%;}
+.banner-content .text-content-wrapper {display: table;}
+.banner-content .text-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-btn {
+    clear: both;
+    display: block;
+}
+.banner-btn a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    padding: 0 42px;
+    text-transform: uppercase;
+    background: #fff;
+    color: #b5876d
+}
+.banner-btn a:before {
+    background: rgba(181, 135, 109, 1); 
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    -webkit-transform-origin: 50% 0 0;
+            transform-origin: 50% 0 0;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+    z-index: -1;
+}
+.banner-btn a:hover, .banner-btn a:focus, .banner-btn a:active {color: #fff}
+.banner-btn a:hover:before, .banner-btn a:focus:before, .banner-btn a:active:before {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+            transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.slider-area .button-default{display: inline;}
+.banner-content h1 {
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-transform: uppercase
+}
+.banner-content p {
+    margin-bottom: 39px;
+    color: #fff
+}
+.slider-area .owl-item.active .banner-content h1, .slider-area .owl-item.active .banner-content p, .slider-area .owl-item.active .banner-content .banner-btn{
+    animation: 1500ms ease-in-out 0s normal both 1 running fadeInUp;
+} 
+.slider-area .owl-item.active .banner-content h1 {animation-delay: 1000ms} 
+.slider-area .owl-item.active .banner-content p {animation-delay: 2000ms} 
+.slider-area  .owl-item.active .banner-content .banner-btn {animation-delay: 3000ms} 
+.owl-nav div {
+    background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+    color: #444;
+    font-size: 30px;
+    height: 46px;
+    left: -46px;
+    line-height: 43px;
+    position: absolute;
+    text-align: center;
+    top: 56%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 46px;
+    z-index: 999;
+}
+.owl-nav .owl-next {left: auto; right: -46px;}
+.slider-area:hover .owl-nav div {left: 0;}
+.slider-area:hover .owl-nav .owl-next {left: auto;  right: 0;}
+.owl-nav div:hover{background: #B5876D; color: #fff}
+.single-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
