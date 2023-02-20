@@ -67,9 +67,9 @@
                                         <li>
                                             <a href="#">Megamenu List</a>
                                             <ul>
-                                                <li><a href="location.html">Location</a></li>
-                                                <li><a href="room-grid.html">Room Grid</a></li>
-                                                <li><a asp-action="Index" asp-controller="Room">Room List</a></li>
+                                                <li><a asp-action="Location" asp-controller="Home">Location</a></li>
+                                                <li><a asp-action="Index" asp-controller="Room">Room Grid</a></li>
+                                                <li><a asp-action="RoomList" asp-controller="Room">Room List</a></li>
                                                 <li><a asp-action="RoomDetails" asp-controller="Room">Room Details</a></li>
                                                 <li><a href="#">Mega menu</a></li>
                                             </ul>
@@ -77,10 +77,10 @@
                                         <li>
                                             <a href="#">Megamenu List</a>
                                             <ul>
-                                                <li><a href="event.html">Event</a></li>
+                                                <li><a asp-action="Index" asp-controller="Event">Event</a></li>
                                                 <li><a href="#">Mega menu</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="team.html">Team</a></li>
+                                                <li><a asp-action="Contact" asp-controller="Home">Contact</a></li>
+                                                <li><a asp-action="Index" asp-controller="Team">Team</a></li>
                                                 <li><a href="#">Mega menu</a></li>
                                             </ul>
                                         </li>
@@ -96,10 +96,10 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="location.html">LOCATION</a></li>
-                                <li><a href="event.html">EVENT</a></li>
-                                <li><a href="team.html">TEAM</a></li>
-                                <li><a href="contact.html">CONTACT</a></li>
+                                <li><a asp-action="Location" asp-controller="Home">LOCATION</a></li>
+                                <li><a asp-action="Index" asp-controller="Event">EVENT</a></li>
+                                <li><a asp-action="Index" asp-controller="Team">TEAM</a></li>
+                                <li><a asp-action="Contact" asp-controller="Home">CONTACT</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -115,7 +115,7 @@
                         <div class="mobile-menu">
                             <nav id="dropdown">
                                 <ul>
-                                    <li><a href="index.html">HOME</a></li>
+                                    <li><a asp-action="Index" asp-controller="Home">HOME</a></li>
                                     <li>
                                         <a asp-action="Index" asp-controller="Room">ROOMS</a>
                                         <ul class="submenu">
@@ -123,10 +123,10 @@
                                             <li><a asp-action="RoomDetails" asp-controller="Room">ROOM DETAILS</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="location.html">LOCATION</a></li>
-                                    <li><a href="event.html">EVENT</a></li>
-                                    <li><a href="team.html">TEAM</a></li>
-                                    <li><a href="contact.html">CONTACT</a></li>
+                                    <li><a asp-action="Location" asp-controller="Home">LOCATION</a></li>
+                                    <li><a asp-action="Index" asp-controller="Event">EVENT</a></li>
+                                    <li><a asp-action="Index" asp-controller="Team">TEAM</a></li>
+                                    <li><a asp-action="Contact" asp-controller="Home">CONTACT</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -183,11 +183,11 @@
                             <h3>quick links</h3>
                             <ul class="footer-list">
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="team.html">Stuffs</a></li>
+                                <li><a asp-action="Index" asp-controller="Team">Stuffs</a></li>
                                 <li><a href="room-grid.html">Suits &amp; Rooms</a></li>
-                                <li><a href="event.html">Event</a></li>
-                                <li><a href="location.html">Location</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a asp-action="Index" asp-controller="Event">Event</a></li>
+                                <li><a asp-action="Location" asp-controller="Home">Location</a></li>
+                                <li><a asp-action="Contact" asp-controller="Home">Contact</a></li>
                             </ul>
                         </div>
                     </div>

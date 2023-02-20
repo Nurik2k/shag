@@ -1,10 +1,34 @@
-﻿@{
+﻿@model IEnumerable<Product>
+@{
     ViewData["Title"] = "Home Page";
     DateTime CurrentDate = ViewBag.CurrentDate;
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <h2>@ViewBag.CurrentDate | @CurrentDate</h2>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <table class="table table-bordered table-sm table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model == null)
+            {
+                <tr>
+                    <td colspan="3">No Model Data</td>
+                </tr>
+            }
+            else
+            {
+                foreach (Product item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@string.Format("{0:C2}", item.Price)</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
 </div>

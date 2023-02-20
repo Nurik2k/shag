@@ -13,11 +13,15 @@ namespace WebAppMVCLesson1.Admin.Controllers
             _logger = logger;
         }
 
+        //public IActionResult Index()
+        //{
+        //    ViewBag.CurrentDate = DateTime.Now;
+        //    TempData["CurrentDate"] = DateTime.Now;
+        //    return View();
+        //}
         public IActionResult Index()
         {
-            ViewBag.CurrentDate = DateTime.Now;
-            TempData["CurrentDate"] = DateTime.Now;
-            return View();
+            return View(new Repository().Products);
         }
 
         public IActionResult Privacy(string msg)

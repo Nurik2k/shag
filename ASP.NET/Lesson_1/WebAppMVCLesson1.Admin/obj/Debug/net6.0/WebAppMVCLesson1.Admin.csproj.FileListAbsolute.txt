@@ -112,3 +112,5 @@ D:\shag\ASP.NET\Lesson_1\WebAppMVCLesson1.Admin\obj\Debug\net6.0\refint\WebAppMV
 D:\shag\ASP.NET\Lesson_1\WebAppMVCLesson1.Admin\obj\Debug\net6.0\WebAppMVCLesson1.Admin.pdb
 D:\shag\ASP.NET\Lesson_1\WebAppMVCLesson1.Admin\obj\Debug\net6.0\WebAppMVCLesson1.Admin.genruntimeconfig.cache
 D:\shag\ASP.NET\Lesson_1\WebAppMVCLesson1.Admin\obj\Debug\net6.0\ref\WebAppMVCLesson1.Admin.dll
+D:\shag\ASP.NET\Lesson_1\WebAppMVCLesson1.Admin\bin\Debug\net6.0\Elasticsearch.Net.dll
+D:\shag\ASP.NET\Lesson_1\WebAppMVCLesson1.Admin\bin\Debug\net6.0\Nest.dll

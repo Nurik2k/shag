@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NEST" Version="7.17.5" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\WebAppMVCLesson1.Lib\WebAppMVCLesson1.Lib.csproj" />
   </ItemGroup>
 

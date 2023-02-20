@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "D3ubKWeUUhSZaze43lgyn6Uiox3b76qGKczaP5GyGkMo/Sq4LEmopGv+LJLLAZ8DqeJ+1XQI/5WtF2BZsm8DDQ==",
+  "dgSpecHash": "Jnh0ESAjJHDy7jWAsU0VI/dbGYIfmKgVGIlQcpzVsqWlNsAln1pshOCWZ5V0IJwglr1DXZHNB7SJZWph+qDwug==",
   "success": true,
   "projectFilePath": "D:\\shag\\ASP.NET\\Lesson_1\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nurkw\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
+    "C:\\Users\\nurkw\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\nurkw\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
+    "C:\\Users\\nurkw\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\nurkw\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
