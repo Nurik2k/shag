@@ -1,0 +1,21 @@
+﻿@model BreadCrumb
+<!-- Breadcrumb Area Start-->
+<section class="breadcrumb-area overlay-dark-2 bg-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="breadcrumb-text text-center">
+                    <h2>@Model.Header</h2>
+                    <p>@Model.Description</p>
+                    <div class="breadcrumb-bar">
+                        <ul class="breadcrumb">
+                            <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                            <li>@Model.Title</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Area End -->

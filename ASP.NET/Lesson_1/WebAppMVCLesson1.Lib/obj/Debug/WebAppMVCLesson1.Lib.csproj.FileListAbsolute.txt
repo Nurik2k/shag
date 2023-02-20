@@ -1,0 +1,26 @@
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\bin\Debug\WebAppMVCLesson1.Lib.dll.config
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\bin\Debug\WebAppMVCLesson1.Lib.dll
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\bin\Debug\WebAppMVCLesson1.Lib.pdb
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\bin\Debug\EntityFramework.dll
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\bin\Debug\EntityFramework.xml
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\obj\Debug\WebAppMVCLesson1.Lib.csproj.AssemblyReference.cache
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\obj\Debug\WebAppMVCLesson1.Lib.csproj.CoreCompileInputs.cache
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\obj\Debug\WebAppMVCLesson1.Lib.csproj.CopyComplete
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\obj\Debug\WebAppMVCLesson1.Lib.dll
+C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.Lib\obj\Debug\WebAppMVCLesson1.Lib.pdb
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\bin\Debug\WebAppMVCLesson1.Lib.dll.config
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\bin\Debug\WebAppMVCLesson1.Lib.dll
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\bin\Debug\WebAppMVCLesson1.Lib.pdb
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\bin\Debug\EntityFramework.dll
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\bin\Debug\EntityFramework.xml
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\obj\Debug\WebAppMVCLesson1.Lib.csproj.AssemblyReference.cache
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\obj\Debug\WebAppMVCLesson1.Lib.csproj.CoreCompileInputs.cache
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\obj\Debug\WebAppMVCLesson1.Lib.csproj.CopyComplete
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\obj\Debug\WebAppMVCLesson1.Lib.dll
+C:\Users\Алга Казакстан\source\repos\WebAppMVCLesson1.Lib\obj\Debug\WebAppMVCLesson1.Lib.pdb

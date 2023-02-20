@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WebAppMVCLesson1.Admin/1.0.0": {
+        "dependencies": {
+          "WebAppMVCLesson1.Lib": "1.0.0"
+        },
+        "runtime": {
+          "WebAppMVCLesson1.Admin.dll": {}
+        }
+      },
+      "WebAppMVCLesson1.Lib/1.0.0": {
+        "runtime": {
+          "WebAppMVCLesson1.Lib.dll": {}
+        },
+        "resources": {
+          "ru/EntityFramework.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      },
+      "EntityFramework/6.0.0.0": {
+        "runtime": {
+          "EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          }
+        },
+        "resources": {
+          "ru/EntityFramework.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebAppMVCLesson1.Admin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebAppMVCLesson1.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

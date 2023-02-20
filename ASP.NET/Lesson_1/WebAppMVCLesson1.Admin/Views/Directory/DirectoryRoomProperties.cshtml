@@ -1,0 +1,37 @@
+﻿@using WebAppMVCLesson1.Lib
+@model RoomPropertyModel
+
+
+<h1>Свойства комнат</h1>
+
+<hr />
+
+<table>
+    <thead>
+        <tr>
+            <td>Номер</td>
+            <td>Наименование</td>
+            <td>Дата создания</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (RoomProperty item in Model.RoomProperties)
+        {
+            <tr>
+                <td>1</td>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<hr />
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary"
+        data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Добавить свойство
+</button>
+
+<!-- Modal -->
+@Html.Partial("_AddDicModal")

@@ -1,0 +1,230 @@
+﻿<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Home Page || Hotel ATR</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/img/favicon.ico">
+
+    <!-- All css here -->
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/shortcode/shortcodes.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+    <script src="~/js/vendor/modernizr-2.8.3.min.js"></script>
+    @RenderSection("Styles", false)
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Header Area Start -->
+    <header class="header-area fixed header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-4 col-sm-4 col-xs-12">
+                    <div class="logo">
+                        <a href="index.html"><img src="~/img/logo/logo.png" alt="HotelATR"></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-8 col-sm-8 hidden-xs">
+                    <div class="header-top fix">
+                        <div class="header-contact">
+                            <span class="text-theme">Contact:</span>
+                            <span>0088-234-675-827</span>
+                        </div>
+                        <div class="header-links">
+                            <a href="https://www.facebook.com/"><i class="zmdi zmdi-facebook"></i></a>
+                            <a href="https://twitter.com/"><i class="zmdi zmdi-twitter"></i></a>
+                            <a href="https://plus.google.com/"><i class="zmdi zmdi-google-plus"></i></a>
+                            <a href="https://www.instagram.com/"><i class="zmdi zmdi-instagram"></i></a>
+                            <a href="https://www.pinterest.com/"><i class="zmdi zmdi-pinterest"></i></a>
+                        </div>
+                    </div>
+                    <!-- Mainmenu Start -->
+                   @Html.Partial("_TopMenu")
+                    <!-- Mainmenu End -->
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu Area start -->
+       @Html.Partial("_MobileTopMenu")
+        <!-- Mobile Menu Area end -->
+    </header>
+    <!-- Header Area End -->
+    <!-- Background Area Start -->
+    <section class="slider-area">
+        <div class="slider-wrapper">
+            <div class="single-slide" style="background-image: url('img/slider/1.jpg');">
+                <div class="banner-content overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="text-content-wrapper">
+                                    <div class="text-content text-center">
+                                        <h1 class="pt-180">welcome to hotel atr</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <div class="banner-btn">
+                                            <a class="default-btn" href="room-grid.html">explore</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-slide" style="background-image: url('img/slider/2.jpg');">
+                <div class="banner-content overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="text-content-wrapper slide-two">
+                                    <div class="text-content text-center">
+                                        <h1 class="pt-180">welcome to hotel atr</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <div class="banner-btn">
+                                            <a class="default-btn" href="room-grid.html">explore</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Background Area End -->
+
+    @RenderBody()
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area">
+        <!-- Footer Widget Start -->
+        <div class="footer-widget-area bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="~/img/logo/footer-logo.png" alt="HotelATR"></a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, conse acteir our adipisicing elit, sed do eiusmod the a tempor the incididunt ut labore et dolore magnaa liqua. Ut enim minimn.</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/"><i class="zmdi zmdi-facebook"></i></a>
+                                <a href="https://www.instagram.com/"><i class="zmdi zmdi-instagram"></i></a>
+                                <a href="https://www.rss.com/"><i class="zmdi zmdi-rss"></i></a>
+                                <a href="https://twitter.com/"><i class="zmdi zmdi-twitter"></i></a>
+                                <a href="https://www.pinterest.com/"><i class="zmdi zmdi-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-footer-widget">
+                            <h3>contact us</h3>
+                            <div class="c-info">
+                                <span><i class="zmdi zmdi-pin"></i></span>
+                                <span>House No 27, Road No 07,<br>East Road, Dhaka, Bangladesh</span>
+                            </div>
+                            <div class="c-info">
+                                <span><i class="zmdi zmdi-email"></i></span>
+                                <span>devitems@gmail.com<br>support@devitems.com</span>
+                            </div>
+                            <div class="c-info">
+                                <span><i class="zmdi zmdi-phone"></i></span>
+                                <span>+660 256 24857<br>+660 256 24857</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 hidden-md hidden-sm col-xs-12">
+                        <div class="single-footer-widget">
+                            <h3>quick links</h3>
+                            <ul class="footer-list">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="team.html">Stuffs</a></li>
+                                <li><a href="room-grid.html">Suits &amp; Rooms</a></li>
+                                <li><a href="event.html">Event</a></li>
+                                <li><a href="location.html">Location</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="single-footer-widget">
+                            <h3>collections</h3>
+                            <div class="instagram-image">
+                                <div class="footer-img">
+                                    <a href="room-grid.html"><img src="~/img/footer/1.jpg" alt=""></a>
+                                </div>
+                                <div class="footer-img">
+                                    <a href="room-grid.html"><img src="~/img/footer/2.jpg" alt=""></a>
+                                </div>
+                                <div class="footer-img">
+                                    <a href="room-grid.html"><img src="~/img/footer/3.jpg" alt=""></a>
+                                </div>
+                                <div class="footer-img">
+                                    <a href="room-grid.html"><img src="~/img/footer/4.jpg" alt=""></a>
+                                </div>
+                                <div class="footer-img">
+                                    <a href="room-grid.html"><img src="~/img/footer/5.jpg" alt=""></a>
+                                </div>
+                                <div class="footer-img">
+                                    <a href="room-grid.html"><img src="~/img/footer/6.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Widget End -->
+        <!-- Footer Bottom Area Start -->
+        @if (IsSectionDefined("Footer"))
+        {
+            @RenderSection("Footer")
+        }
+
+        @section Scripts{
+            some Scripts
+        }
+        @section Footer{
+            <div class="footer-bottom-area bg-black">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="footer-text text-center">
+                                <span>Copyright © 2017 <a href="#">Hastech</a> All Right Reserved.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }       
+        
+        <!-- Footer Bottom Area End -->
+    </footer>
+    <!-- Footer Area End -->
+    <!-- All js here -->
+    <script src="~/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/ajax-mail.js"></script>
+    <script src="~/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/js/jquery.meanmenu.js"></script>
+    <script src="~/js/jquery.counterup.min.js"></script>
+    <script src="~/js/waypoints.min.js"></script>
+    <script src="~/js/isotope.pkgd.min.js"></script>
+    <script src="~/js/imagesloaded.pkgd.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.js"></script>
+    <script src="~/js/plugins.js"></script>
+    <script src="~/js/main.js"></script>
+    @RenderSection("Scripts")
+</body>
+</html>
