@@ -7,10 +7,13 @@ namespace WebAppMVCLesson1.Admin.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IRepository _repo;
+        private ProductSum _productSum;
+        public HomeController(ILogger<HomeController> logger, IRepository repo/*, ProductSum productSum*/)
         {
             _logger = logger;
+            _repo = repo;
+            //_productSum = productSum;
         }
 
         //public IActionResult Index()
@@ -19,9 +22,13 @@ namespace WebAppMVCLesson1.Admin.Controllers
         //    TempData["CurrentDate"] = DateTime.Now;
         //    return View();
         //}
-        public IActionResult Index()
+        public IActionResult Index([FromServices] ProductSum _productSum)
         {
-            return View(new Repository().Products);
+            ViewBag.HomeControllerGuid = _repo.ToString();
+            ViewBag.TotalGuid = _productSum.Repository.ToString();
+            ViewBag.Tottal = _productSum.Total;
+            //return View(new Repository().Products);
+            return View(_repo.Products);
         }
 
         public IActionResult Privacy(string msg)

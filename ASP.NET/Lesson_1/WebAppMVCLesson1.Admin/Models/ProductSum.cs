@@ -5,18 +5,24 @@ namespace WebAppMVCLesson1.Admin.Models
 {
     public class ProductSum
     {
+        
         public IRepository Repository { get; set; }
-        public ProductSum(IRepository repo)
+
+        public ProductSum(IRepository repository)
         {
-            Repository = repo;
+            Repository = repository;
         }
+
+        public decimal Total => Repository.Products.Sum(s => s.Price);
     }
+
 
     public class Product
     {
         public string Name { get; set; }
         public decimal Price { get; set; }
     }
+    
     public interface IRepository
     {
         IEnumerable<Product> Products { get; }
@@ -26,9 +32,16 @@ namespace WebAppMVCLesson1.Admin.Models
     }
     public class Repository : IRepository
     {
+        private IStorage _storage;
         private Dictionary<string, Product> _products;
-        public Repository()
+        private string guid = System.Guid.NewGuid().ToString();
+        public override string ToString()
         {
+            return guid;
+        }
+        public Repository(IStorage storage)
+        {
+            _storage = storage;
             _products= new Dictionary<string, Product>();
             new List<Product>
             {
