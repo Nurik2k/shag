@@ -1,9 +1,15 @@
 ﻿using WebAppMVCLesson1.Admin.Models;
+using Microsoft.EntityFrameworkCore;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<EFContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.Configure<CustomOptionsConfiguration>(builder.Configuration.GetSection("customOptions"));
 //Это внедрение зависимости c сопостовлением типа службы с типом реализации
 builder.Services.AddScoped<IRepository, Repository>();
 builder.Services.AddSingleton<IStorage, Storage>();
