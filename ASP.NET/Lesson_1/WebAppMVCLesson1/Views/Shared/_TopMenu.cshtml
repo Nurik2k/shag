@@ -1,4 +1,5 @@
-﻿<div class="main-menu hidden-xs">
+﻿
+<div class="main-menu hidden-xs">
     <nav>
         <ul>
             <li><a asp-action="Index" asp-controller="Home">HOME</a></li>
@@ -6,11 +7,11 @@
                 <a asp-action="Index" asp-controller="Room">ROOMS</a>
                 <ul class="submenu">
                     <li><a asp-action="RoomList" asp-controller="Room">ROOM LIST</a></li>
-                    <li><a asp-action="RoomDetail" asp-controller="Room">ROOM DETAILS</a></li>
+                    <li><a asp-action="RoomDetails" asp-controller="Room">ROOM DETAILS</a></li>
                 </ul>
             </li>
             <li>
-                <a asp-action="Index" asp-controller="Activities">ACTIVITIES</a>
+                <a @*asp-action="Index" asp-controller="Activities"*@ href="#">ACTIVITIES</a>
                 <ul class="submenu megamenu">
                     <li>
                         <a href="#">Megamenu List</a>
@@ -47,7 +48,7 @@
             <li><a asp-action="Location" asp-controller="Home">LOCATION</a></li>
             <li><a asp-action="Index" asp-controller="Event">EVENT</a></li>
             <li><a asp-action="Index" asp-controller="Team">TEAM</a></li>
-            <li><a asp-action="Index" asp-controller="Contact">CONTACT</a></li>
+            <li><a asp-action="Contact" asp-controller="Home">CONTACT</a></li>
         </ul>
     </nav>
 </div>

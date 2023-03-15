@@ -20,35 +20,14 @@ namespace WebAppMVCLesson1.Controllers
             return View();
         }
 
-        public string SimpleTest()
-        {
-            return "<h1>Simple Text</h1>";
-        }
-
-        [HttpPost]
-        [HttpGet]
-        public string SimpleTest2()
-        {
-            return Content("<h1>Simple Text</h1>").ToString();
-        }
-
-
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
         public IActionResult Contact()
         {
             return View();
         }
-        public IActionResult Location() 
+        public IActionResult Location()
         {
             return View();
         }
-
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

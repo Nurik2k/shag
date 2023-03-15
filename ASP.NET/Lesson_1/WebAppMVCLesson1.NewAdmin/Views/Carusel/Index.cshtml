@@ -1,0 +1,33 @@
+﻿@using WebAppMVCLesson1.NewAdmin.Modals;
+@model List<Carusel>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th></th>
+            <th>Дата создания</th>
+            <th>Заголовок</th>
+            <th>Описание</th>
+            <th>Автор</th>
+            <th>Срок действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Carusel item in Model)
+        {
+            <tr>
+                <td>@item.CaruselId</td>
+                <td><img width="52" height="52" src="@item.PictureUrl" /></td>
+                <td>@string.Format("{0:dd.mm.yyyy}", item.CreateDate)</td>
+                <td>@item.Tirle</td>
+                <td>@item.Description</td>
+                <td>@item.CreateUser</td>
+                <td>@string.Format("{0:dd.mm.yyyy}", item.ExpireDate)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<hr />
+<a asp-action="AddCarusel" asp-controller="Carusel">Добавить банер</a>

@@ -1,11 +1,17 @@
 ﻿@{
-    BreadCrumb brd = new BreadCrumb();
-    brd.Header = "ROOM - GRID VIEW";
-    brd.Description = "A quality room of hotel ATR with sea or mountain view";
-    brd.Title = "room, grid view";
-}        
+    ViewData["Title"] = "ROOM - GRID VIEW";
+    ViewData["Description"] = "A quality room of hotel ATR with sea or mountain view";
+    ViewData["Keywords"] = "room, grid view";
+
+    Breadcrumb brd = new Breadcrumb();
+    brd.Header = "ROOM - GRID VIEW 1";
+    brd.Title = "ROOM - GRID VIEW 2";
+    brd.Description = "3 A quality room of hotel ATR with sea or mountain view";
+}
+
+@section Styles {}
 <!-- Breadcrumb Area Start-->
-@Html.Partial("_BreadCrumb", brd)
+@Html.Partial("_Breadcrumb", brd)
 <!-- Breadcrumb Area End -->
 <!-- Room Area Start -->
 <section class="room-area pt-90 room-grid">
@@ -33,7 +39,7 @@
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
                             <div class="room-btn">
-                                <a asp-action="RoomDetail" asp-controller="Room" class="default-btn">DETAILS</a>
+                                <a href="room-details.html" class="default-btn">DETAILS</a>
                             </div>
                         </div>
                     </div>
@@ -51,7 +57,7 @@
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
                             <div class="room-btn">
-                                <a asp-action="RoomDetail" asp-controller="Room" class="default-btn">DETAILS</a>
+                                <a href="room-details.html" class="default-btn">DETAILS</a>
                             </div>
                         </div>
                     </div>
@@ -192,4 +198,30 @@
     </div>
 </div>
 <!-- Client Area End -->
-@section Scripts{}
+<!-- Newsletter Area Start -->
+<section class="newsletter-area bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <div class="newsletter-container">
+                    <h3>NewsLetter Sign-Up</h3>
+                    <div class="newsletter-form">
+                        <form action="#" id="mc-form" class="mc-form fix">
+                            <input id="mc-email" type="email" name="email" placeholder="Enter your E-mail">
+                            <button id="mc-submit" type="submit" class="default-btn">subcribes</button>
+                        </form>
+                        <!-- mailchimp-alerts Start -->
+                        <div class="mailchimp-alerts">
+                            <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                            <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                            <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                        </div>
+                        <!-- mailchimp-alerts end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Newsletter Area End -->
+@section Scripts {}

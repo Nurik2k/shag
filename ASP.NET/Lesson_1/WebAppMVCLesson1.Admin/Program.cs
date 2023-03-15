@@ -1,19 +1,28 @@
-п»їusing WebAppMVCLesson1.Admin.Models;
+using WebAppMVCLesson1.Admin.Models;
+using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.Extensions.Options;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<EFContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<EFContext>(options =>
+options.UseSqlServer(builder
+.Configuration
+.GetConnectionString("DefaultConnection")));
 
-builder.Services.Configure<CustomOptionsConfiguration>(builder.Configuration.GetSection("customOptions"));
-//Р­С‚Рѕ РІРЅРµРґСЂРµРЅРёРµ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё c СЃРѕРїРѕСЃС‚РѕРІР»РµРЅРёРµРј С‚РёРїР° СЃР»СѓР¶Р±С‹ СЃ С‚РёРїРѕРј СЂРµР°Р»РёР·Р°С†РёРё
-builder.Services.AddScoped<IRepository, Repository>();
+builder.Services.Configure<customOptionsConfiguration>(builder
+.Configuration.GetSection("customOptions"));
+
+//Это внедрение зависимости с соспоставлнием
+//типа службы  (с)-  типом реализации
+builder.Services.AddSingleton<IRepository, Repository>();
 builder.Services.AddSingleton<IStorage, Storage>();
-//Р­С‚Рѕ РІРЅРµРґСЂРµРЅРёРµ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РґР»СЏ РѕРґРЅРѕРіРѕ С‚РёРїР°
+
+//Это внедрение зависимости для одного типа
 builder.Services.AddTransient<ProductSum>();
 
 var app = builder.Build();

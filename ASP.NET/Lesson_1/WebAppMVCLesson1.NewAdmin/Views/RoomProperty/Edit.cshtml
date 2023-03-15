@@ -1,0 +1,19 @@
+﻿@using WebAppMVCLesson1.NewAdmin.Modals;
+
+@model RoomProperty
+
+<h2>Edit</h2>
+
+<form asp-action="Edit" asp-controller="RoomProperty"
+      method="post">
+    <div class="row">
+        <div class="col-md-4">
+            <label class="form-control">
+                Name
+            </label>
+        </div>
+        <div class="col-md-6">
+            <input class="form-control" type="text" asp-for="Name" />
+        </div>
+    </div>
+</form>

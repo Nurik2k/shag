@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using System.IO;
 using WebAppMVCLesson1.Admin.Models;
 using WebAppMVCLesson1.Lib;
 
@@ -9,9 +10,13 @@ namespace WebAppMVCLesson1.Admin.Controllers
     {
         private IWebHostEnvironment hostEnvironment;
         private IConfiguration config;
-        private CustomOptionsConfiguration options;
+        private customOptionsConfiguration options;
         private EFContext db;
-        public DirectoryController(IWebHostEnvironment _hostEnvironment, IConfiguration _config, IOptions<CustomOptionsConfiguration> _options, EFContext _db)
+
+        public DirectoryController(IWebHostEnvironment _hostEnvironment,
+            IConfiguration _config, 
+            IOptions<customOptionsConfiguration> _options,
+            EFContext _db)
         {
             hostEnvironment = _hostEnvironment;
             config = _config;
@@ -19,18 +24,20 @@ namespace WebAppMVCLesson1.Admin.Controllers
             db = _db;
         }
 
-       
 
         public IActionResult Index(string message)
         {
-            //Вариант 1
-            var option1 = config.GetValue<string>("customOptions:complexOption:option1");
-            var option2 = config.GetSection("customOptions").GetSection("complexOption").GetSection("option2").Value;
-           //Вариант2
-            CustomOptionsConfiguration coc = new CustomOptionsConfiguration();
+
+            var optin1 = 
+                config.GetValue<string>("customOptions:complexOption:optin1");
+
+            var optin2 = config.GetSection("customOptions")
+                .GetSection("complexOption")
+                .GetSection("optin2").Value;
+
+            customOptionsConfiguration coc = new customOptionsConfiguration();
             config.GetSection("customOptions").Bind(coc);
-            //Вариант 2
-            
+
             //return View("~/Views/Home/Privacy.cshtml", "test");
             //return View("DirectoryRoomProperties");
 
@@ -62,7 +69,7 @@ namespace WebAppMVCLesson1.Admin.Controllers
             RoomService roomService = new RoomService();
             roomService.AddRoomProperies(roomProperties);
 
-            return View("Index", "Данные добавлены 2");
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpPost]
@@ -79,9 +86,12 @@ namespace WebAppMVCLesson1.Admin.Controllers
 
            return View("Index", "Данные добавлены 3");
         }
+
+
         public ActionResult EventCategoryIndex()
         {
             return View(db.EventCategories.ToList());
         }
+
     }
 }

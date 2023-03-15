@@ -1,19 +1,23 @@
 ﻿@model IEnumerable<Product>
 @{
     ViewData["Title"] = "Home Page";
-    //DateTime CurrentDate = ViewBag.CurrentDate;
+    ViewData["Discription"] = "Description Home Page";
+    ViewData["Keyword"] = "Home, Page, HomePage";
+
 }
 
 <div class="text-center">
-    <table class="table table-bordered table-sm table-striped">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Price</th>
-            </tr>
-        </thead>
-        <tbody>
-            @if (Model == null)
+    <p>@ViewBag.HomeControllerGuid</p>
+    <p>@ViewBag.TotalGuid</p>
+<table class="tbale table-bordered table-sm table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(Model == null)
             {
                 <tr>
                     <td colspan="3">No Model Data</td>
@@ -25,10 +29,13 @@
                 {
                     <tr>
                         <td>@item.Name</td>
-                        <td>@string.Format("{0:C2}", item.Price)</td>
+                        <td>@string.Format("{0:C2}", item.Pricae)</td>
                     </tr>
                 }
             }
         </tbody>
-    </table>
+</table>
+
+
 </div>
+

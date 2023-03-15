@@ -1,0 +1,16 @@
+D:\shag\WPF\RSA\obj\Debug\RSA.csproj.AssemblyReference.cache
+D:\shag\WPF\RSA\obj\Debug\RSA.csproj.SuggestedBindingRedirects.cache
+D:\shag\WPF\RSA\obj\Debug\App.g.cs
+D:\shag\WPF\RSA\obj\Debug\RSA_MarkupCompile.cache
+D:\shag\WPF\RSA\obj\Debug\MainWindow.g.cs
+D:\shag\WPF\RSA\obj\Debug\RSA_MarkupCompile.lref
+D:\shag\WPF\RSA\bin\Debug\RSA.exe.config
+D:\shag\WPF\RSA\bin\Debug\RSA.exe
+D:\shag\WPF\RSA\bin\Debug\RSA.pdb
+D:\shag\WPF\RSA\obj\Debug\MainWindow.baml
+D:\shag\WPF\RSA\obj\Debug\RSA.g.resources
+D:\shag\WPF\RSA\obj\Debug\RSA.Properties.Resources.resources
+D:\shag\WPF\RSA\obj\Debug\RSA.csproj.GenerateResource.cache
+D:\shag\WPF\RSA\obj\Debug\RSA.csproj.CoreCompileInputs.cache
+D:\shag\WPF\RSA\obj\Debug\RSA.exe
+D:\shag\WPF\RSA\obj\Debug\RSA.pdb

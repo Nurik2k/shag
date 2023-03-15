@@ -6,6 +6,7 @@ namespace WebAppMVCLesson1.Admin.Models
     {
         [Key]
         public int EventCategoryId { get; set; }
+
         [Required]
         public string Name { get; set; }
         public string Description { get; set; }

@@ -12,7 +12,7 @@ namespace WebAppMVCLesson1.Controllers
         {
             return View();
         }
-        public IActionResult RoomDetail()
+        public IActionResult RoomDetails()
         {
             return View();
         }

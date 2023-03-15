@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="~/css/responsive.css">
     <script src="~/js/vendor/modernizr-2.8.3.min.js"></script>
     @RenderSection("Styles", false)
+    <!-- All css here end -->
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -48,13 +50,13 @@
                         </div>
                     </div>
                     <!-- Mainmenu Start -->
-                   @Html.Partial("_TopMenu")
+                    @Html.Partial("_TopMenu")
                     <!-- Mainmenu End -->
                 </div>
             </div>
         </div>
         <!-- Mobile Menu Area start -->
-       @Html.Partial("_MobileTopMenu")
+        @Html.Partial("_MobileTopMenu")
         <!-- Mobile Menu Area end -->
     </header>
     <!-- Header Area End -->
@@ -102,7 +104,6 @@
         </div>
     </section>
     <!-- Background Area End -->
-
     @RenderBody()
 
     <!-- Footer Area Start -->
@@ -190,11 +191,8 @@
         {
             @RenderSection("Footer")
         }
-
-        @section Scripts{
-            some Scripts
-        }
-        @section Footer{
+        else
+        {
             <div class="footer-bottom-area bg-black">
                 <div class="container">
                     <div class="row">
@@ -206,8 +204,9 @@
                     </div>
                 </div>
             </div>
-        }       
-        
+        }
+
+
         <!-- Footer Bottom Area End -->
     </footer>
     <!-- Footer Area End -->
@@ -225,6 +224,7 @@
     <script src="~/js/jquery.magnific-popup.js"></script>
     <script src="~/js/plugins.js"></script>
     <script src="~/js/main.js"></script>
-    @RenderSection("Scripts", false)
+
+    @RenderSection("Scripts")
 </body>
 </html>

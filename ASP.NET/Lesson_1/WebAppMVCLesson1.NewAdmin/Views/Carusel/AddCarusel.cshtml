@@ -1,0 +1,39 @@
+﻿@using WebAppMVCLesson1.NewAdmin.Modals;
+@model Carusel
+
+<form asp-action="AddCarusel" 
+      asp-controller="Carusel"
+      enctype="multipart/form-data"
+      method="post">
+
+    <div class="row">
+        <div class="col-md-6">Заголовок</div>
+        <div class="col-md-4">
+            <input type="text" asp-for="Tirle" />
+        </div>
+
+        <br />
+
+        <div class="col-md-6">Описание</div>
+        <div class="col-md-4">
+            <input type="text" asp-for="Description" />
+        </div>
+
+        <br />
+
+        <div class="col-md-6">Автор</div>
+        <div class="col-md-4">
+            <input type="text" asp-for="CreateUser" />
+        </div>
+
+        <br />
+
+        <div class="col-md-6">Баннер</div>
+        <div class="col-md-4">
+            <input type="file" asp-for="PictureUrl" />
+        </div>
+
+        <hr />
+        <button type="submit">Добавить</button>
+    </div>
+</form>
