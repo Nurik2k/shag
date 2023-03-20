@@ -1,0 +1,33 @@
+﻿@using WebAppMVCLesson1.NewAdmin.Modals;
+
+@model List<RoomProperty>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (RoomProperty item in Model)
+        {
+            <tr>
+                <td>@item.RoomPropertyId</td>
+                <td>@item.Name</td>
+                <td><a asp-action="Edit"
+                   asp-controller="RoomProperty"
+                   asp-route-id="@item.RoomPropertyId">Редактировать</a>
+                </td>
+                <td>
+                    <a asp-action="Delete"
+                   asp-controller="RoomProperty"
+                   asp-route-id="@item.RoomPropertyId">Удалить</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<hr />
+<a asp-action="Create" asp-controller="RoomProperty">Добавить</a>

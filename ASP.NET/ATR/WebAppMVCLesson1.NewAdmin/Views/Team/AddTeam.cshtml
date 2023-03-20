@@ -1,0 +1,80 @@
+﻿@using WebAppMVCLesson1.NewAdmin.Modals;
+
+@model WebAppMVCLesson1.NewAdmin.Modals.TeamWork
+@{
+    List<JobPosition> jp = ViewBag.JobPosition;
+}
+<style>
+    .col-md-6{
+    margin-bottom:20px;
+    }
+</style>
+<p style="color:red">@ViewBag.ErrorMessage</p>
+<form asp-action="AddTeam" asp-controller="Team" method="post" enctype="multipart/form-data">
+    <div class="form-group row">
+        
+        <div class="col-md-4 col-form-label">FirstName</div>
+        <div class="col-md-6">
+            <input class="form-control" type="text" asp-for="FirstName" />
+        </div>
+    </div>
+        <div class="form-group row">
+
+        <div class="col-md-4">MiddleName</div>
+        <div class="col-md-6">
+            <input class="form-control" type="text" asp-for="MiddleName" />
+        </div>
+
+        <div class="col-md-4">LastName</div>
+        <div class="col-md-6">
+            <input class="form-control" type="text" asp-for="LastName" />
+        </div>
+
+        <div class="col-md-4">AboutWork</div>
+        <div class="col-md-6">
+            <textarea class="form-control" asp-for="AboutWork"></textarea>
+        </div>
+
+        <div class="col-md-4">Status</div>
+        <div class="col-md-6">
+            <select class="form-control" asp-for="Status">
+                <option value="0">Active</option>
+                <option value="1">InActive</option>
+            </select>
+        </div>
+
+        <div class="col-md-4">LinkedIn</div>
+        <div class="col-md-6">
+            <input class="form-control" type="text" asp-for="LinkedIn" />
+        </div>
+
+        <div class="col-md-4">Instagram</div>
+        <div class="col-md-6">
+            <input class="form-control" type="text" asp-for="Instagram" />
+        </div>
+
+        <div class="col-md-4">FaceBook</div>
+        <div class="col-md-6">
+            <input class="form-control" type="text" asp-for="FaceBook" />
+        </div>
+
+        <div class="col-md-4">Photo</div>
+        <div class="col-md-6">
+            <input class="form-control" type="file" asp-for="Photo"/>
+
+        </div>
+
+        <div class="col-md-4">JobPosition</div>
+        <div class="col-md-6">
+            <select class="form-control" asp-for="JobPositionId">
+                @foreach (JobPosition item in jp)
+                {
+                    <option value="@item.Id">@item.Name</option>
+                }
+              
+            </select>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>

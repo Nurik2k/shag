@@ -1,0 +1,64 @@
+﻿@using WebAppMVCLesson1.NewAdmin.Modals;
+@model Room
+@{
+    List<Category> categoryList = ViewBag.CategoryList;
+}
+
+<form asp-action="AddRoom" asp-controller="Room" method="post"
+enctype="multipart/form-data">
+    <div class="form-group row">
+
+        <div class="col-md-4 col-form-label">Description</div>
+        <div class="col-md-6">
+            <input class="form-control" type="hidden" asp-for="RoomId" />
+            <input class="form-control" type="text" asp-for="Description" />
+        </div>
+    </div>
+
+    <div class="form-group row">
+
+        <div class="col-md-4 col-form-label">Price</div>
+        <div class="col-md-6">
+            <input class="form-control" type="number" asp-for="Price" />
+        </div>
+    </div>
+
+    <div class="form-group row">
+
+        <div class="col-md-4 col-form-label">IsAvaliable</div>
+        <div class="col-md-6">
+            <input class="" type="checkbox" asp-for="IsAvalible" />
+        </div>
+    </div>
+
+    <div class="form-group row">
+
+        <div class="col-md-4 col-form-label">RoomNumber</div>
+        <div class="col-md-6">
+            <input class="form-control" type="number" asp-for="RoomNumber" />
+        </div>
+    </div>
+
+    <div class="form-group row">
+
+        <div class="col-md-4 col-form-label">CategoryId</div>
+        <div class="col-md-6">
+            <select asp-for="CategoryId" class="form-control">
+                @foreach (Category item in categoryList)
+                {
+                    <option value="@item.CategoryId">@item.Name</option>
+                }
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group row">
+
+        <div class="col-md-4 col-form-label">MainPicturePath</div>
+        <div class="col-md-6">
+            <input class="form-control" type="file" asp-for="MainPicturePath" />
+        </div>
+    </div>
+
+    <button type="submit">Send</button>
+</form>

@@ -1,0 +1,40 @@
+﻿@using WebAppMVCLesson1.NewAdmin.Modals
+@model List<Room>
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Create Date</th>
+            <th>Create User</th>
+            <th>IsAvalible</th>
+            <th>RoomNumber</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (Room item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="@item.MainPicturePath" width="50" height="50">
+                </td>
+                <td>@item.RoomId</td>
+                <td>@item.Description</td>
+                <td>@item.CreateDate</td>
+                <td>@item.IsAvalible</td>
+                <td>@item.RoomNumber</td>
+                <td>
+                    @*Room/EditRoom/Id/4444*@
+                    <a asp-action="EditRoom" asp-controller="Room" 
+                    asp-route-Id="@item.RoomId">Редактировать комнату</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<a asp-action="AddRoom" asp-controller="Room">Добавить комнату</a>
+

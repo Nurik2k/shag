@@ -1,0 +1,253 @@
+﻿@using WebAppMVCLesson1.Models;
+@model List<Room>
+@{
+    ViewData["Title"] = "ROOM - GRID VIEW";
+    ViewData["Description"] = "A quality room of hotel ATR with sea or mountain view";
+    ViewData["Keywords"] = "room, grid view";
+
+    Breadcrumb brd = new Breadcrumb();
+    brd.Header = "ROOM - GRID VIEW 1";
+    brd.Title = "ROOM - GRID VIEW 2";
+    brd.Description = "3 A quality room of hotel ATR with sea or mountain view";
+}
+
+@section Styles {}
+<!-- Breadcrumb Area Start-->
+@Html.Partial("_Breadcrumb", brd)
+<!-- Breadcrumb Area End -->
+<!-- Room Area Start -->
+<section class="room-area pt-90 room-grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="section-title text-center">
+                    <h3>our atr rooms</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellente sque vel volutpat felis, eu condimentum massa. Pellentesque mollis eros vel mattis tempor. Aliquam </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            @foreach (Room item in Model)
+            {
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-room">
+                        <img src="@item.MainPicturePath" alt="">
+                        <div class="room-hover text-center">
+                            <div class="hover-text">
+                                <h3><a href="room-details.html">@item.Category.Name</a></h3>
+                                <div class="p-amount">
+                                    <span>@string.Format("${0}", item.Price)</span>
+                                    <span class="count">Per Night</span>
+                                </div>
+                                <p>@item.Description</p>
+                                <div class="room-btn">
+                                    <a asp-action="RoomDetails" asp-controller="Room" class="default-btn">DETAILS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="single-room">
+                    <img src="img/room/5.jpg" alt="">
+                    <div class="room-hover text-center">
+                        <div class="hover-text">
+                            <h3><a href="room-details.html">Single Room</a></h3>
+                            <div class="p-amount">
+                                <span>$220</span>
+                                <span class="count">Per Night</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                            <div class="room-btn">
+                                <a href="room-details.html" class="default-btn">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="single-room">
+                    <img src="img/room/6.jpg" alt="">
+                    <div class="room-hover text-center">
+                        <div class="hover-text">
+                            <h3><a href="room-details.html">Deluxe Suit</a></h3>
+                            <div class="p-amount">
+                                <span>$150</span>
+                                <span class="count">Per Night</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                            <div class="room-btn">
+                                <a href="room-details.html" class="default-btn">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="single-room">
+                    <img src="img/room/7.jpg" alt="">
+                    <div class="room-hover text-center">
+                        <div class="hover-text">
+                            <h3><a href="room-details.html">Royal Suit</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                            <div class="p-amount">
+                                <span>$240</span>
+                                <span class="count">Per Night</span>
+                            </div>
+                            <div class="room-btn">
+                                <a href="room-details.html" class="default-btn">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="single-room">
+                    <img src="img/room/8.jpg" alt="">
+                    <div class="room-hover text-center">
+                        <div class="hover-text">
+                            <h3><a href="room-details.html">Double Room</a></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                            <div class="p-amount">
+                                <span>$180</span>
+                                <span class="count">Per Night</span>
+                            </div>
+                            <div class="room-btn">
+                                <a href="room-details.html" class="default-btn">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="single-room">
+                    <img src="img/room/9.jpg" alt="">
+                    <div class="room-hover text-center">
+                        <div class="hover-text">
+                            <h3><a href="room-details.html">Deluxe Suit</a></h3>
+                            <div class="p-amount">
+                                <span>$130</span>
+                                <span class="count">Per Night</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                            <div class="room-btn">
+                                <a href="room-details.html" class="default-btn">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="single-room">
+                    <img src="img/room/5.jpg" alt="">
+                    <div class="room-hover text-center">
+                        <div class="hover-text">
+                            <h3><a href="room-details.html">Single Room</a></h3>
+                            <div class="p-amount">
+                                <span>$220</span>
+                                <span class="count">Per Night</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                            <div class="room-btn">
+                                <a href="room-details.html" class="default-btn">DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-12 fix">
+                <div class="pagination-content text-center">
+                    <ul class="pagination">
+                        <li><a href="#">1</a></li>
+                        <li class="active"><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Room Area End -->
+<!-- Client Area Start -->
+<div class="client-area">
+    <div class="container">
+        <div class="row">
+            <div class="client-carousel">
+                <div class="single-client">
+                    <div class="client-image">
+                        <a href="#">
+                            <img src="img/client/1.png" alt="" class="p-img">
+                            <img src="img/client/1-hover.png" alt="" class="s-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="single-client">
+                    <div class="client-image">
+                        <a href="#">
+                            <img src="img/client/2.png" alt="" class="p-img">
+                            <img src="img/client/2-hover.png" alt="" class="s-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="single-client">
+                    <div class="client-image">
+                        <a href="#">
+                            <img src="img/client/3.png" alt="" class="p-img">
+                            <img src="img/client/3-hover.png" alt="" class="s-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="single-client">
+                    <div class="client-image">
+                        <a href="#">
+                            <img src="img/client/4.png" alt="" class="p-img">
+                            <img src="img/client/4-hover.png" alt="" class="s-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="single-client">
+                    <div class="client-image">
+                        <a href="#">
+                            <img src="img/client/5.png" alt="" class="p-img">
+                            <img src="img/client/5-hover.png" alt="" class="s-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Client Area End -->
+<!-- Newsletter Area Start -->
+<section class="newsletter-area bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12">
+                <div class="newsletter-container">
+                    <h3>NewsLetter Sign-Up</h3>
+                    <div class="newsletter-form">
+                        <form action="#" id="mc-form" class="mc-form fix">
+                            <input id="mc-email" type="email" name="email" placeholder="Enter your E-mail">
+                            <button id="mc-submit" type="submit" class="default-btn">subcribes</button>
+                        </form>
+                        <!-- mailchimp-alerts Start -->
+                        <div class="mailchimp-alerts">
+                            <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                            <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                            <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+                        </div>
+                        <!-- mailchimp-alerts end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Newsletter Area End -->
+@section Scripts {}

@@ -1,0 +1,47 @@
+﻿@using WebAppMVCLesson1.NewAdmin.Modals;
+@model Room
+<div class="form-group row">
+
+    <div class="col-md-4 col-form-label">Edit Description</div>
+    <div class="col-md-6">
+        <input class="form-control" type="text" asp-for="Description" />
+    </div>
+</div>
+
+
+<div class="form-group row">
+
+    <div class="col-md-4 col-form-label">Edit Price</div>
+    <div class="col-md-6">
+        <input class="form-control" type="number" asp-for="Price" />
+    </div>
+</div>
+
+<div class="form-group row">
+
+    <div class="col-md-4 col-form-label">Edit IsAvaliable</div>
+    <div class="col-md-6">
+        <input class="" type="checkbox" asp-for="IsAvalible" />
+    </div>
+</div>
+
+<div class="form-group row">
+
+    <div class="col-md-4 col-form-label">Edit RoomNumber</div>
+    <div class="col-md-6">
+        <input class="form-control" type="number" asp-for="RoomNumber" />
+    </div>
+</div>
+
+<div class="form-group row">
+
+    <div class="col-md-4 col-form-label">Edit CategoryId</div>
+    <div class="col-md-6">
+        <select asp-for="CategoryId" class="form-control">
+@*            @foreach (Category item in categoryList)
+            {
+                <option value="@item.CategoryId">@item.Name</option>
+            }*@
+        </select>
+    </div>
+</div>

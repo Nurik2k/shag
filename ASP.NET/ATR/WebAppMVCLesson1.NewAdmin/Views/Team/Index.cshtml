@@ -1,0 +1,61 @@
+﻿@using WebAppMVCLesson1.NewAdmin.Modals;
+@model List<TeamWork>
+
+
+<h1>Teams</h1>
+<table class="table table-hover">
+    <tr>
+        <td>Id</td>
+        <td>FirstName</td>
+        <td>MiddleName</td>
+        <td>LastName</td>
+        <td>AboutWork</td>
+        <td>CreateDate</td>
+        <td>Autor</td>
+        <td>LinkedIn</td>
+        <td>Instagram</td>
+        <td>Facebook</td>
+        <td>Status</td>
+        <td>Photo</td>
+        <td>JobPostionName</td>
+    </tr>
+    @foreach (TeamWork item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.FirstName</td>
+                <td>@item.MiddleName</td>
+                <td>@item.LastName</td>
+                <td>@item.AboutWork</td>
+                <td>@string.Format("{0:dd.MM.yyyy}", item.CreateDate)</td>
+                <td>@item.Autor</td>
+                <td>@item.LinkedIn</td>
+                <td>@item.Instagram</td>
+                <td>@item.FaceBook</td>
+                <td>@if (item.Status)
+                    {
+                        <span>Active</span>
+                    }
+                    else
+                    {
+                        <span>InActive</span>
+                    }
+                </td>
+
+                <td>@if(!string.IsNullOrWhiteSpace(item.Photo))
+                    {
+                        <img alt="@item.FirstName" src="@item.Photo" />
+                    }
+                    else
+                    {
+                        <img src=""/>
+                    }
+                </td>
+                <td>JobPostionName</td>
+            </tr>
+        }
+</table>
+
+<div style="justify-content: right; display: flex;">
+<a asp-action="AddTeam" asp-controller="Team" class="btn btn-primary">Add Team</a>
+</div>
