@@ -28,7 +28,7 @@ namespace WebAppMVCLesson1.Models
         public virtual DbSet<Room> Rooms { get; set; } = null!;
         public virtual DbSet<RoomProperty> RoomProperties { get; set; } = null!;
         public virtual DbSet<TeamWork> TeamWorks { get; set; } = null!;
-
+        public virtual DbSet<PageStatistic> PageStatistics { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
