@@ -15,7 +15,8 @@ namespace SimpleRouting.Controllers
         }
 
         //[Route("[action]/{id:int}/{name:maxlength(10)}")]
-        [Route("Home/Index/{id?}")]// /home/Home/Index
+        //[Route("Home/Index/{id?}")]// /home/Home/Index
+        [Route("index/{id?}")]
         public IActionResult Index(int id, string name)
         {
             ViewBag.Id = id;
