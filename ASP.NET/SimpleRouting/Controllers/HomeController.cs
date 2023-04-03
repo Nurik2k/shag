@@ -4,7 +4,8 @@ using System.Diagnostics;
 
 namespace SimpleRouting.Controllers
 {
-    [Route("main")]// /home
+    [Route("Home")]
+    [Route("main")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -15,7 +16,7 @@ namespace SimpleRouting.Controllers
         }
 
         //[Route("[action]/{id:int}/{name:maxlength(10)}")]
-        //[Route("Home/Index/{id?}")]// /home/Home/Index
+        //[Route("Home/Index/{id?}")]// /Route/Home/Index
         [Route("index/{id?}")]
         public IActionResult Index(int id, string name)
         {
@@ -24,7 +25,12 @@ namespace SimpleRouting.Controllers
             return View();
         }
 
-        [Route("[controller]/[action]")]
+        [HttpGet]
+        //[Route("Sunny")]
+        //[Route("CheckPrivacy")]
+        //[Route("[controller]/[action]")]
+        //[Route("/PrivacyPage")]
+        //[Route(" ", Name = "Privac")]
         public IActionResult Privacy(string data)
         {
             var controller = RouteData.Values["controller"].ToString();
