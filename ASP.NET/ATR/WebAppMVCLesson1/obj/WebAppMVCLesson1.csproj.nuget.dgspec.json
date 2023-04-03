@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\WebAppMVCLesson1.csproj": {}
+    "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\WebAppMVCLesson1.csproj": {}
   },
   "projects": {
-    "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\WebAppMVCLesson1.csproj": {
+    "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\WebAppMVCLesson1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\WebAppMVCLesson1.csproj",
+        "projectUniqueName": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\WebAppMVCLesson1.csproj",
         "projectName": "WebAppMVCLesson1",
-        "projectPath": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\WebAppMVCLesson1.csproj",
-        "packagesPath": "C:\\Users\\nurkw\\.nuget\\packages\\",
-        "outputPath": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\obj\\",
+        "projectPath": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\WebAppMVCLesson1.csproj",
+        "packagesPath": "C:\\Users\\ГерценЕ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nurkw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ГерценЕ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,6 +60,30 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "Seq.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.2.2, )"
             }
           },
           "imports": [

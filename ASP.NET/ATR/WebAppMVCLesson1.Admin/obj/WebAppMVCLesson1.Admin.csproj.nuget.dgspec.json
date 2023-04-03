@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj": {}
+    "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj": {}
   },
   "projects": {
-    "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj": {
+    "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
+        "projectUniqueName": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
         "projectName": "WebAppMVCLesson1.Admin",
-        "projectPath": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
-        "packagesPath": "C:\\Users\\nurkw\\.nuget\\packages\\",
-        "outputPath": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Admin\\obj\\",
+        "projectPath": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
+        "packagesPath": "C:\\Users\\ГерценЕ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Admin\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\nurkw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ГерценЕ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj": {
-                "projectPath": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj"
+              "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj": {
+                "projectPath": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj"
               }
             }
           }
@@ -88,11 +93,11 @@
         }
       }
     },
-    "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj": {
+    "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj",
+        "projectUniqueName": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj",
         "projectName": "WebAppMVCLesson1.Lib",
-        "projectPath": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj",
+        "projectPath": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}

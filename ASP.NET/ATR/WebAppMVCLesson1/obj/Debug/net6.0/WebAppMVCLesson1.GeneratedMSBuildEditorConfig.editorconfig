@@ -9,85 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebAppMVCLesson1
 build_property.RootNamespace = WebAppMVCLesson1
-build_property.ProjectDir = D:\shag\ASP.NET\ATR\WebAppMVCLesson1\
+build_property.ProjectDir = C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\shag\ASP.NET\ATR\WebAppMVCLesson1
+build_property.MSBuildProjectDirectory = C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Activities/Index.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Activities/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aXZpdGllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Event/Index.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Event/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Home/Contact.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Home/Index.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Home/Location.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Home/Location.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2NhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Home/Privacy.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Room/Index.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Home/WrongEdg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXcm9uZ0VkZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Room/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Room/RoomDetails.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Room/RoomDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Room/RoomList.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Room/RoomList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxSb29tTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Shared/Error.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Shared/_Breadcrumb.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Shared/_Breadcrumb.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CcmVhZGNydW1iLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Shared/_LayoutBase.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Shared/_LayoutBase.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRCYXNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Shared/_MobileTopMenu.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Shared/_MobileTopMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb2JpbGVUb3BNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Shared/_TopMenu.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Shared/_TopMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BNZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Team/Index.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Team/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/_ViewImports.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/_ViewStart.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1/Views/Shared/_Layout.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-be5ta59u2j

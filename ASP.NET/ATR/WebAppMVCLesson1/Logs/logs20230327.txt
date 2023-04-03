@@ -1,0 +1,90 @@
+2023-03-27 21:20:33.359 +06:00 [INF] User profile is available. Using 'C:\Users\ГерценЕ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-27 21:20:33.489 +06:00 [INF] Now listening on: https://localhost:7159
+2023-03-27 21:20:33.490 +06:00 [INF] Now listening on: http://localhost:5071
+2023-03-27 21:20:33.492 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-27 21:20:33.492 +06:00 [INF] Hosting environment: Development
+2023-03-27 21:20:33.492 +06:00 [INF] Content root path: C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1\
+2023-03-27 21:20:34.213 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7159/ - -
+2023-03-27 21:20:34.273 +06:00 [INF] Executing endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1)'
+2023-03-27 21:20:34.306 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebAppMVCLesson1.Controllers.HomeController (WebAppMVCLesson1).
+2023-03-27 21:20:34.310 +06:00 [INF] A user with email: gersen.e.a@gmail.com logged in "2023-03-27T21:20:34.3106607+06:00" WebAppMVCLesson1.Models.Room
+2023-03-27 21:20:34.311 +06:00 [INF] LogInformation
+2023-03-27 21:20:34.311 +06:00 [ERR] LogError
+2023-03-27 21:20:34.311 +06:00 [ERR] test Error
+System.Exception: test Error
+   at WebAppMVCLesson1.Controllers.HomeController.Index() in C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1\Controllers\HomeController.cs:line 37
+2023-03-27 21:20:34.333 +06:00 [INF] Executing ViewResult, running view Index.
+2023-03-27 21:20:34.573 +06:00 [INF] Executed ViewResult - view Index executed in 239.7853ms.
+2023-03-27 21:20:34.575 +06:00 [INF] Executed action WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1) in 268.1664ms
+2023-03-27 21:20:34.576 +06:00 [INF] Executed endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1)'
+2023-03-27 21:20:34.594 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7159/ - - - 200 - text/html;+charset=utf-8 383.6163ms
+2023-03-27 21:20:34.675 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7159/_vs/browserLink - -
+2023-03-27 21:20:34.675 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7159/_framework/aspnetcore-browser-refresh.js - -
+2023-03-27 21:20:34.678 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7159/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.9325ms
+2023-03-27 21:20:34.706 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.5876ms
+2023-03-27 21:22:11.763 +06:00 [INF] User profile is available. Using 'C:\Users\ГерценЕ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-27 21:22:11.895 +06:00 [INF] Now listening on: https://localhost:7159
+2023-03-27 21:22:11.895 +06:00 [INF] Now listening on: http://localhost:5071
+2023-03-27 21:22:11.898 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-27 21:22:11.898 +06:00 [INF] Hosting environment: Development
+2023-03-27 21:22:11.898 +06:00 [INF] Content root path: C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1\
+2023-03-27 21:22:12.551 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7159/ - -
+2023-03-27 21:22:12.593 +06:00 [INF] Executing endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1)'
+2023-03-27 21:22:12.616 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebAppMVCLesson1.Controllers.HomeController (WebAppMVCLesson1).
+2023-03-27 21:22:12.618 +06:00 [INF] A user with email: gersen.e.a@gmail.com logged in "2023-03-27T21:22:12.6185840+06:00" WebAppMVCLesson1.Models.Room
+2023-03-27 21:22:12.619 +06:00 [INF] LogInformation
+2023-03-27 21:22:12.619 +06:00 [ERR] LogError
+2023-03-27 21:22:12.619 +06:00 [ERR] test Error
+System.Exception: test Error
+   at WebAppMVCLesson1.Controllers.HomeController.Index() in C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1\Controllers\HomeController.cs:line 37
+2023-03-27 21:22:12.640 +06:00 [INF] Executing ViewResult, running view Index.
+2023-03-27 21:22:12.836 +06:00 [INF] Executed ViewResult - view Index executed in 196.3857ms.
+2023-03-27 21:22:12.840 +06:00 [INF] Executed action WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1) in 222.6959ms
+2023-03-27 21:22:12.840 +06:00 [INF] Executed endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1)'
+2023-03-27 21:22:12.878 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7159/ - - - 200 - text/html;+charset=utf-8 328.5713ms
+2023-03-27 21:22:12.919 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7159/_framework/aspnetcore-browser-refresh.js - -
+2023-03-27 21:22:12.927 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7159/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 7.6699ms
+2023-03-27 21:22:12.945 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7159/_vs/browserLink - -
+2023-03-27 21:22:12.986 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 40.6122ms
+2023-03-27 21:22:37.612 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7159/ - -
+2023-03-27 21:22:37.613 +06:00 [INF] Executing endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1)'
+2023-03-27 21:22:37.613 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebAppMVCLesson1.Controllers.HomeController (WebAppMVCLesson1).
+2023-03-27 21:22:37.614 +06:00 [INF] A user with email: gersen.e.a@gmail.com logged in "2023-03-27T21:22:37.6143049+06:00" WebAppMVCLesson1.Models.Room
+2023-03-27 21:22:37.614 +06:00 [INF] LogInformation
+2023-03-27 21:22:37.614 +06:00 [ERR] LogError
+2023-03-27 21:22:37.614 +06:00 [ERR] test Error
+System.Exception: test Error
+   at WebAppMVCLesson1.Controllers.HomeController.Index() in C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1\Controllers\HomeController.cs:line 37
+2023-03-27 21:22:37.615 +06:00 [INF] Executing ViewResult, running view Index.
+2023-03-27 21:22:37.627 +06:00 [INF] Executed ViewResult - view Index executed in 12.0168ms.
+2023-03-27 21:22:37.627 +06:00 [INF] Executed action WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1) in 13.4538ms
+2023-03-27 21:22:37.627 +06:00 [INF] Executed endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1)'
+2023-03-27 21:22:37.633 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7159/ - - - 200 - text/html;+charset=utf-8 21.0384ms
+2023-03-27 21:22:37.675 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7159/_framework/aspnetcore-browser-refresh.js - -
+2023-03-27 21:22:37.677 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7159/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 2.4004ms
+2023-03-27 21:22:37.678 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7159/_vs/browserLink - -
+2023-03-27 21:22:37.685 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.8608ms
+2023-03-27 21:33:44.783 +06:00 [INF] User profile is available. Using 'C:\Users\ГерценЕ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-27 21:33:45.013 +06:00 [INF] Now listening on: https://localhost:7159
+2023-03-27 21:33:45.014 +06:00 [INF] Now listening on: http://localhost:5071
+2023-03-27 21:33:45.018 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-27 21:33:45.018 +06:00 [INF] Hosting environment: Development
+2023-03-27 21:33:45.018 +06:00 [INF] Content root path: C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1\
+2023-03-27 21:33:45.438 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7159/ - -
+2023-03-27 21:33:45.481 +06:00 [INF] Executing endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1)'
+2023-03-27 21:33:45.507 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebAppMVCLesson1.Controllers.HomeController (WebAppMVCLesson1).
+2023-03-27 21:33:45.510 +06:00 [INF] A user with email: gersen.e.a@gmail.com logged in "2023-03-27T21:33:45.5100002+06:00" WebAppMVCLesson1.Models.Room
+2023-03-27 21:33:45.510 +06:00 [INF] LogInformation
+2023-03-27 21:33:45.510 +06:00 [ERR] LogError
+2023-03-27 21:33:45.510 +06:00 [ERR] test Error
+System.Exception: test Error
+   at WebAppMVCLesson1.Controllers.HomeController.Index() in C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1\Controllers\HomeController.cs:line 37
+2023-03-27 21:33:45.533 +06:00 [INF] Executing ViewResult, running view Index.
+2023-03-27 21:33:45.732 +06:00 [INF] Executed ViewResult - view Index executed in 200.1891ms.
+2023-03-27 21:33:45.734 +06:00 [INF] Executed action WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1) in 226.5346ms
+2023-03-27 21:33:45.735 +06:00 [INF] Executed endpoint 'WebAppMVCLesson1.Controllers.HomeController.Index (WebAppMVCLesson1)'
+2023-03-27 21:33:45.753 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7159/ - - - 200 - text/html;+charset=utf-8 317.9464ms
+2023-03-27 21:33:45.819 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7159/_framework/aspnetcore-browser-refresh.js - -
+2023-03-27 21:33:45.822 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7159/_vs/browserLink - -
+2023-03-27 21:33:45.823 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7159/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.2383ms
+2023-03-27 21:33:45.844 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7159/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.8103ms

@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebAppMVCLesson1.NewAdmin
 build_property.RootNamespace = WebAppMVCLesson1.NewAdmin
-build_property.ProjectDir = D:\shag\ASP.NET\ATR\WebAppMVCLesson1.NewAdmin\
+build_property.ProjectDir = C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.NewAdmin\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\shag\ASP.NET\ATR\WebAppMVCLesson1.NewAdmin
+build_property.MSBuildProjectDirectory = C:\Users\ГерценЕ\source\repos\WebAppMVCLesson1.NewAdmin
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/Carusel/AddCarusel.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/Carusel/AddCarusel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydXNlbFxBZGRDYXJ1c2VsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/Carusel/Index.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/Carusel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydXNlbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/Home/Index.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/Home/Privacy.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/RoomProperty/Create.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/RoomProperty/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVByb3BlcnR5XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/RoomProperty/Edit.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/RoomProperty/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVByb3BlcnR5XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/RoomProperty/Index.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/RoomProperty/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVByb3BlcnR5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/Room/AddRoom.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/Room/AddRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxBZGRSb29tLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/Room/EditRoom.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/Room/EditRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxFZGl0Um9vbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/Room/Index.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/Room/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/Shared/Error.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/Team/AddTeam.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/Team/AddTeam.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxBZGRUZWFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/Team/Index.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/Team/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/_ViewImports.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/_ViewStart.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/shag/ASP.NET/ATR/WebAppMVCLesson1.NewAdmin/Views/Shared/_Layout.cshtml]
+[C:/Users/ГерценЕ/source/repos/WebAppMVCLesson1.NewAdmin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jc8cwiicqr
