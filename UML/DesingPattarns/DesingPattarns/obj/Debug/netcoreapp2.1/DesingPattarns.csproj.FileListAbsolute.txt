@@ -1,0 +1,12 @@
+C:\Users\Yury Yerofeev\source\repos\DesingPattarns\DesingPattarns\bin\Debug\netcoreapp2.1\DesingPattarns.deps.json
+C:\Users\Yury Yerofeev\source\repos\DesingPattarns\DesingPattarns\bin\Debug\netcoreapp2.1\DesingPattarns.runtimeconfig.json
+C:\Users\Yury Yerofeev\source\repos\DesingPattarns\DesingPattarns\bin\Debug\netcoreapp2.1\DesingPattarns.runtimeconfig.dev.json
+C:\Users\Yury Yerofeev\source\repos\DesingPattarns\DesingPattarns\bin\Debug\netcoreapp2.1\DesingPattarns.dll
+C:\Users\Yury Yerofeev\source\repos\DesingPattarns\DesingPattarns\bin\Debug\netcoreapp2.1\DesingPattarns.pdb
+C:\Users\Yury Yerofeev\source\repos\DesingPattarns\DesingPattarns\obj\Debug\netcoreapp2.1\DesingPattarns.csprojAssemblyReference.cache
+C:\Users\Yury Yerofeev\source\repos\DesingPattarns\DesingPattarns\obj\Debug\netcoreapp2.1\DesingPattarns.AssemblyInfoInputs.cache
+C:\Users\Yury Yerofeev\source\repos\DesingPattarns\DesingPattarns\obj\Debug\netcoreapp2.1\DesingPattarns.AssemblyInfo.cs
+C:\Users\Yury Yerofeev\source\repos\DesingPattarns\DesingPattarns\obj\Debug\netcoreapp2.1\DesingPattarns.dll
+C:\Users\Yury Yerofeev\source\repos\DesingPattarns\DesingPattarns\obj\Debug\netcoreapp2.1\DesingPattarns.pdb
+C:\Users\Yury Yerofeev\source\repos\DesingPattarns\DesingPattarns\obj\Debug\netcoreapp2.1\DesingPattarns.csproj.CoreCompileInputs.cache
+C:\Users\Yury Yerofeev\source\repos\DesingPattarns\DesingPattarns\obj\Debug\netcoreapp2.1\DesingPattarns.genruntimeconfig.cache
