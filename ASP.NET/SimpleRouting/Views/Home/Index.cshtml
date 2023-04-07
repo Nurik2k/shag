@@ -1,14 +1,47 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Options
+
+@inject IOptions<RequestLocalizationOptions> locOptions
+@{
     ViewData["Title"] = "Home Page";
-     
+
+    var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+    var cultureItems = locOptions.Value.SupportedCultures.Select(s => new SelectListItem
+            {
+                Value = s.Name,
+                Text = s.DisplayName
+            }).ToList();
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome @ViewBag.Id</h1>
+
+    <hr />
+    <form id="cultureForm" asp-action="Index">
+    <select onchange="SetCulture(this.value)" asp-items="cultureItems"></select>
+    </form>
+    <hr />
     <ul>
         <li>@ViewBag.Id</li>
         <li>@ViewBag.Name</li>
         @*<li><a href="@Url.RouteUrl("Privac")">Home</a></li>*@
     </ul>
+    <br />
+
+    <a asp-action="Index">Link 1</a>
+    <br />
+    <a asp-controller="Invoices">Link 1</a>
+    @*    <a asp-controller="Home" asp-action="Privacy">Outgoing URL</a>
+    <br />
+    <a asp-controller="Home" asp-action="Privacy">New index</a>*@
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+        <script>
+            function SetCulture(selectCulture){
+                var culture = "/?culture=" + selectedCulture + "&ui-culture=" + selectedCulture;
+                $("#cultureForm").action = culture;
+                $("#cultureForm").sumbit();
+            }
+        </script>
