@@ -9,6 +9,17 @@
       "SimpleRouting/1.0.0": {
         "runtime": {
           "SimpleRouting.dll": {}
+        },
+        "resources": {
+          "ru/SimpleRouting.resources.dll": {
+            "locale": "ru"
+          },
+          "en/SimpleRouting.resources.dll": {
+            "locale": "en"
+          },
+          "kk/SimpleRouting.resources.dll": {
+            "locale": "kk"
+          }
         }
       }
     }

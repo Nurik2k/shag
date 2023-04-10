@@ -2,11 +2,12 @@
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.Options;
+using SimpleRouting.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 //Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddViewLocalization();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
@@ -19,14 +20,34 @@ builder.Services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat
 builder.Services.Configure<RequestLocalizationOptions>(option =>
 {
     var supportedCulture = new[] {
-    new CultureInfo("en-US"),
-    new CultureInfo("ru-Ru"),
-    new CultureInfo("kk-KZ")
+    new CultureInfo("en"),
+    new CultureInfo("ru"),
+    new CultureInfo("kk")
     };
-    option.DefaultRequestCulture = new RequestCulture(culture: "kk-KZ", uiCulture: "kk-Kz");
-    option.SupportedCultures= supportedCulture;
-    option.SupportedUICultures= supportedCulture;
+    option.DefaultRequestCulture = new RequestCulture(culture: "kk", uiCulture: "kk");
+    option.SupportedCultures = supportedCulture;
+    option.SupportedUICultures = supportedCulture;
+    //option.AddInitialRequestCultureProvider(new MyCultureProvider());
+
+
+    option.AddInitialRequestCultureProvider(
+        new CustomRequestCultureProvider(async context =>
+        {
+            var currentCulture = "kk";
+            var segment = context.Request.Path.Value.Split(new char[] { '/' },
+                StringSplitOptions.RemoveEmptyEntries);
+            if (segment.Length >= 1)
+            {
+                string lastSegment = segment[segment.Length - 1];
+                currentCulture = lastSegment;
+            }
+            var requestCulture = new ProviderCultureResult(currentCulture);
+            return await Task.FromResult(requestCulture);
+        }));
 });
+
+builder.Services.AddLocalization(option =>
+option.ResourcesPath = "Resources");
 
 var app = builder.Build();
 
@@ -112,5 +133,17 @@ app.MapControllerRoute(
 //{
 //    endpoints.MapControllers();//нет определенных маршрутов
 //});
+app.MapControllerRoute(
+    name: "default",
+    pattern: "/en",
+    defaults: new { controller = "Home", action = "Index" });
+app.MapControllerRoute(
+    name: "default",
+    pattern: "/ru",
+    defaults: new { controller = "Home", action = "Index" });
+app.MapControllerRoute(
+    name: "default",
+    pattern: "/kk",
+    defaults: new { controller = "Home", action = "Index" });
 
 app.Run();

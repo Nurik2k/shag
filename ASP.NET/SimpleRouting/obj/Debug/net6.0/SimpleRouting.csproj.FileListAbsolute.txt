@@ -29,3 +29,14 @@ D:\shag\ASP.NET\SimpleRouting\obj\Debug\net6.0\refint\SimpleRouting.dll
 D:\shag\ASP.NET\SimpleRouting\obj\Debug\net6.0\SimpleRouting.pdb
 D:\shag\ASP.NET\SimpleRouting\obj\Debug\net6.0\SimpleRouting.genruntimeconfig.cache
 D:\shag\ASP.NET\SimpleRouting\obj\Debug\net6.0\ref\SimpleRouting.dll
+D:\shag\ASP.NET\SimpleRouting\bin\Debug\net6.0\en\SimpleRouting.resources.dll
+D:\shag\ASP.NET\SimpleRouting\bin\Debug\net6.0\kk\SimpleRouting.resources.dll
+D:\shag\ASP.NET\SimpleRouting\bin\Debug\net6.0\ru\SimpleRouting.resources.dll
+D:\shag\ASP.NET\SimpleRouting\obj\Debug\net6.0\SimpleRouting.Resources.InvoicesController.Controllers.InvoicesController.ru.resources
+D:\shag\ASP.NET\SimpleRouting\obj\Debug\net6.0\SimpleRouting.csproj.GenerateResource.cache
+D:\shag\ASP.NET\SimpleRouting\obj\Debug\net6.0\en\SimpleRouting.resources.dll
+D:\shag\ASP.NET\SimpleRouting\obj\Debug\net6.0\kk\SimpleRouting.resources.dll
+D:\shag\ASP.NET\SimpleRouting\obj\Debug\net6.0\ru\SimpleRouting.resources.dll
+D:\shag\ASP.NET\SimpleRouting\obj\Debug\net6.0\SimpleRouting.Resources.Views.Home.Index.en.resources
+D:\shag\ASP.NET\SimpleRouting\obj\Debug\net6.0\SimpleRouting.Resources.Views.Home.Index.kk.resources
+D:\shag\ASP.NET\SimpleRouting\obj\Debug\net6.0\SimpleRouting.Resources.Views.Home.Index.ru.resources

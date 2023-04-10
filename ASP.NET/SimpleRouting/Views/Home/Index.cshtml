@@ -1,47 +1,77 @@
 ﻿@using Microsoft.AspNetCore.Builder
 @using Microsoft.AspNetCore.Localization
+@using Microsoft.AspNetCore.Mvc.Localization;
 @using Microsoft.Extensions.Options
 
 @inject IOptions<RequestLocalizationOptions> locOptions
+@inject IViewLocalizer localizer
+
 @{
     ViewData["Title"] = "Home Page";
 
     var requestCulture = Context.Features.Get<IRequestCultureFeature>();
-    var cultureItems = locOptions.Value.SupportedCultures.Select(s => new SelectListItem
+    List<SelectListItem> cultureItems = locOptions.Value.SupportedCultures
+    .Select(s => new SelectListItem
             {
                 Value = s.Name,
                 Text = s.DisplayName
-            }).ToList();
+            })
+            .ToList();
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome @ViewBag.Id</h1>
+    <table>
+        <tr>
+            <td>@DateTime.Now.ToLongDateString()</td>
+            <td>@(12345678.00.ToString("c"))</td>
+            <td>@(123.45m.ToString("F2"))</td>
+        </tr>
+    </table>
+    <p>@localizer["Lang"]</p>
+</div>
 
+
+<div class="text-center">
+    <h1 class="display-4">Welcome </h1>
+    <hr />
+    @requestCulture.RequestCulture.Culture.Name
     <hr />
     <form id="cultureForm" asp-action="Index">
-    <select onchange="SetCulture(this.value)" asp-items="cultureItems"></select>
+        <select onchange="SetCulture(this.value)"
+                asp-items="cultureItems"></select>
     </form>
     <hr />
     <ul>
-        <li>@ViewBag.Id</li>
-        <li>@ViewBag.Name</li>
-        @*<li><a href="@Url.RouteUrl("Privac")">Home</a></li>*@
+        <li>@ViewBag.id</li>
+        <li>@ViewBag.name</li>
+        <li><a href="@Url.RouteUrl("defaultApi")">Home</a> </li>
     </ul>
     <br />
 
     <a asp-action="Index">Link 1</a>
     <br />
     <a asp-controller="Invoices">Link 1</a>
-    @*    <a asp-controller="Home" asp-action="Privacy">Outgoing URL</a>
+
+
+
+    @*
     <br />
-    <a asp-controller="Home" asp-action="Privacy">New index</a>*@
+    <a asp-controller="Home" asp-action="Privacy">Outgoing URL</a>
+    <br />
+    <a asp-controller="Home" asp-action="Privacy">New index</a>
+    *@
+
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
 
-        <script>
-            function SetCulture(selectCulture){
-                var culture = "/?culture=" + selectedCulture + "&ui-culture=" + selectedCulture;
-                $("#cultureForm").action = culture;
-                $("#cultureForm").sumbit();
-            }
-        </script>
+<script>
+    function SetCulture(selectedCulture) {
+        var culture = "/?culture=" + selectedCulture + "&uiculture=" + selectedCulture;
+        
+        console.log(culture);
+
+        document.getElementById("cultureForm").action = culture;
+        //$("#cultureForm").action = culure;
+        $("#cultureForm").submit();
+    }
+</script>
