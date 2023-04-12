@@ -1,0 +1,15 @@
+D:\shag\UML\kakayaraznica\bin\Debug\net6.0\kakayaraznica.exe
+D:\shag\UML\kakayaraznica\bin\Debug\net6.0\kakayaraznica.deps.json
+D:\shag\UML\kakayaraznica\bin\Debug\net6.0\kakayaraznica.runtimeconfig.json
+D:\shag\UML\kakayaraznica\bin\Debug\net6.0\kakayaraznica.dll
+D:\shag\UML\kakayaraznica\bin\Debug\net6.0\kakayaraznica.pdb
+D:\shag\UML\kakayaraznica\obj\Debug\net6.0\kakayaraznica.csproj.AssemblyReference.cache
+D:\shag\UML\kakayaraznica\obj\Debug\net6.0\kakayaraznica.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\UML\kakayaraznica\obj\Debug\net6.0\kakayaraznica.AssemblyInfoInputs.cache
+D:\shag\UML\kakayaraznica\obj\Debug\net6.0\kakayaraznica.AssemblyInfo.cs
+D:\shag\UML\kakayaraznica\obj\Debug\net6.0\kakayaraznica.csproj.CoreCompileInputs.cache
+D:\shag\UML\kakayaraznica\obj\Debug\net6.0\kakayaraznica.dll
+D:\shag\UML\kakayaraznica\obj\Debug\net6.0\refint\kakayaraznica.dll
+D:\shag\UML\kakayaraznica\obj\Debug\net6.0\kakayaraznica.pdb
+D:\shag\UML\kakayaraznica\obj\Debug\net6.0\kakayaraznica.genruntimeconfig.cache
+D:\shag\UML\kakayaraznica\obj\Debug\net6.0\ref\kakayaraznica.dll
