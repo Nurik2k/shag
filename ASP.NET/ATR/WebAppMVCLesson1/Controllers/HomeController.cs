@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Security.Claims;
 using WebAppMVCLesson1.Models;
 
 namespace WebAppMVCLesson1.Controllers
@@ -7,10 +10,12 @@ namespace WebAppMVCLesson1.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly EFContext _db;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, EFContext db)
         {
             _logger = logger;
+            _db = db;
         }
 
 
@@ -22,12 +27,11 @@ namespace WebAppMVCLesson1.Controllers
 
             try
             {
-               
-                Room    rm = new Room();
+                Room rm = new Room();
                 rm.RoomNumber = 501;
 
                 _logger.LogInformation(
-                    "A user with email: {useremail} logged in {dateTime} {rm}", 
+                    "A user with email: {useremail} logged in {dateTime} {rm}",
                     useremail, dateTime, rm);
 
 
@@ -39,7 +43,7 @@ namespace WebAppMVCLesson1.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, ex.Message);
-            }        
+            }
 
             return View();
         }
@@ -61,6 +65,35 @@ namespace WebAppMVCLesson1.Controllers
         public IActionResult WrongEdg()
         {
             return View();
+        }
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(string username, string password)
+        {
+            var user = _db.Users.FirstOrDefault(f=>f.UserName == username && f.Password == password);
+            if (user == null)
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, username)
+                };
+                var claimsIdentity = new ClaimsIdentity(claims, "Login");
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
+                return Redirect("/Home/Index");
+            }
+            else
+            {
+                return View();
+            }
+        }
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return Redirect("/Home/Index");
         }
     }
 }

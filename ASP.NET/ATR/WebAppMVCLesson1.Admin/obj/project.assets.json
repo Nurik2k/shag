@@ -3526,24 +3526,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ГерценЕ\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\nurkw\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
+      "projectUniqueName": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
       "projectName": "WebAppMVCLesson1.Admin",
-      "projectPath": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
-      "packagesPath": "C:\\Users\\ГерценЕ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Admin\\obj\\",
+      "projectPath": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Admin\\WebAppMVCLesson1.Admin.csproj",
+      "packagesPath": "C:\\Users\\nurkw\\.nuget\\packages\\",
+      "outputPath": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Admin\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ГерценЕ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\nurkw\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3551,15 +3546,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj": {
-              "projectPath": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj"
+            "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj": {
+              "projectPath": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1.Lib\\WebAppMVCLesson1.Lib.csproj"
             }
           }
         }
@@ -3614,7 +3608,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

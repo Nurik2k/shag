@@ -45,10 +45,19 @@
                     </li>
                 </ul>
             </li>
-            <li><a asp-action="Location" asp-controller="Home">LOCATION</a></li>
+            @*<li><a asp-action="Location" asp-controller="Home">LOCATION</a></li>*@
             <li><a asp-action="Index" asp-controller="Event">EVENT</a></li>
             <li><a asp-action="Index" asp-controller="Team">TEAM</a></li>
             <li><a asp-action="Contact" asp-controller="Home">CONTACT</a></li>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li><a asp-action="Logout" asp-controller="Home">@User.Identity.Name||LOGOUT</a></li>
+            }
+            else
+            {
+                <li><a asp-action="Login" asp-controller="Home">LOGIN</a></li>
+            }
+           
         </ul>
     </nav>
 </div>

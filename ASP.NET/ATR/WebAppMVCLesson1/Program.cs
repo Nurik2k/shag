@@ -1,12 +1,5 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.FileProviders;
-using Serilog;
-using Serilog.Events;
-using Serilog.Formatting.Compact;
-using Serilog.Sinks.MSSqlServer;
-using System.Collections.ObjectModel;
-using System.Data;
-using System.Net.NetworkInformation;
 using WebAppMVCLesson1.Middleware;
 using WebAppMVCLesson1.Models;
 
@@ -20,57 +13,64 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<EFContext>(options =>
 options.UseSqlServer(builder.Configuration["ConnectionStrings:DefaultConnection"]));
 
-
-
-builder.Host.ConfigureLogging(logingBuilder =>
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(option =>
 {
-    logingBuilder.ClearProviders();
-    //logingBuilder
-    //      .AddSeq()
-    //    .AddDebug()
-    //    .AddEventLog()
-    //    .AddConsole();
-
-    var columnOptions = new ColumnOptions
-    {
-        AdditionalColumns = new Collection<SqlColumn>
-                {
-                new SqlColumn("UserName", SqlDbType.VarChar),
-                new SqlColumn("IP", SqlDbType.VarChar)
-               }
-    };
-
-
-    builder.Host.UseSerilog();
-    Log.Logger = new LoggerConfiguration()
-        .WriteTo.Seq("http://localhost:5341/")
-        .WriteTo.Debug(new RenderedCompactJsonFormatter())
-        .WriteTo.File("Logs/logs.txt", rollingInterval: RollingInterval.Day)
-        .WriteTo.MSSqlServer(
-        builder.Configuration["ConnectionStrings:DefaultConnection"],
-        sinkOptions: new MSSqlServerSinkOptions { TableName = "Log" },
-        null,
-        null,
-        LogEventLevel.Information,
-        null,
-        columnOptions,
-        null,
-        null)
-        .CreateLogger();
+    option.LoginPath = "/Home/Login";
+    option.ExpireTimeSpan = TimeSpan.FromMinutes(15);
+    option.Cookie.Name = ".HotelATR.Cookies";
+    option.SlidingExpiration = true;
 });
+
+
+//builder.Host.ConfigureLogging(logingBuilder =>
+//{
+//    logingBuilder.ClearProviders();
+//logingBuilder
+//      .AddSeq()
+//    .AddDebug()
+//    .AddEventLog()
+//    .AddConsole();
+
+//var columnOptions = new ColumnOptions
+//{
+//    AdditionalColumns = new Collection<SqlColumn>
+//            {
+//            new SqlColumn("UserName", SqlDbType.VarChar),
+//            new SqlColumn("IP", SqlDbType.VarChar)
+//           }
+//};
+
+
+//    builder.Host.UseSerilog();
+//    Log.Logger = new LoggerConfiguration()
+//        .WriteTo.Seq("http://localhost:5341/")
+//        .WriteTo.Debug(new RenderedCompactJsonFormatter())
+//        .WriteTo.File("Logs/logs.txt", rollingInterval: RollingInterval.Day)
+//        .WriteTo.MSSqlServer(
+//        builder.Configuration["ConnectionStrings:DefaultConnection"],
+//        sinkOptions: new MSSqlServerSinkOptions { TableName = "Log" },
+//        null,
+//        null,
+//        LogEventLevel.Information,
+//        null,
+//        columnOptions,
+//        null,
+//        null)
+//        .CreateLogger();
+//});
 
 
 
 var app = builder.Build();
 
-app.UseDirectoryBrowser(new DirectoryBrowserOptions
-{
-    FileProvider = new PhysicalFileProvider(
-        Path.Combine(Directory.GetCurrentDirectory(),
-                     "wwwroot", 
-                     "img")), 
-    RequestPath = "/images"
-}); 
+//app.UseDirectoryBrowser(new DirectoryBrowserOptions
+//{
+//    FileProvider = new PhysicalFileProvider(
+//        Path.Combine(Directory.GetCurrentDirectory(),
+//                     "wwwroot",
+//                     "img")),
+//    RequestPath = "/images"
+//});
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -86,8 +86,10 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
+#region String path
 //string path = "";
 //app.Map("/Home/action", branch =>
 //{
@@ -101,13 +103,15 @@ app.UseAuthorization();
 
 //    });
 //});
+#endregion
+
 app.UseStartUp(userCount);
 
 app.UsePageStatistics();
 
 //app.UseIpLimit();
 
-app.UseMiddleware<EMiddleware>();
+//app.UseMiddleware<EMiddleware>();
 
 
 

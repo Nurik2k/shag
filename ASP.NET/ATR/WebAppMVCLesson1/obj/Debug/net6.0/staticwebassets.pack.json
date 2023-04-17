@@ -1,811 +1,811 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebAppMVCLesson1.bundle.scp.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebAppMVCLesson1.bundle.scp.css",
       "PackagePath": "staticwebassets\\WebAppMVCLesson1.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\animate.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\magnific-popup.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\magnific-popup.css",
       "PackagePath": "staticwebassets\\css\\magnific-popup.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\material-design-iconic-font.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\material-design-iconic-font.css",
       "PackagePath": "staticwebassets\\css\\material-design-iconic-font.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\material-design-iconic-font.min.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\material-design-iconic-font.min.css",
       "PackagePath": "staticwebassets\\css\\material-design-iconic-font.min.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\meanmenu.min.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\meanmenu.min.css",
       "PackagePath": "staticwebassets\\css\\meanmenu.min.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\owl.carousel.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\owl.carousel.css",
       "PackagePath": "staticwebassets\\css\\owl.carousel.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\owl.video.play.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\owl.video.play.png",
       "PackagePath": "staticwebassets\\css\\owl.video.play.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\responsive.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\shortcode\\default.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\shortcode\\default.css",
       "PackagePath": "staticwebassets\\css\\shortcode\\default.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\shortcode\\footer.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\shortcode\\footer.css",
       "PackagePath": "staticwebassets\\css\\shortcode\\footer.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\shortcode\\header.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\shortcode\\header.css",
       "PackagePath": "staticwebassets\\css\\shortcode\\header.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\shortcode\\shortcodes.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\shortcode\\shortcodes.css",
       "PackagePath": "staticwebassets\\css\\shortcode\\shortcodes.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\shortcode\\slider.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\shortcode\\slider.css",
       "PackagePath": "staticwebassets\\css\\shortcode\\slider.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\site.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\slick.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\slick.css",
       "PackagePath": "staticwebassets\\css\\slick.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\css\\style.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\favicon.ico",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
       "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
       "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Fontd1f1.woff"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
       "PackagePath": "staticwebassets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\fontawesome-webfont3e6e.eot",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\fontawesome-webfont3e6e.eot",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.eot"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\fontawesome-webfont3e6e.svg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\fontawesome-webfont3e6e.svg",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.svg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\fontawesome-webfont3e6e.ttf",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\fontawesome-webfont3e6e.ttf",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.ttf"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.woff"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff2",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff2",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.woff2"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\fontawesome-webfontd41d.eot",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\fontawesome-webfontd41d.eot",
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfontd41d.eot"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\fonts\\glyphicons-halflings-regulard41d.eot",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\fonts\\glyphicons-halflings-regulard41d.eot",
       "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regulard41d.eot"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\banner\\1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\banner\\1.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\banner\\2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\banner\\2.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\banner\\3.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\banner\\3.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\banner\\4.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\banner\\4.jpg",
       "PackagePath": "staticwebassets\\img\\banner\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\bg\\1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\bg\\1.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\bg\\2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\bg\\2.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\bg\\3.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\bg\\3.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\bg\\5.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\bg\\5.jpg",
       "PackagePath": "staticwebassets\\img\\bg\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\blog\\1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\blog\\1.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\blog\\2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\blog\\2.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\blog\\3.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\blog\\3.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\client\\1-hover.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\client\\1-hover.png",
       "PackagePath": "staticwebassets\\img\\client\\1-hover.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\client\\1.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\client\\1.png",
       "PackagePath": "staticwebassets\\img\\client\\1.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\client\\2-hover.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\client\\2-hover.png",
       "PackagePath": "staticwebassets\\img\\client\\2-hover.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\client\\2.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\client\\2.png",
       "PackagePath": "staticwebassets\\img\\client\\2.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\client\\3-hover.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\client\\3-hover.png",
       "PackagePath": "staticwebassets\\img\\client\\3-hover.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\client\\3.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\client\\3.png",
       "PackagePath": "staticwebassets\\img\\client\\3.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\client\\4-hover.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\client\\4-hover.png",
       "PackagePath": "staticwebassets\\img\\client\\4-hover.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\client\\4.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\client\\4.png",
       "PackagePath": "staticwebassets\\img\\client\\4.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\client\\5-hover.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\client\\5-hover.png",
       "PackagePath": "staticwebassets\\img\\client\\5-hover.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\client\\5.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\client\\5.png",
       "PackagePath": "staticwebassets\\img\\client\\5.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\event\\1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\event\\1.jpg",
       "PackagePath": "staticwebassets\\img\\event\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\event\\2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\event\\2.jpg",
       "PackagePath": "staticwebassets\\img\\event\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\event\\3.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\event\\3.jpg",
       "PackagePath": "staticwebassets\\img\\event\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\event\\4.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\event\\4.jpg",
       "PackagePath": "staticwebassets\\img\\event\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\event\\5.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\event\\5.jpg",
       "PackagePath": "staticwebassets\\img\\event\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\event\\6.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\event\\6.jpg",
       "PackagePath": "staticwebassets\\img\\event\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\favicon.ico",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\favicon.ico",
       "PackagePath": "staticwebassets\\img\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\footer\\1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\footer\\1.jpg",
       "PackagePath": "staticwebassets\\img\\footer\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\footer\\2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\footer\\2.jpg",
       "PackagePath": "staticwebassets\\img\\footer\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\footer\\3.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\footer\\3.jpg",
       "PackagePath": "staticwebassets\\img\\footer\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\footer\\4.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\footer\\4.jpg",
       "PackagePath": "staticwebassets\\img\\footer\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\footer\\5.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\footer\\5.jpg",
       "PackagePath": "staticwebassets\\img\\footer\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\footer\\6.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\footer\\6.jpg",
       "PackagePath": "staticwebassets\\img\\footer\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\gallery\\1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\gallery\\1.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\gallery\\2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\gallery\\2.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\gallery\\3.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\gallery\\3.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\gallery\\4.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\gallery\\4.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\gallery\\5.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\gallery\\5.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\gallery\\6.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\gallery\\6.jpg",
       "PackagePath": "staticwebassets\\img\\gallery\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\icon\\conference-hover.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\icon\\conference-hover.png",
       "PackagePath": "staticwebassets\\img\\icon\\conference-hover.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\icon\\conference.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\icon\\conference.png",
       "PackagePath": "staticwebassets\\img\\icon\\conference.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\icon\\link-hover.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\icon\\link-hover.png",
       "PackagePath": "staticwebassets\\img\\icon\\link-hover.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\icon\\link.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\icon\\link.png",
       "PackagePath": "staticwebassets\\img\\icon\\link.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\icon\\restaurent-hover.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\icon\\restaurent-hover.png",
       "PackagePath": "staticwebassets\\img\\icon\\restaurent-hover.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\icon\\restaurent.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\icon\\restaurent.png",
       "PackagePath": "staticwebassets\\img\\icon\\restaurent.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\icon\\search-hover.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\icon\\search-hover.png",
       "PackagePath": "staticwebassets\\img\\icon\\search-hover.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\icon\\search.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\icon\\search.png",
       "PackagePath": "staticwebassets\\img\\icon\\search.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\icon\\spa-hover.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\icon\\spa-hover.png",
       "PackagePath": "staticwebassets\\img\\icon\\spa-hover.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\icon\\spa.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\icon\\spa.png",
       "PackagePath": "staticwebassets\\img\\icon\\spa.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\icon\\swim-hover.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\icon\\swim-hover.png",
       "PackagePath": "staticwebassets\\img\\icon\\swim-hover.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\icon\\swim.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\icon\\swim.png",
       "PackagePath": "staticwebassets\\img\\icon\\swim.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\location\\1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\location\\1.jpg",
       "PackagePath": "staticwebassets\\img\\location\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\location\\2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\location\\2.jpg",
       "PackagePath": "staticwebassets\\img\\location\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\location\\3.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\location\\3.jpg",
       "PackagePath": "staticwebassets\\img\\location\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\location\\4.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\location\\4.jpg",
       "PackagePath": "staticwebassets\\img\\location\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\location\\5.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\location\\5.jpg",
       "PackagePath": "staticwebassets\\img\\location\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\location\\6.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\location\\6.jpg",
       "PackagePath": "staticwebassets\\img\\location\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\logo\\footer-logo.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\logo\\footer-logo.png",
       "PackagePath": "staticwebassets\\img\\logo\\footer-logo.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\logo\\logo.png",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\logo\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo\\logo.png"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\1.jpg",
       "PackagePath": "staticwebassets\\img\\room\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\10.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\10.jpg",
       "PackagePath": "staticwebassets\\img\\room\\10.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\11.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\11.jpg",
       "PackagePath": "staticwebassets\\img\\room\\11.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\12.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\12.jpg",
       "PackagePath": "staticwebassets\\img\\room\\12.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\13.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\13.jpg",
       "PackagePath": "staticwebassets\\img\\room\\13.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\14.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\14.jpg",
       "PackagePath": "staticwebassets\\img\\room\\14.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\15.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\15.jpg",
       "PackagePath": "staticwebassets\\img\\room\\15.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\2.jpg",
       "PackagePath": "staticwebassets\\img\\room\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\3.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\3.jpg",
       "PackagePath": "staticwebassets\\img\\room\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\4.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\4.jpg",
       "PackagePath": "staticwebassets\\img\\room\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\5.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\5.jpg",
       "PackagePath": "staticwebassets\\img\\room\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\6.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\6.jpg",
       "PackagePath": "staticwebassets\\img\\room\\6.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\7.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\7.jpg",
       "PackagePath": "staticwebassets\\img\\room\\7.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\8.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\8.jpg",
       "PackagePath": "staticwebassets\\img\\room\\8.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\9.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\9.jpg",
       "PackagePath": "staticwebassets\\img\\room\\9.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\l-1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\l-1.jpg",
       "PackagePath": "staticwebassets\\img\\room\\l-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\l-2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\l-2.jpg",
       "PackagePath": "staticwebassets\\img\\room\\l-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\l-3.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\l-3.jpg",
       "PackagePath": "staticwebassets\\img\\room\\l-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\l-4.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\l-4.jpg",
       "PackagePath": "staticwebassets\\img\\room\\l-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\l-5.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\l-5.jpg",
       "PackagePath": "staticwebassets\\img\\room\\l-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\s-1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\s-1.jpg",
       "PackagePath": "staticwebassets\\img\\room\\s-1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\s-2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\s-2.jpg",
       "PackagePath": "staticwebassets\\img\\room\\s-2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\s-3.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\s-3.jpg",
       "PackagePath": "staticwebassets\\img\\room\\s-3.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\s-4.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\s-4.jpg",
       "PackagePath": "staticwebassets\\img\\room\\s-4.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\room\\s-5.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\room\\s-5.jpg",
       "PackagePath": "staticwebassets\\img\\room\\s-5.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\sidebar\\1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\sidebar\\1.jpg",
       "PackagePath": "staticwebassets\\img\\sidebar\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\sidebar\\2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\sidebar\\2.jpg",
       "PackagePath": "staticwebassets\\img\\sidebar\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\sidebar\\3.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\sidebar\\3.jpg",
       "PackagePath": "staticwebassets\\img\\sidebar\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\slider\\1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\slider\\1.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\slider\\2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\slider\\2.jpg",
       "PackagePath": "staticwebassets\\img\\slider\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\team\\1.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\team\\1.jpg",
       "PackagePath": "staticwebassets\\img\\team\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\team\\2.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\team\\2.jpg",
       "PackagePath": "staticwebassets\\img\\team\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\team\\3.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\team\\3.jpg",
       "PackagePath": "staticwebassets\\img\\team\\3.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\team\\4.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\team\\4.jpg",
       "PackagePath": "staticwebassets\\img\\team\\4.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\img\\team\\5.jpg",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\img\\team\\5.jpg",
       "PackagePath": "staticwebassets\\img\\team\\5.jpg"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\ajax-mail.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\ajax-mail.js",
       "PackagePath": "staticwebassets\\js\\ajax-mail.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\bootstrap.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\imagesloaded.pkgd.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\imagesloaded.pkgd.min.js",
       "PackagePath": "staticwebassets\\js\\imagesloaded.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\isotope.pkgd.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\isotope.pkgd.min.js",
       "PackagePath": "staticwebassets\\js\\isotope.pkgd.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\jquery.ajaxchimp.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\jquery.ajaxchimp.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.ajaxchimp.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\jquery.counterup.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\jquery.counterup.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\jquery.magnific-popup.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\jquery.magnific-popup.js",
       "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\jquery.meanmenu.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\jquery.meanmenu.js",
       "PackagePath": "staticwebassets\\js\\jquery.meanmenu.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\main.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\owl.carousel.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\plugins.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\plugins.js",
       "PackagePath": "staticwebassets\\js\\plugins.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\site.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\vendor\\jquery-1.12.4.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\vendor\\jquery-1.12.4.min.js",
       "PackagePath": "staticwebassets\\js\\vendor\\jquery-1.12.4.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\vendor\\modernizr-2.8.3.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\vendor\\modernizr-2.8.3.min.js",
       "PackagePath": "staticwebassets\\js\\vendor\\modernizr-2.8.3.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\js\\waypoints.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\js\\waypoints.min.js",
       "PackagePath": "staticwebassets\\js\\waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\ГерценЕ\\source\\repos\\WebAppMVCLesson1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\shag\\ASP.NET\\ATR\\WebAppMVCLesson1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

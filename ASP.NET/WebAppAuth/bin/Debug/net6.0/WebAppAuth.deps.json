@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WebAppAuth/1.0.0": {
+        "runtime": {
+          "WebAppAuth.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebAppAuth/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

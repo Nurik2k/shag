@@ -1,4 +1,10 @@
-﻿using System;
+﻿//{
+//    "ConnectionStrings": {
+//        "DefaultConnection": "data source=NURIK;Database=ATR;Trusted_Connection=True;TrustServerCertificate=true"
+//    }
+//}
+
+using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -30,6 +36,7 @@ namespace WebAppMVCLesson1.Models
         public virtual DbSet<TeamWork> TeamWorks { get; set; } = null!;
         public virtual DbSet<PageStatistics> PageStatistics { get; set; } = null!;
 
+        public virtual DbSet<Users> Users { get; set; } = null!;
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
