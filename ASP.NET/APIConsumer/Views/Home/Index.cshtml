@@ -21,25 +21,61 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var r in Model)
-        {
-            <tr>
-                <td>@r.Id</td>
-                <td>@r.Name</td>
-                <td>@r.StartLocation</td>
-                <td>@r.EndLocation</td>
-                <td>
-                    <a asp-action="UpdateReservation" asp-route-id="@r.Id">
-                        edit
-                    </a>
-                </td>
-                <td>
-                    <form asp-action="DeleteReservation" method="post">
-                        <input type="hidden" value="@r.Id" name="ReservationId" />
-                        <button type="submit">delete</button>
-                    </form>
-                </td>
-            </tr>
-        }
     </tbody>
 </table>
+
+@section Scripts{
+    <script>
+        function ShowAllReservation() {
+            $("table tbody").html("");
+
+            $.ajax({
+                url: "http://localhost:5177/api/Reservation",
+                type: "get",
+                contentType: "application/json",
+                success: function (result, status, xhr) {
+
+                    $.each(result, function (index, value) {
+                        $("tbody").append($("<tr>"));
+                        appendElement = $("tbody tr").last();
+                        appendElement.append($("<td>").html(value["id"]));
+                        appendElement.append($("<td>").html(value["name"]));
+                        appendElement.append($("<td>").html(value["startLocation"]));
+                        appendElement.append($("<td>").html(value["endLocation"]));
+                        appendElement.append($("<td>").html("<a href=\"UpdateReservation.html?id=" + value["id"] + "\"><img src=\"icon/edit.png\" /></a>"));
+                        appendElement.append($("<td>").html("<a href=\"UpdateReservation.html?id=" + value["id"] + "\"><img src=\"icon/edit.png\" /></a>"));
+                        appendElement.append($("<td>").html("<img class=\"delete\" src=\"icon/close.png\" />"));
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.log(xhr)
+                }
+            });
+        }
+
+
+        $(document).ready(function () {
+            ShowAllReservation();
+
+
+            $("table").on("click", "img.delete", function () {
+                var reservationId = $(this)
+                    .parents("tr")
+                    .find("td:nth-child(1)").text();
+
+                $.ajax({
+                    url: "https://localhost:5177/api/Reservation/" + reservationId,
+                    type: "delete",
+                    contentType: "application/json",
+                    success: function (result, status, xhr) {
+                        ShowAllReservation();
+                    },
+                    error: function (xhr, status, error) {
+                        console.log(xhr)
+                    }
+                });
+            });
+
+        });
+    </script>
+}
