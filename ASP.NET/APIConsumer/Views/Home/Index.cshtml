@@ -30,14 +30,13 @@
                 <td>@r.EndLocation</td>
                 <td>
                     <a asp-action="UpdateReservation" asp-route-id="@r.Id">
-                        Edit
+                        edit
                     </a>
                 </td>
                 <td>
                     <form asp-action="DeleteReservation" method="post">
                         <input type="hidden" value="@r.Id" name="ReservationId" />
-                        <input type="sumbit" value="@r.Id" name="Reservations"/>
-                        <button type="sumbit">Delete</button>
+                        <button type="submit">delete</button>
                     </form>
                 </td>
             </tr>

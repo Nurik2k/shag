@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Primitives;
 using WebApiLesson.Models;
 
 namespace WebApiLesson.Controllers
@@ -8,9 +10,22 @@ namespace WebApiLesson.Controllers
     public class ReservationController : ControllerBase
     {
         private IRepository repository;
-        public ReservationController(IRepository repository)
+        private IWebHostEnvironment webHostEnvironment;
+        public ReservationController(IRepository repository, IWebHostEnvironment webHostEnvironment)
         {
             this.repository = repository;
+            this.webHostEnvironment = webHostEnvironment;
+        }
+
+        [HttpPost("UploadFile")]
+        public async Task<string> UploadFile([FromForm] IFormFile file)
+        {
+            string path = Path.Combine(webHostEnvironment.WebRootPath, "Images/" + file.FileName);
+            using (var stream = new FileStream(path, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+            return "http://localhost:5177/Images/" + file.FileName;
         }
 
         [HttpGet]
@@ -24,14 +39,27 @@ namespace WebApiLesson.Controllers
         }
 
         [HttpPost]
-        public Reservation Post([FromBody] Reservation res) =>
-            repository.AddReservation(
+        public IActionResult Post([FromBody] Reservation res)
+        {
+            if (!Authentificate())
+                return Unauthorized();
+
+            return Ok(repository.AddReservation(
             new Reservation
             {
                 Name = res.Name,
                 StartLocation = res.StartLocation,
                 EndLocation = res.EndLocation
-            });
+            }));
+        }
+
+        bool Authentificate()
+        {
+            var allowKeys = new[] { "Secret@123", "VictoriaSecret" };
+            StringValues key = Request.Headers["Key"];
+            int count = (from t in allowKeys where t == key select t).Count();
+            return count == 0 ? false : true;
+        }
 
         [HttpPut]
         public Reservation Put([FromForm] Reservation res) => repository.UpdateReservation(res);

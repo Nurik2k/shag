@@ -30,3 +30,4 @@ D:\shag\ASP.NET\WebApiLesson\obj\Debug\net6.0\refint\WebApiLesson.dll
 D:\shag\ASP.NET\WebApiLesson\obj\Debug\net6.0\WebApiLesson.pdb
 D:\shag\ASP.NET\WebApiLesson\obj\Debug\net6.0\WebApiLesson.genruntimeconfig.cache
 D:\shag\ASP.NET\WebApiLesson\obj\Debug\net6.0\ref\WebApiLesson.dll
+D:\shag\ASP.NET\WebApiLesson\bin\Debug\net6.0\WebApiLesson.staticwebassets.runtime.json

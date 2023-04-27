@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "NRiKC6xivKKCFmWyjixoDHwAp2ah2yJr+Q21K4Tf5vk=",
+  "Hash": "9oErZcoGqt2NoHiojU/Xrh45cCKRh/J2RuWkwv9PwGo=",
   "Source": "WebApiLesson",
   "BasePath": "_content/WebApiLesson",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApiLesson\\wwwroot",
+      "Source": "WebApiLesson",
+      "ContentRoot": "D:\\shag\\ASP.NET\\WebApiLesson\\wwwroot\\",
+      "BasePath": "_content/WebApiLesson",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\shag\\ASP.NET\\WebApiLesson\\wwwroot\\Images\\Heckler_&_Koch_MP5_b.jpg",
+      "SourceId": "WebApiLesson",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\shag\\ASP.NET\\WebApiLesson\\wwwroot\\",
+      "BasePath": "_content/WebApiLesson",
+      "RelativePath": "Images/Heckler_&_Koch_MP5_b.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Heckler_&_Koch_MP5_b.jpg"
+    }
+  ]
 }
