@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "VeW00qktZn8kbVnVBASg+eBJt/GsmFo7QFTq+vjkMr8=",
+  "Source": "WebAPI-example",
+  "BasePath": "_content/WebAPI-example",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI-example\\wwwroot",
+      "Source": "WebAPI-example",
+      "ContentRoot": "D:\\shag\\ASP.NET\\reservation\\WebAPI-example\\wwwroot\\",
+      "BasePath": "_content/WebAPI-example",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\shag\\ASP.NET\\reservation\\WebAPI-example\\wwwroot\\Images\\file",
+      "SourceId": "WebAPI-example",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\shag\\ASP.NET\\reservation\\WebAPI-example\\wwwroot\\",
+      "BasePath": "_content/WebAPI-example",
+      "RelativePath": "Images/file",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\file"
+    },
+    {
+      "Identity": "D:\\shag\\ASP.NET\\reservation\\WebAPI-example\\wwwroot\\Images\\New Bitmap Image.jpg",
+      "SourceId": "WebAPI-example",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\shag\\ASP.NET\\reservation\\WebAPI-example\\wwwroot\\",
+      "BasePath": "_content/WebAPI-example",
+      "RelativePath": "Images/New Bitmap Image.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\New Bitmap Image.jpg"
+    }
+  ]
+}
