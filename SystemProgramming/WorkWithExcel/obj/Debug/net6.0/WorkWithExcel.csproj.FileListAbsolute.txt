@@ -1,0 +1,6 @@
+D:\shag\SystemProgramming\WorkWithExcel\obj\Debug\net6.0\WorkWithExcel.csproj.AssemblyReference.cache
+D:\shag\SystemProgramming\WorkWithExcel\obj\Debug\net6.0\WorkWithExcel.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\SystemProgramming\WorkWithExcel\obj\Debug\net6.0\WorkWithExcel.AssemblyInfoInputs.cache
+D:\shag\SystemProgramming\WorkWithExcel\obj\Debug\net6.0\WorkWithExcel.AssemblyInfo.cs
+D:\shag\SystemProgramming\WorkWithExcel\obj\Debug\net6.0\WorkWithExcel.csproj.CoreCompileInputs.cache
+D:\shag\SystemProgramming\WorkWithExcel\obj\Debug\net6.0\WorkWithExcel.csproj.ResolveComReference.cache

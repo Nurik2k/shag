@@ -1,0 +1,25 @@
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\bin\Debug\net6.0\UploadToExcel.exe
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\bin\Debug\net6.0\UploadToExcel.deps.json
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\bin\Debug\net6.0\UploadToExcel.runtimeconfig.json
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\bin\Debug\net6.0\UploadToExcel.dll
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\bin\Debug\net6.0\ref\UploadToExcel.dll
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\bin\Debug\net6.0\UploadToExcel.pdb
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.csproj.AssemblyReference.cache
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.csproj.ResolveComReference.cache
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.AssemblyInfoInputs.cache
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.AssemblyInfo.cs
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.csproj.CoreCompileInputs.cache
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.dll
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\obj\Debug\net6.0\ref\UploadToExcel.dll
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.pdb
+C:\Users\ЕрофеевЮ\source\repos\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.genruntimeconfig.cache
+D:\shag\SystemProgramming\01 - êß»«½8º«óá¡¿Ñ p¡áß½Ññ«óá¡¡«ú« »a«úaá¼¼¡«ú« ¬«ñá\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.csproj.AssemblyReference.cache
+D:\shag\SystemProgramming\01 - êß»«½8º«óá¡¿Ñ p¡áß½Ññ«óá¡¡«ú« »a«úaá¼¼¡«ú« ¬«ñá\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.csproj.ResolveComReference.cache
+D:\shag\SystemProgramming\01 - êß»«½8º«óá¡¿Ñ p¡áß½Ññ«óá¡¡«ú« »a«úaá¼¼¡«ú« ¬«ñá\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\SystemProgramming\01 - êß»«½8º«óá¡¿Ñ p¡áß½Ññ«óá¡¡«ú« »a«úaá¼¼¡«ú« ¬«ñá\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.AssemblyInfoInputs.cache
+D:\shag\SystemProgramming\01 - êß»«½8º«óá¡¿Ñ p¡áß½Ññ«óá¡¡«ú« »a«úaá¼¼¡«ú« ¬«ñá\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.AssemblyInfo.cs
+D:\shag\SystemProgramming\01 - êß»«½8º«óá¡¿Ñ p¡áß½Ññ«óá¡¡«ú« »a«úaá¼¼¡«ú« ¬«ñá\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.csproj.CoreCompileInputs.cache
+D:\shag\SystemProgramming\01 - êß»«½8º«óá¡¿Ñ p¡áß½Ññ«óá¡¡«ú« »a«úaá¼¼¡«ú« ¬«ñá\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.dll
+D:\shag\SystemProgramming\01 - êß»«½8º«óá¡¿Ñ p¡áß½Ññ«óá¡¡«ú« »a«úaá¼¼¡«ú« ¬«ñá\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.pdb
