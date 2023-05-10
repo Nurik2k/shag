@@ -1,0 +1,15 @@
+D:\shag\SystemProgramming\ComandRow\bin\Debug\net6.0\ComandRow.exe
+D:\shag\SystemProgramming\ComandRow\bin\Debug\net6.0\ComandRow.deps.json
+D:\shag\SystemProgramming\ComandRow\bin\Debug\net6.0\ComandRow.runtimeconfig.json
+D:\shag\SystemProgramming\ComandRow\bin\Debug\net6.0\ComandRow.dll
+D:\shag\SystemProgramming\ComandRow\bin\Debug\net6.0\ComandRow.pdb
+D:\shag\SystemProgramming\ComandRow\obj\Debug\net6.0\ComandRow.csproj.AssemblyReference.cache
+D:\shag\SystemProgramming\ComandRow\obj\Debug\net6.0\ComandRow.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\SystemProgramming\ComandRow\obj\Debug\net6.0\ComandRow.AssemblyInfoInputs.cache
+D:\shag\SystemProgramming\ComandRow\obj\Debug\net6.0\ComandRow.AssemblyInfo.cs
+D:\shag\SystemProgramming\ComandRow\obj\Debug\net6.0\ComandRow.csproj.CoreCompileInputs.cache
+D:\shag\SystemProgramming\ComandRow\obj\Debug\net6.0\ComandRow.dll
+D:\shag\SystemProgramming\ComandRow\obj\Debug\net6.0\refint\ComandRow.dll
+D:\shag\SystemProgramming\ComandRow\obj\Debug\net6.0\ComandRow.pdb
+D:\shag\SystemProgramming\ComandRow\obj\Debug\net6.0\ComandRow.genruntimeconfig.cache
+D:\shag\SystemProgramming\ComandRow\obj\Debug\net6.0\ref\ComandRow.dll

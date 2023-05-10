@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComandRow", "ComandRow.csproj", "{38A6A907-E113-4590-9F4C-29C974E028E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingConsoleRow", "..\PingConsoleRow\PingConsoleRow.csproj", "{8D491B6A-58DB-4F28-854E-881ADB379EB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38A6A907-E113-4590-9F4C-29C974E028E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A6A907-E113-4590-9F4C-29C974E028E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A6A907-E113-4590-9F4C-29C974E028E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A6A907-E113-4590-9F4C-29C974E028E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D491B6A-58DB-4F28-854E-881ADB379EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D491B6A-58DB-4F28-854E-881ADB379EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D491B6A-58DB-4F28-854E-881ADB379EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D491B6A-58DB-4F28-854E-881ADB379EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFB4E7B0-C5BC-43DB-8397-DD783C667626}
+	EndGlobalSection
+EndGlobal

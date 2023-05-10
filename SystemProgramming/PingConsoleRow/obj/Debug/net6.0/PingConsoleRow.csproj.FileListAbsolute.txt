@@ -1,0 +1,5 @@
+D:\shag\SystemProgramming\PingConsoleRow\obj\Debug\net6.0\PingConsoleRow.csproj.AssemblyReference.cache
+D:\shag\SystemProgramming\PingConsoleRow\obj\Debug\net6.0\PingConsoleRow.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\SystemProgramming\PingConsoleRow\obj\Debug\net6.0\PingConsoleRow.AssemblyInfoInputs.cache
+D:\shag\SystemProgramming\PingConsoleRow\obj\Debug\net6.0\PingConsoleRow.AssemblyInfo.cs
+D:\shag\SystemProgramming\PingConsoleRow\obj\Debug\net6.0\PingConsoleRow.csproj.CoreCompileInputs.cache

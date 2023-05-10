@@ -1,0 +1,61 @@
+#include <windows.h>
+#include <iostream>
+
+int main()
+{
+
+	STARTUPINFO cif;
+	PROCESS_INFORMATION pi;
+
+	ZeroMemory(&cif, sizeof(STARTUPINFO));
+	cif.cb = sizeof(cif);
+	ZeroMemory(&pi, sizeof(pi));
+
+	// Запустить дочерний процесс.
+	if (CreateProcess(LPWSTR(L"c:\\windows\\notepad.exe"), NULL,
+		NULL, NULL, FALSE, NULL, NULL, NULL, &cif, &pi) == TRUE)
+	{
+		std::cout << "process" << std::endl;
+		std::cout << "handle " << pi.hProcess << std::endl;
+	}
+
+	// Подождите, пока дочерний процесс не завершится.
+	WaitForSingleObject(pi.hProcess, INFINITE);
+
+	// Закройте дескрипторы процесса и потока. 
+	CloseHandle(pi.hProcess);
+	CloseHandle(pi.hThread);
+	return 0;
+}
+
+//----------------------------------------------------------------------------------
+using System;
+using System.Diagnostics;
+
+namespace SEP_202
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                using (Process myProcess = new Process())
+                {
+                    myProcess.StartInfo.UseShellExecute = false;
+
+                    myProcess.StartInfo.FileName = "notepad.exe";
+                    myProcess.StartInfo.CreateNoWindow = true;
+                    myProcess.Start();
+
+                    myProcess.WaitForExit();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            //Console.ReadLine();
+        }
+    }
+}

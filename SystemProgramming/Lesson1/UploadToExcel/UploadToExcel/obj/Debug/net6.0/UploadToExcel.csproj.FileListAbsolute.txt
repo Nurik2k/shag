@@ -23,3 +23,20 @@ D:\shag\SystemProgramming\01 - êß»«½8º«óá¡¿Ñ p¡áß½Ññ«óá¡¡
 D:\shag\SystemProgramming\01 - êß»«½8º«óá¡¿Ñ p¡áß½Ññ«óá¡¡«ú« »a«úaá¼¼¡«ú« ¬«ñá\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.csproj.CoreCompileInputs.cache
 D:\shag\SystemProgramming\01 - êß»«½8º«óá¡¿Ñ p¡áß½Ññ«óá¡¡«ú« »a«úaá¼¼¡«ú« ¬«ñá\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.dll
 D:\shag\SystemProgramming\01 - êß»«½8º«óá¡¿Ñ p¡áß½Ññ«óá¡¡«ú« »a«úaá¼¼¡«ú« ¬«ñá\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.pdb
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\bin\Debug\net6.0\UploadToExcel.exe
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\bin\Debug\net6.0\UploadToExcel.deps.json
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\bin\Debug\net6.0\UploadToExcel.runtimeconfig.json
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\bin\Debug\net6.0\UploadToExcel.dll
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\bin\Debug\net6.0\UploadToExcel.pdb
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.csproj.AssemblyReference.cache
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.csproj.ResolveComReference.cache
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.AssemblyInfoInputs.cache
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.AssemblyInfo.cs
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.csproj.CoreCompileInputs.cache
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.dll
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\obj\Debug\net6.0\refint\UploadToExcel.dll
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.pdb
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\obj\Debug\net6.0\UploadToExcel.genruntimeconfig.cache
+D:\shag\SystemProgramming\Lesson1\UploadToExcel\UploadToExcel\obj\Debug\net6.0\ref\UploadToExcel.dll

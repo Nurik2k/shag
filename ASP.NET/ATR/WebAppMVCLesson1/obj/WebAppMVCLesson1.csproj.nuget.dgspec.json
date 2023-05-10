@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[6.0.9, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Seq.Extensions.Logging": {
               "target": "Package",
               "version": "[6.1.0, )"

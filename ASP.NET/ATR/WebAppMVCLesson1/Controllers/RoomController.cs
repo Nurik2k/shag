@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using WebAppMVCLesson1.Models;
 
 namespace WebAppMVCLesson1.Controllers
@@ -12,9 +13,20 @@ namespace WebAppMVCLesson1.Controllers
            this.db = db;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Room> rooms = db.Rooms.Include(c=>c.Category).ToList();
+            //List<Room> rooms = db.Rooms.Include(c=>c.Category).ToList();
+            List<Room> rooms = new List<Room>();
+            using (HttpClient client = new HttpClient())
+            {
+                using(var request = client.GetAsync("http://localhost:5036/api/Room"))
+                {
+                    var result = await request.Result.Content.ReadAsStringAsync();
+                    
+                    rooms = JsonConvert.DeserializeObject<List<Room>>(result);
+
+                }
+            }
 
             return View(rooms);
         }

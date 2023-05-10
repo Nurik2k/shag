@@ -174,3 +174,4 @@ D:\shag\ASP.NET\ATR\WebAppMVCLesson1\obj\Debug\net6.0\refint\WebAppMVCLesson1.dl
 D:\shag\ASP.NET\ATR\WebAppMVCLesson1\obj\Debug\net6.0\WebAppMVCLesson1.pdb
 D:\shag\ASP.NET\ATR\WebAppMVCLesson1\obj\Debug\net6.0\WebAppMVCLesson1.genruntimeconfig.cache
 D:\shag\ASP.NET\ATR\WebAppMVCLesson1\obj\Debug\net6.0\ref\WebAppMVCLesson1.dll
+D:\shag\ASP.NET\ATR\WebAppMVCLesson1\bin\Debug\net6.0\Newtonsoft.Json.dll

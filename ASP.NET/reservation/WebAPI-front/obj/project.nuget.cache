@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C0nKy7c1xfhxZBcgUz87LvpXoMRD7OM7c1LpjPW2Rb+bikGjwhIgPvqGRb3TFa6qchAuLyvIwIF3vbSshFuuAA==",
+  "dgSpecHash": "bpUStBBpoFnqmO9WiYX6sxIwxXbc5q3GsGevx2q9hE7uBzvOI61ZkaMnw5WFCv3aEyJQMQuZ3TcxfZP419JtSg==",
   "success": true,
-  "projectFilePath": "D:\\shag\\ASP.NET\\reservation\\WebAPI-front\\WebAPI-front.csproj",
+  "projectFilePath": "D:\\shag\\ASP.NET\\Reservation\\WebAPI-front\\WebAPI-front.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nurkw\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Users\\nurkw\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
