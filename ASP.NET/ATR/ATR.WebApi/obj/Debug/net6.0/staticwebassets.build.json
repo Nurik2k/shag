@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "701gcTExQ2aTLYQGEA8htjRQ0qJWFRi9gXWmtEn0HAw=",
+  "Source": "ATR.WebApi",
+  "BasePath": "_content/ATR.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
