@@ -22,6 +22,23 @@ namespace ATR.WebApi.Controllers
             var room = await dbContext.Rooms.ToListAsync();
             return room;
         }
+        [HttpGet("GetRoomById")]
+        public async Task<IActionResult> Get(int Id)
+        {
+            try
+            {
+                var room = await dbContext.Rooms.FindAsync(Id);
+                if (room != null)
+                {
+                    return Ok(room);
+                }
+                else
+                {
+                    return NotFound();
+                }
+            }
+            catch (Exception ex) { return BadRequest(ex.Message); }
+        }
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] Room room)
         {

@@ -43,10 +43,10 @@
                                 </div>
                                 <p>@item.Description</p>
                                 <div class="room-btn">
-                                    <a asp-action="RoomDetails" asp-controller="Room" class="default-btn">DETAILS</a>
+                                    <a asp-action="RoomDetails" asp-controller="Room" asp-route-id="@item.RoomId" class="default-btn">DETAILS</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             }
