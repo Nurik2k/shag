@@ -1,0 +1,15 @@
+D:\shag\SystemProgramming\NumberGenerator\bin\Debug\net6.0\NumberGenerator.exe
+D:\shag\SystemProgramming\NumberGenerator\bin\Debug\net6.0\NumberGenerator.deps.json
+D:\shag\SystemProgramming\NumberGenerator\bin\Debug\net6.0\NumberGenerator.runtimeconfig.json
+D:\shag\SystemProgramming\NumberGenerator\bin\Debug\net6.0\NumberGenerator.dll
+D:\shag\SystemProgramming\NumberGenerator\bin\Debug\net6.0\NumberGenerator.pdb
+D:\shag\SystemProgramming\NumberGenerator\obj\Debug\net6.0\NumberGenerator.csproj.AssemblyReference.cache
+D:\shag\SystemProgramming\NumberGenerator\obj\Debug\net6.0\NumberGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\SystemProgramming\NumberGenerator\obj\Debug\net6.0\NumberGenerator.AssemblyInfoInputs.cache
+D:\shag\SystemProgramming\NumberGenerator\obj\Debug\net6.0\NumberGenerator.AssemblyInfo.cs
+D:\shag\SystemProgramming\NumberGenerator\obj\Debug\net6.0\NumberGenerator.csproj.CoreCompileInputs.cache
+D:\shag\SystemProgramming\NumberGenerator\obj\Debug\net6.0\NumberGenerator.dll
+D:\shag\SystemProgramming\NumberGenerator\obj\Debug\net6.0\refint\NumberGenerator.dll
+D:\shag\SystemProgramming\NumberGenerator\obj\Debug\net6.0\NumberGenerator.pdb
+D:\shag\SystemProgramming\NumberGenerator\obj\Debug\net6.0\NumberGenerator.genruntimeconfig.cache
+D:\shag\SystemProgramming\NumberGenerator\obj\Debug\net6.0\ref\NumberGenerator.dll
