@@ -1,0 +1,29 @@
+﻿<Window x:Class="HorseRacing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HorseRacing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Violet">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content="!!Welcome to Horse Racing!!"  HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" FontSize="50"></Label>
+        <Button HorizontalAlignment="Center" Width="50" VerticalAlignment="Bottom" Height="20" x:Name="StartRace" Content="Start" Grid.Row="0" Click="StartRace_Click" Background="Green"></Button>
+        <StackPanel Grid.Row="1" Orientation="Vertical">
+            <Label Content="Horse Number 1"></Label>
+            <ProgressBar x:Name="Horse1" Height="20" Margin="10 0 10 0" Foreground="Aqua" Minimum="0" Maximum="100"></ProgressBar>
+            <Label Content="Horse Number 2"></Label>
+            <ProgressBar x:Name="Horse2" Height="20" Margin="10 0 10 0" Foreground="Black" Minimum="0" Maximum="100"></ProgressBar>
+            <Label Content="Horse Number 3"></Label>
+            <ProgressBar x:Name="Horse3" Height="20" Margin="10 0 10 0" Foreground="Blue" Minimum="0" Maximum="100"></ProgressBar>
+            
+
+        </StackPanel>
+        <TextBlock x:Name="tbWinner" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Bottom" Grid.Row="1"></TextBlock>
+    </Grid>
+    
+</Window>

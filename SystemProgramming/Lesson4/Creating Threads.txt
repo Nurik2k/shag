@@ -1,0 +1,196 @@
+#include <windows.h>
+#include <tchar.h>
+#include <strsafe.h>
+
+#define MAX_THREADS 3
+#define BUF_SIZE 255
+
+DWORD WINAPI MyThreadFunction(LPVOID lpParam);
+void ErrorHandler(LPTSTR lpszFunction);
+
+// Пример настраиваемой структуры данных для использования потоков. Она
+// передается указателем void, поэтому это может быть любой тип данных,
+// который можно передать с помощью одного указателя void (LPVOID).
+
+typedef struct MyData {
+	int val1;
+	int val2;
+} MYDATA, * PMYDATA;
+
+int main()
+{
+	PMYDATA pDataArray[MAX_THREADS];
+	DWORD dwThreadIdArray[MAX_THREADS];
+	HANDLE hThreadArray[MAX_THREADS];
+
+	ZeroMemory(dwThreadIdArray, sizeof(dwThreadIdArray));
+	ZeroMemory(hThreadArray, sizeof(hThreadArray));
+
+	// Создаются MAX_THREADS рабочих потоков.
+	for (int i = 0; i < MAX_THREADS; i++)
+	{
+		// Выделить память для данных потока.
+		pDataArray[i] = (PMYDATA)HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY,
+			sizeof(MYDATA));
+
+		if (pDataArray[i] == NULL)
+		{
+			// Если распределение массива не удается, системе не хватает
+			// памяти, поэтому нет смысла пытаться распечатать сообщение
+			// об ошибке. Просто прекратите выполнение.
+			ExitProcess(2);
+		}
+
+		// Создавайте уникальные данные для каждого потока, с которым нужно
+		// работать.
+		pDataArray[i]->val1 = i;
+		pDataArray[i]->val2 = i + 100;
+
+		// Создайте поток, чтобы начать выполнение самостоятельно.
+		hThreadArray[i] = CreateThread(
+			NULL,					// атрибуты безопасности по умолчанию
+			NULL,					// использовать размер стека по умолчанию
+			MyThreadFunction,		// имя функции потока
+			pDataArray[i],			// аргумент функции потока
+			NULL,					// использовать флаги создания по умолчанию
+			&dwThreadIdArray[i]);	// возвращает идентификатор потока
+
+		// Проверьте возвращаемое значение на успех.
+		// В случае сбоя CreateThread прекратить выполнение.
+		// Это автоматически очистит потоки и память.
+		if (hThreadArray[i] == NULL)
+		{
+			ErrorHandler(LPTSTR(L"CreateThread"));
+			ExitProcess(3);
+		}
+
+	} // Конец цикла создания основного потока.
+
+	// Подождите, пока все потоки не завершатся.
+	WaitForMultipleObjects(MAX_THREADS, hThreadArray, TRUE, INFINITE);
+
+	// Закройте все дескрипторы потоков и освободите выделенную память.
+	for (int i = 0; i < MAX_THREADS; i++)
+	{
+		CloseHandle(hThreadArray[i]);
+		if (pDataArray[i] != NULL)
+		{
+			HeapFree(GetProcessHeap(), 0, pDataArray[i]);
+			pDataArray[i] = NULL; // Убедитесь, что адрес не используется повторно.
+		}
+	}
+
+	return 0;
+}
+
+DWORD WINAPI MyThreadFunction(LPVOID lpParam)
+{
+	HANDLE hStdout;
+	PMYDATA pDataArray;
+	TCHAR msgBuf[BUF_SIZE];
+	size_t cchStringSize;
+	DWORD dwChars;
+
+	// Убедитесь, что есть консоль для получения результатов вывода.
+	hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
+	if (hStdout == INVALID_HANDLE_VALUE)
+		return 1;
+
+	// Приведите параметр к правильному типу данных.
+	// Указатель известен как действительный, потому что он
+	// был проверен на NULL перед созданием потока.
+	pDataArray = (PMYDATA)lpParam;
+
+	// Распечатайте значения параметров, используя поточно-ориентированные функции.
+	StringCchPrintf(msgBuf, BUF_SIZE, TEXT("Parameters = %d, %d\n"),
+		pDataArray->val1, pDataArray->val2);
+
+	StringCchLengthW(msgBuf, BUF_SIZE, &cchStringSize);
+
+	WriteConsole(hStdout, msgBuf, (DWORD)cchStringSize, &dwChars, NULL);
+
+	return 0;
+}
+
+void ErrorHandler(LPTSTR lpszFunction)
+{
+	// Получите сообщение о системной ошибке для кода последней ошибки.
+	LPVOID lpMsgBuf;
+	LPVOID lpDisplayBuf;
+	DWORD dw = GetLastError();
+
+	FormatMessage(
+		FORMAT_MESSAGE_ALLOCATE_BUFFER |
+		FORMAT_MESSAGE_FROM_SYSTEM |
+		FORMAT_MESSAGE_IGNORE_INSERTS,
+		NULL,
+		dw,
+		MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
+		(LPTSTR)&lpMsgBuf,
+		0, NULL);
+
+	// Отобразите сообщение об ошибке.
+	lpDisplayBuf = (LPVOID)LocalAlloc(LMEM_ZEROINIT,
+		(lstrlen((LPCTSTR)lpMsgBuf) + lstrlen((LPCTSTR)lpszFunction) + 40) * sizeof(TCHAR));
+
+	StringCchPrintf((LPTSTR)lpDisplayBuf,
+		LocalSize(lpDisplayBuf) / sizeof(TCHAR),
+		TEXT("%s failed with error %d: %s"),
+		lpszFunction, dw, lpMsgBuf);
+
+	MessageBox(NULL, (LPCTSTR)lpDisplayBuf, TEXT("Error"), MB_OK);
+
+	// Бесплатное выделение буфера обработки ошибок.
+	LocalFree(lpMsgBuf);
+	LocalFree(lpDisplayBuf);
+}
+
+//---------------------------------------------------------------------------------------------------------
+
+using System;
+using System.Threading;
+
+namespace CSHARP_SDP_201
+{
+    class ThreadExample
+    {
+        public static void ThreadProc()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("ThreadProc: {0}", i);
+                // Дайте остальной отрезок времени.
+                Thread.Sleep(0);
+            }
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Main thread: Start a second thread.");
+            // Конструктору класса Thread требуется делегат ThreadStart,
+            // представляющий метод, выполняемый в потоке. C # упрощает
+            // создание этого делегата.
+            Thread t = new Thread(new ThreadStart(ThreadExample.ThreadProc));
+
+            // Запустите ThreadProc. Обратите внимание, что на однопроцессоре
+            // новый поток не получает процессорное время до тех пор, пока
+            // основной поток не будет вытеснен или не уступит. Раскомментируйте
+            // Thread.Sleep, следующий за t.Start(), чтобы увидеть разницу.
+            t.Start();
+            //Thread.Sleep(0);
+
+            for (int i = 0; i < 4; i++)
+            {
+                Console.WriteLine("Главный поток: Выполняется.");
+                Thread.Sleep(0);
+            }
+
+            Console.WriteLine("Главный поток: Вызов Join(), дождаться завершения ThreadProc.");
+            t.Join();
+            Console.WriteLine("Главный поток: ThreadProc.Join возвращается.\nНажмите Enter для завершения.");
+            Console.ReadLine();
+        }
+    }
+}

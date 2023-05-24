@@ -1,0 +1,71 @@
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/
+Асинхронность позволяет вынести отдельные задачи из основного потока в специальные асинхронные методы или блоки кода. Особенно это актуально в графических программах, где продолжительные задачи могу блокировать интерфейс пользователя. И чтобы этого не произошло, нужно задействовать асинхронность. Также асинхронность несет выгоды в веб-приложениях при обработке запросов от пользователей, при обращении к базам данных или сетевым ресурсам. При больших запросах к базе данных асинхронный метод просто уснет на время, пока не получит данные от БД, а основной поток сможет продолжить свою работу. В синхронном же приложении, если бы код получения данных находился в основном потоке, этот поток просто бы блокировался на время получения данных.
+Ключевыми для работы с асинхронными вызовами в C# являются два ключевых слова: async и await, цель которых - упростить написание асинхронного кода. Они используются вместе для создания асинхронного метода.
+
+using System;
+using System.Threading.Tasks;
+
+namespace CSharp
+{
+    class UseArray
+    {
+        Random rnd = new Random();
+        public async Task UseArrayAsync(int size)
+        {
+            Console.WriteLine("Запуск делегата без ответа.");
+            await Task.Run(() =>
+            {
+                int[] vs;
+                vs = new int[size];
+                for (int i = 0; i < size; i++)
+                {
+                    vs[i] = rnd.Next(int.MinValue, int.MaxValue);
+                }
+                Console.WriteLine("Выполнение делегата без ответа.");
+                uint answer = 0;
+                foreach (int elem in vs)
+                {
+                    answer += (uint)elem;
+                }
+                Console.WriteLine($"Ответ: при размере {size}, среднее {answer / size}.");
+            });
+        }
+
+        public async Task<long> UseArrayReturnAsync(int size)
+        {
+            Console.WriteLine("Запуск делегата.");
+            return await Task.Run(() =>
+            {
+                int[] vs;
+                vs = new int[size];
+                for (int i = 0; i < size; i++)
+                {
+                    vs[i] = rnd.Next(int.MinValue, int.MaxValue);
+                }
+                Console.WriteLine("Выполнение делегата.");
+                uint answer = 0;
+                foreach (int elem in vs)
+                {
+                    answer += (uint)elem;
+                }
+                Console.WriteLine($"Ответ: при размере {size}");
+                return answer / size;
+            });
+        }
+    }
+    class Program
+    {
+        static void Main()
+        {
+            int size = 50000000;
+            UseArray test = new UseArray();
+            Console.WriteLine("<НАЧАЛО>");
+            _ = test.UseArrayAsync(size);
+            Console.WriteLine("<МЕЖДУ>");
+            var tsk = test.UseArrayReturnAsync(size);
+            Console.WriteLine($"Ответ: {tsk.Result}");
+            Console.WriteLine("<КОНЕЦ>");
+            Console.ReadLine();
+        }
+    }
+}
