@@ -1,0 +1,12 @@
+D:\shag\SystemProgramming\Geometry.dll\bin\Debug\net6.0\Geometry.dll.deps.json
+D:\shag\SystemProgramming\Geometry.dll\bin\Debug\net6.0\Geometry.dll.dll
+D:\shag\SystemProgramming\Geometry.dll\bin\Debug\net6.0\Geometry.dll.pdb
+D:\shag\SystemProgramming\Geometry.dll\obj\Debug\net6.0\Geometry.dll.csproj.AssemblyReference.cache
+D:\shag\SystemProgramming\Geometry.dll\obj\Debug\net6.0\Geometry.dll.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\SystemProgramming\Geometry.dll\obj\Debug\net6.0\Geometry.dll.AssemblyInfoInputs.cache
+D:\shag\SystemProgramming\Geometry.dll\obj\Debug\net6.0\Geometry.dll.AssemblyInfo.cs
+D:\shag\SystemProgramming\Geometry.dll\obj\Debug\net6.0\Geometry.dll.csproj.CoreCompileInputs.cache
+D:\shag\SystemProgramming\Geometry.dll\obj\Debug\net6.0\Geometry.dll.dll
+D:\shag\SystemProgramming\Geometry.dll\obj\Debug\net6.0\refint\Geometry.dll.dll
+D:\shag\SystemProgramming\Geometry.dll\obj\Debug\net6.0\Geometry.dll.pdb
+D:\shag\SystemProgramming\Geometry.dll\obj\Debug\net6.0\ref\Geometry.dll.dll

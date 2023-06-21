@@ -1,134 +1,163 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Windows.Media.Animation;
 
-namespace HorseRacing
+namespace Philosopher
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
-        private BackgroundWorker[] workers;
-        private bool isRunning;
-        private Random random;
+        private const int MaxEatCount = 3;
+        private Semaphore forkSemaphore = new Semaphore(2, 2);
+        private int eatCount = 0;
+        private int spaghettiPercent = 100;
+
+        private BackgroundWorker animationWorker;
+
         public MainWindow()
         {
             InitializeComponent();
-            workers = new BackgroundWorker[3];
-            random = new Random();
-            isRunning = false;
-
-            for (int i = 0; i < 3; i++)
-            {
-                workers[i] = new BackgroundWorker();
-                workers[i].WorkerReportsProgress = true;
-                workers[i].DoWork += Worker_DoWork;
-                workers[i].ProgressChanged += Worker_ProgressChanged;
-                workers[i].RunWorkerCompleted += Worker_RunWorkerCompleted;
-            }
-
-
+            InitializeProgressBars();
+            InitializeAnimationWorker();
+            StartButton.Click += StartButton_Click;
         }
 
-        private void StartRace_Click(object sender, RoutedEventArgs e)
+        private void InitializeProgressBars()
         {
-            if (!isRunning)
-            {
-                isRunning = true;
-
-                for (int i = 0; i < 3; i++)
-                {
-                    workers[i].RunWorkerAsync(i);
-                }
-            }
+            pbSpaghetti.Value = spaghettiPercent;
+            pbPhilosopher1.Value = 0;
+            pbPhilosopher2.Value = 0;
+            pbPhilosopher3.Value = 0;
+            pbPhilosopher4.Value = 0;
+            pbPhilosopher5.Value = 0;
         }
-        private void Worker_DoWork(object sender, DoWorkEventArgs e)
-        {
-            int workerIndex = (int)e.Argument;
-            BackgroundWorker worker = (BackgroundWorker)sender;
 
-            for (int i = 0; i <= 100; i++)
+        private void InitializeAnimationWorker()
+        {
+            animationWorker = new BackgroundWorker();
+            animationWorker.DoWork += AnimationWorker_DoWork;
+            animationWorker.RunWorkerAsync();
+        }
+
+        private void AnimationWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            while (true)
             {
-                if (!isRunning)
-                {
-                    e.Cancel = true;
+                AnimateProgressBar(pbPhilosopher1);
+                AnimateProgressBar(pbPhilosopher2);
+                AnimateProgressBar(pbPhilosopher3);
+                AnimateProgressBar(pbPhilosopher4);
+                AnimateProgressBar(pbPhilosopher5);
+
+                if (spaghettiPercent <= 0)
                     break;
-                }
-
-                Thread.Sleep(random.Next(100, 150));
-
-                worker.ReportProgress(i, workerIndex);
             }
         }
 
-        private void Worker_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        private void AnimateProgressBar(ProgressBar progressBar)
         {
-            int workerIndex = (int)e.UserState;
-            ProgressBar progressBar = GetProgressBar(workerIndex);
-            progressBar.Value = e.ProgressPercentage;
-        }
-        private ProgressBar GetProgressBar(int index)
-        {
-            switch (index)
+            Application.Current.Dispatcher.Invoke(() =>
             {
-                case 0:
-                    return Horse1;
-                case 1:
-                    return Horse2;
-                case 2:
-                    return Horse3;
-                default:
-                    throw new ArgumentOutOfRangeException("Invalid progress bar index.");
-            }
-        }
-
-        private void Worker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
-        {
-            bool allWorkersCompleted = true;
-            int winningWorkerIndex = -1;
-            int highestProgress = -1;
-
-            for (int i = 0; i < 3; i++)
-            {
-                if (workers[i].IsBusy)
+                DoubleAnimation animation = new DoubleAnimation
                 {
-                    allWorkersCompleted = false;
+                    From = 0,
+                    To = 100,
+                    Duration = TimeSpan.FromSeconds(3)
+                };
+
+                progressBar.BeginAnimation(ProgressBar.ValueProperty, animation);
+            });
+
+            Thread.Sleep(500);
+        }
+
+        private async void StartButton_Click(object sender, RoutedEventArgs e)
+        {
+            StartButton.IsEnabled = false;
+
+            Task[] philosopherTasks =
+            {
+                Task.Run(() => PhilosopherLogic(pbPhilosopher1, "Philosopher #1", "Aqua")),
+                Task.Run(() => PhilosopherLogic(pbPhilosopher2, "Philosopher #2", "Red")),
+                Task.Run(() => PhilosopherLogic(pbPhilosopher3, "Philosopher #3", "BurlyWood")),
+                Task.Run(() => PhilosopherLogic(pbPhilosopher4, "Philosopher #4", "DarkOrange")),
+                Task.Run(() => PhilosopherLogic(pbPhilosopher5, "Philosopher #5", "LawnGreen"))
+            };
+
+            await Task.WhenAll(philosopherTasks);
+
+            animationWorker.CancelAsync();
+            StartButton.IsEnabled = true;
+        }
+
+        private void PhilosopherLogic(ProgressBar progressBar, string philosopherName, string color)
+        {
+            while (spaghettiPercent > 0)
+            {
+                if (animationWorker.CancellationPending)
+                    return;
+
+                Think(philosopherName);
+
+                forkSemaphore.WaitOne();
+
+                if (forkSemaphore.WaitOne(0))
+                {
+                    Eat(philosopherName, progressBar);
+
+                    forkSemaphore.Release();
+                    forkSemaphore.Release();
+                }
+                else
+                {
+                    forkSemaphore.Release();
+                }
+            }
+        }
+
+        private void Eat(string philosopherName, ProgressBar progressBar)
+        {
+            Application.Current.Dispatcher.Invoke(() =>
+            {
+                UpdateStatus(philosopherName, "Eating");
+                progressBar.Value = eatCount * 100 / MaxEatCount;
+                pbSpaghetti.Value -= 10;
+            });
+
+            Thread.Sleep(1000);
+
+            eatCount++;
+        }
+
+        private void Think(string philosopherName)
+        {
+            Application.Current.Dispatcher.Invoke(() => UpdateStatus(philosopherName, "Thinking"));
+
+            Thread.Sleep(new Random().Next(1000, 2001));
+        }
+
+        private void UpdateStatus(string philosopherName, string status)
+        {
+            switch (philosopherName)
+            {
+                case "Philosopher #1":
+                    lblPhilosopher1.Content = $"{philosopherName}: {status}";
                     break;
-                }
-
-                ProgressBar progressBar = GetProgressBar(i);
-                int progress = (int)progressBar.Value;
-
-                if (progress > highestProgress)
-                {
-                    highestProgress = progress;
-                    winningWorkerIndex = i;
-                }
-            }
-
-            if (allWorkersCompleted)
-            {
-                isRunning = false;
-
-                if (winningWorkerIndex != -1)
-                {
-                    string winnerText = $"Winner: Horse {winningWorkerIndex + 1}";
-                    tbWinner.Text = winnerText;
-                }
+                case "Philosopher #2":
+                    lblPhilosopher2.Content = $"{philosopherName}: {status}";
+                    break;
+                case "Philosopher #3":
+                    lblPhilosopher3.Content = $"{philosopherName}: {status}";
+                    break;
+                case "Philosopher #4":
+                    lblPhilosopher4.Content = $"{philosopherName}: {status}";
+                    break;
+                case "Philosopher #5":
+                    lblPhilosopher5.Content = $"{philosopherName}: {status}";
+                    break;
             }
         }
     }

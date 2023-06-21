@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry.csproj", "{6256A7FD-B3A7-4F12-AE0D-51103EEB9D14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry.dll", "..\Geometry.dll\Geometry.dll.csproj", "{783140CC-2F7F-4910-9174-2FF7C7E7EC40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6256A7FD-B3A7-4F12-AE0D-51103EEB9D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6256A7FD-B3A7-4F12-AE0D-51103EEB9D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6256A7FD-B3A7-4F12-AE0D-51103EEB9D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6256A7FD-B3A7-4F12-AE0D-51103EEB9D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783140CC-2F7F-4910-9174-2FF7C7E7EC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783140CC-2F7F-4910-9174-2FF7C7E7EC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783140CC-2F7F-4910-9174-2FF7C7E7EC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783140CC-2F7F-4910-9174-2FF7C7E7EC40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72FA1E00-CED7-4138-ADB2-78B4EE17B169}
+	EndGlobalSection
+EndGlobal
