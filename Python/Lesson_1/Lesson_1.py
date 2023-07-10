@@ -23,4 +23,4 @@
 #print("To be","or not", "to be", sep="\n")
 #________________________________________________
 
-print("Life is what happens","\n\twhen", "\n\t\tyou are busy making other plans", "\n\t\t\t\t\t\tJohn Lennon")
+#print("Life is what happens","\n\twhen", "\n\t\tyou are busy making other plans", "\n\t\t\t\t\t\tJohn Lennon")
