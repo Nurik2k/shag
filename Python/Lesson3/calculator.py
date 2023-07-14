@@ -1,3 +1,6 @@
+import math
+
+# Массив строк меню
 menu = [
     ["Select an operation:"],
     ["1. Addition"],
@@ -10,6 +13,7 @@ menu = [
     ["8. Factorial"],
     ["0. Exit"]
 ]
+
 
 def Addition():
     num1 = int(input("Enter num1: "))
@@ -43,12 +47,36 @@ def Division():
     finally:
         Menu()
 
+def Power():
+    num1 = int(input("Enter num1: "))
+    num2 = int(input("Enter num2: "))
+    print("Result: ", math.pow(num1, num2), "\n")
+    Menu()
+
+def SquareRoot():
+    num1 = int(input("Enter num1: "))
+    num2 = int(input("Enter num2: "))
+    print("Result: ", math.sqrt(num1, num2), "\n")
+    Menu()
+
+def Logarithm():
+    num1 = int(input("Enter num1: "))
+    num2 = int(input("Enter num2: "))
+    print("Result: ", math.log(num1, num2), "\n")
+    Menu()
+
+def Factorial():
+    num1 = int(input("Enter num1: "))
+    num2 = int(input("Enter num2: "))
+    print("Result: ", math.factorial(num1, num2), "\n")
+    Menu()
+
 def Menu():
     for i in menu:
         for j in i:
             print(j)
 
-    num = int(input())
+    num = int(input("Enter number 1-8: "))
     if num <= 8:
         match num:
             case 1:
@@ -63,10 +91,23 @@ def Menu():
             case 4:
                 Division()
 
+            case 5:
+                Power()
+
+            case 6:
+                SquareRoot()
+
+            case 7:
+                Logarithm()
+
+            case 8:
+                Factorial()
+
             case 0: 
                 print("Выход!")
     else:
         print("Нет такой команды!")
+        Menu()
 
 if __name__ == "__main__":
     Menu()
