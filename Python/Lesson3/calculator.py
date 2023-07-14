@@ -47,7 +47,6 @@ def Menu():
     for i in menu:
         for j in i:
             print(j)
-    print()
 
     num = int(input())
     if num <= 8:
