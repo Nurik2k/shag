@@ -78,33 +78,32 @@ def Menu():
 
     num = int(input("Enter number 1-8: "))
     if num <= 8:
-        match num:
-            case 1:
-                Addition()
+        if  num == 1:
+            Addition()
             
-            case 2:
-                Substraction()
+        elif num == 2:
+            Substraction()
         
-            case 3:
-                Multiplication()
+        elif num == 3:
+            Multiplication()
 
-            case 4:
-                Division()
+        elif num == 4:
+            Division()
 
-            case 5:
-                Power()
+        elif num == 5:
+            Power()
 
-            case 6:
-                SquareRoot()
+        elif num == 6:
+            SquareRoot()
 
-            case 7:
-                Logarithm()
+        elif num == 7:
+            Logarithm()
 
-            case 8:
-                Factorial()
+        elif num == 8:
+            Factorial()
 
-            case 0: 
-                print("Выход!")
+        elif num == 0: 
+            print("Выход!")
     else:
         print("Нет такой команды!")
         Menu()
