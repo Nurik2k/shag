@@ -156,6 +156,31 @@ def strings_to_types() -> None:
 
     return None
 
+def best_practices() -> None:
+    import re 
+
+    text = "django"
+
+    print(list(text))
+    print([c for c in "text"]) 
+
+    for c in text:
+        print(c)
+
+    str = "h3310 23 cat 444.4 rabbit 11 2 dog"
+    print([int(s) for s in str.split() if s.isdigit()])
+    print(re.findall(r"\d+", str))
+
+    print("test"[::-1])
+    print("".join(reversed("test")))
+
+    print("Some text1"[:-1])
+
+    print("  Some text2  ".strip())
+    print(" So me t e x t ".replace(" ", ""))
+
+    return None
+
 def main():
     quotation_marks()
 
@@ -176,4 +201,4 @@ def main():
     strings_to_types()
 
 if __name__ == "__main__": 
-    main()   
+    main() 
