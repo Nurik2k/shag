@@ -32,5 +32,13 @@ if "__main__" == __name__:
     b = desc_buble_sort(array[len(array) // 3 : (len(array) // 3) * 2])
     c = simple_print(array[(len(array) // 3) * 2 : len(array)])
 
+    d = sorted(array[0 : len(array) // 3])
+    e = sorted(array[len(array) // 3 : (len(array) // 3) * 2], reverse=True)
+    f = (array[(len(array) // 3) * 2 : len(array)])
+
     result = "-" + str(a) + " - " + str(b) + " - " + str(c)
+    result2 = "-" + str(d) + " - " + str(e) + " - " + str(f)
+
     print(result)
+    print(result2)
+
