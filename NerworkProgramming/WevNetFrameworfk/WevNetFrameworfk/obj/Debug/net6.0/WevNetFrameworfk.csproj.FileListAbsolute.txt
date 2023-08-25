@@ -1,0 +1,14 @@
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\bin\Debug\net6.0\WevNetFrameworfk.exe
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\bin\Debug\net6.0\WevNetFrameworfk.deps.json
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\bin\Debug\net6.0\WevNetFrameworfk.runtimeconfig.json
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\bin\Debug\net6.0\WevNetFrameworfk.dll
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\bin\Debug\net6.0\WevNetFrameworfk.pdb
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\obj\Debug\net6.0\WevNetFrameworfk.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\obj\Debug\net6.0\WevNetFrameworfk.AssemblyInfoInputs.cache
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\obj\Debug\net6.0\WevNetFrameworfk.AssemblyInfo.cs
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\obj\Debug\net6.0\WevNetFrameworfk.csproj.CoreCompileInputs.cache
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\obj\Debug\net6.0\WevNetFrameworfk.dll
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\obj\Debug\net6.0\refint\WevNetFrameworfk.dll
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\obj\Debug\net6.0\WevNetFrameworfk.pdb
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\obj\Debug\net6.0\WevNetFrameworfk.genruntimeconfig.cache
+D:\shag\NerworkProgramming\WevNetFrameworfk\WevNetFrameworfk\obj\Debug\net6.0\ref\WevNetFrameworfk.dll

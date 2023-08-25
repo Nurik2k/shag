@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WevNetFrameworfk", "WevNetFrameworfk\WevNetFrameworfk.csproj", "{5BC17CF7-C6DF-4967-824D-C7EB6ADF8B14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BC17CF7-C6DF-4967-824D-C7EB6ADF8B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC17CF7-C6DF-4967-824D-C7EB6ADF8B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC17CF7-C6DF-4967-824D-C7EB6ADF8B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC17CF7-C6DF-4967-824D-C7EB6ADF8B14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D7A3FF8-620F-46C7-B83F-37E39B4F71C4}
+	EndGlobalSection
+EndGlobal
