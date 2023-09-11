@@ -1,0 +1,4 @@
+D:\shag\NerworkProgramming\app-tcp-client\app-tcp-server\obj\Debug\net6.0\app-tcp-server.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\NerworkProgramming\app-tcp-client\app-tcp-server\obj\Debug\net6.0\app-tcp-server.AssemblyInfoInputs.cache
+D:\shag\NerworkProgramming\app-tcp-client\app-tcp-server\obj\Debug\net6.0\app-tcp-server.AssemblyInfo.cs
+D:\shag\NerworkProgramming\app-tcp-client\app-tcp-server\obj\Debug\net6.0\app-tcp-server.csproj.CoreCompileInputs.cache
