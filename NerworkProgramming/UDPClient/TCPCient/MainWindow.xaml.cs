@@ -1,10 +1,12 @@
 ﻿using Microsoft.Win32;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net.Sockets;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -51,6 +53,14 @@ namespace TCPCient
                 stream = client.GetStream();
 
                 FileStream fs = new FileStream(tbxFile.Text, FileMode.Open, FileAccess.Read);
+                var file = File.OpenRead(tbxFile.Text);
+
+                FileInfo fInfo = new FileInfo();
+                fInfo.FileName = file.Name;
+                fs.Read(fInfo.File, 0, (int)fs.Length);
+
+                string jsonFileInfo = JsonConvert.SerializeObject(fInfo);
+                byte[] fileInfoBytes = Encoding.UTF8.GetBytes(jsonFileInfo);
 
                 int BufferSize = 1024;
 
@@ -91,4 +101,12 @@ namespace TCPCient
             }
         }
     }
+
+    public class FileInfo
+    {
+        public string? FileName { get; set; }
+        public string? Exctension { get; set; }
+        public byte[]? File { get; set; }
+    }
+
 }
