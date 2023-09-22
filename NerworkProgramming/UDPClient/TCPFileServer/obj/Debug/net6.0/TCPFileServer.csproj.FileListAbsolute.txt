@@ -1,0 +1,17 @@
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\bin\Debug\net6.0\TCPFileServer.exe
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\bin\Debug\net6.0\TCPFileServer.deps.json
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\bin\Debug\net6.0\TCPFileServer.runtimeconfig.json
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\bin\Debug\net6.0\TCPFileServer.dll
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\bin\Debug\net6.0\TCPFileServer.pdb
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\obj\Debug\net6.0\TCPFileServer.csproj.AssemblyReference.cache
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\obj\Debug\net6.0\TCPFileServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\obj\Debug\net6.0\TCPFileServer.AssemblyInfoInputs.cache
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\obj\Debug\net6.0\TCPFileServer.AssemblyInfo.cs
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\obj\Debug\net6.0\TCPFileServer.csproj.CoreCompileInputs.cache
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\obj\Debug\net6.0\TCPFileServer.csproj.CopyComplete
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\obj\Debug\net6.0\TCPFileServer.dll
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\obj\Debug\net6.0\refint\TCPFileServer.dll
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\obj\Debug\net6.0\TCPFileServer.pdb
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\obj\Debug\net6.0\TCPFileServer.genruntimeconfig.cache
+D:\shag\NerworkProgramming\UDPClient\TCPFileServer\obj\Debug\net6.0\ref\TCPFileServer.dll

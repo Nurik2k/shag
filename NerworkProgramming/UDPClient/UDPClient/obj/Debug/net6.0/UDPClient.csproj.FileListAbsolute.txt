@@ -1,0 +1,14 @@
+D:\shag\NerworkProgramming\UDPClient\UDPClient\bin\Debug\net6.0\UDPClient.exe
+D:\shag\NerworkProgramming\UDPClient\UDPClient\bin\Debug\net6.0\UDPClient.deps.json
+D:\shag\NerworkProgramming\UDPClient\UDPClient\bin\Debug\net6.0\UDPClient.runtimeconfig.json
+D:\shag\NerworkProgramming\UDPClient\UDPClient\bin\Debug\net6.0\UDPClient.dll
+D:\shag\NerworkProgramming\UDPClient\UDPClient\bin\Debug\net6.0\UDPClient.pdb
+D:\shag\NerworkProgramming\UDPClient\UDPClient\obj\Debug\net6.0\UDPClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\shag\NerworkProgramming\UDPClient\UDPClient\obj\Debug\net6.0\UDPClient.AssemblyInfoInputs.cache
+D:\shag\NerworkProgramming\UDPClient\UDPClient\obj\Debug\net6.0\UDPClient.AssemblyInfo.cs
+D:\shag\NerworkProgramming\UDPClient\UDPClient\obj\Debug\net6.0\UDPClient.csproj.CoreCompileInputs.cache
+D:\shag\NerworkProgramming\UDPClient\UDPClient\obj\Debug\net6.0\UDPClient.dll
+D:\shag\NerworkProgramming\UDPClient\UDPClient\obj\Debug\net6.0\refint\UDPClient.dll
+D:\shag\NerworkProgramming\UDPClient\UDPClient\obj\Debug\net6.0\UDPClient.pdb
+D:\shag\NerworkProgramming\UDPClient\UDPClient\obj\Debug\net6.0\UDPClient.genruntimeconfig.cache
+D:\shag\NerworkProgramming\UDPClient\UDPClient\obj\Debug\net6.0\ref\UDPClient.dll
