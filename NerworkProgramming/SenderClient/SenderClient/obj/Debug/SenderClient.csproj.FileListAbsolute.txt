@@ -1,0 +1,15 @@
+S:\shag\NerworkProgramming\SenderClient\SenderClient\bin\Debug\SenderClient.exe.config
+S:\shag\NerworkProgramming\SenderClient\SenderClient\bin\Debug\SenderClient.exe
+S:\shag\NerworkProgramming\SenderClient\SenderClient\bin\Debug\SenderClient.pdb
+S:\shag\NerworkProgramming\SenderClient\SenderClient\obj\Debug\SenderClient.csproj.AssemblyReference.cache
+S:\shag\NerworkProgramming\SenderClient\SenderClient\obj\Debug\MainWindow.g.cs
+S:\shag\NerworkProgramming\SenderClient\SenderClient\obj\Debug\App.g.cs
+S:\shag\NerworkProgramming\SenderClient\SenderClient\obj\Debug\SenderClient_MarkupCompile.cache
+S:\shag\NerworkProgramming\SenderClient\SenderClient\obj\Debug\SenderClient_MarkupCompile.lref
+S:\shag\NerworkProgramming\SenderClient\SenderClient\obj\Debug\MainWindow.baml
+S:\shag\NerworkProgramming\SenderClient\SenderClient\obj\Debug\SenderClient.g.resources
+S:\shag\NerworkProgramming\SenderClient\SenderClient\obj\Debug\SenderClient.Properties.Resources.resources
+S:\shag\NerworkProgramming\SenderClient\SenderClient\obj\Debug\SenderClient.csproj.GenerateResource.cache
+S:\shag\NerworkProgramming\SenderClient\SenderClient\obj\Debug\SenderClient.csproj.CoreCompileInputs.cache
+S:\shag\NerworkProgramming\SenderClient\SenderClient\obj\Debug\SenderClient.exe
+S:\shag\NerworkProgramming\SenderClient\SenderClient\obj\Debug\SenderClient.pdb

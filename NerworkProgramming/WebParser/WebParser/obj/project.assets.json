@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\shag\\NerworkProgramming\\WebParser\\WebParser\\WebParser.csproj",
+      "projectUniqueName": "S:\\shag\\NerworkProgramming\\WebParser\\WebParser\\WebParser.csproj",
       "projectName": "WebParser",
-      "projectPath": "D:\\shag\\NerworkProgramming\\WebParser\\WebParser\\WebParser.csproj",
+      "projectPath": "S:\\shag\\NerworkProgramming\\WebParser\\WebParser\\WebParser.csproj",
       "packagesPath": "C:\\Users\\nurkw\\.nuget\\packages\\",
-      "outputPath": "D:\\shag\\NerworkProgramming\\WebParser\\WebParser\\obj\\",
+      "outputPath": "S:\\shag\\NerworkProgramming\\WebParser\\WebParser\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nurkw\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

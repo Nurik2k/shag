@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\shag\NerworkProgramming\WebParser\WebParser\obj\Debug\net6.0-windows\
+S:\shag\NerworkProgramming\WebParser\WebParser\obj\Debug\net6.0-windows\
 WebParser
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\shag\NerworkProgramming\WebParser\WebParser\App.xaml
+S:\shag\NerworkProgramming\WebParser\WebParser\App.xaml
 11407045341
 
 6-272049707
-194726069201
+194183970531
 MainWindow.xaml;
 
-True
+False
 
