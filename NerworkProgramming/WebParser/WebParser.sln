@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebParser", "WebParser\WebParser.csproj", "{06803946-FBF7-4B6F-A2C3-2B4D946C743B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebParser", "WebParser\WebParser.csproj", "{06803946-FBF7-4B6F-A2C3-2B4D946C743B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDowlander", "WebDowlander\WebDowlander.csproj", "{8DA58C25-E45A-4F0B-A5B0-123615986947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{06803946-FBF7-4B6F-A2C3-2B4D946C743B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06803946-FBF7-4B6F-A2C3-2B4D946C743B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06803946-FBF7-4B6F-A2C3-2B4D946C743B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA58C25-E45A-4F0B-A5B0-123615986947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA58C25-E45A-4F0B-A5B0-123615986947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA58C25-E45A-4F0B-A5B0-123615986947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA58C25-E45A-4F0B-A5B0-123615986947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
