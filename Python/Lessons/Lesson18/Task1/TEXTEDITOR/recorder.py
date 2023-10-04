@@ -19,3 +19,6 @@ class Recorder(TextEditor):
         f = open(f"{filename}.txt","r")
         r = f.read()
         print(r)
+
+    def __str__(self):
+        return super().__str__()
