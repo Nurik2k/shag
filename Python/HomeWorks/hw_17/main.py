@@ -1,115 +1,117 @@
+# Класс Device, базовый класс для устройств
 class Device:
     def __init__(self, brand, model):
         self.brand = brand
         self.model = model
 
     def turn_on(self):
-        print(f"{self.brand} {self.model} is turned on.")
+        print(f"{self.brand} {self.model} is turned on")
 
     def turn_off(self):
-        print(f"{self.brand} {self.model} is turned off.")
+        print(f"{self.brand} {self.model} is turned off")
 
-
+# Класс CoffeeMachine, производный от Device
 class CoffeeMachine(Device):
     def __init__(self, brand, model, coffee_type):
         super().__init__(brand, model)
         self.coffee_type = coffee_type
 
     def make_coffee(self):
-        print(f"{self.brand} {self.model} is making {self.coffee_type} coffee.")
+        print(f"{self.brand} {self.model} is making {self.coffee_type} coffee")
 
-
+# Класс Blender, производный от Device
 class Blender(Device):
-    def __init__(self, brand, model, power):
+    def __init__(self, brand, model, speed):
         super().__init__(brand, model)
-        self.power = power
+        self.speed = speed
 
-    def blend(self, ingredients):
-        print(f"{self.brand} {self.model} is blending {', '.join(ingredients)}.")
+    def blend(self):
+        print(f"{self.brand} {self.model} is blending at speed {self.speed}")
 
-
+# Класс MeatGrinder, производный от Device
 class MeatGrinder(Device):
     def __init__(self, brand, model, motor_power):
         super().__init__(brand, model)
         self.motor_power = motor_power
 
     def grind_meat(self):
-        print(f"{self.brand} {self.model} is grinding meat with {self.motor_power}W motor.")
+        print(f"{self.brand} {self.model} is grinding meat with {self.motor_power}W motor")
 
+# Пример использования классов
+coffee_machine = CoffeeMachine("BrandA", "ModelX", "Espresso")
+blender = Blender("BrandB", "ModelY", 3)
+meat_grinder = MeatGrinder("BrandC", "ModelZ", 800)
 
-# Пример использования классов:
-
-coffee_machine = CoffeeMachine("BrandX", "CM100", "Espresso")
 coffee_machine.turn_on()
 coffee_machine.make_coffee()
 coffee_machine.turn_off()
 
-blender = Blender("BrandY", "BlenderPro", 750)
 blender.turn_on()
-blender.blend(["Banana", "Strawberry"])
+blender.blend()
 blender.turn_off()
 
-meat_grinder = MeatGrinder("BrandZ", "SuperGrind", 1200)
 meat_grinder.turn_on()
 meat_grinder.grind_meat()
 meat_grinder.turn_off()
 
+
 #________________________________________________________________________________________________
+# Класс Ship, базовый класс для кораблей
 class Ship:
-    def __init__(self, name, year):
+    def __init__(self, name, max_speed):
         self.name = name
-        self.year = year
+        self.max_speed = max_speed
 
     def sail(self):
-        print(f"{self.name} is sailing.")
+        print(f"{self.name} is sailing")
 
-    def anchor(self):
-        print(f"{self.name} dropped anchor.")
+    def stop(self):
+        print(f"{self.name} has stopped")
 
-
+# Класс Frigate, производный от Ship
 class Frigate(Ship):
-    def __init__(self, name, year, missile_count):
-        super().__init__(name, year)
-        self.missile_count = missile_count
+    def __init__(self, name, max_speed, num_cannons):
+        super().__init__(name, max_speed)
+        self.num_cannons = num_cannons
 
-    def launch_missiles(self):
-        print(f"{self.name} launched {self.missile_count} missiles.")
+    def fire_cannons(self):
+        print(f"{self.name} fires {self.num_cannons} cannons")
 
-
+# Класс Destroyer, производный от Ship
 class Destroyer(Ship):
-    def __init__(self, name, year, gun_caliber):
-        super().__init__(name, year)
-        self.gun_caliber = gun_caliber
-
-    def fire_guns(self):
-        print(f"{self.name} fired guns with {self.gun_caliber} caliber.")
-
-
-class Cruiser(Ship):
-    def __init__(self, name, year, missile_system):
-        super().__init__(name, year)
+    def __init__(self, name, max_speed, missile_system):
+        super().__init__(name, max_speed)
         self.missile_system = missile_system
 
-    def deploy_missile_system(self):
-        print(f"{self.name} deployed {self.missile_system} missile system.")
+    def launch_missiles(self):
+        print(f"{self.name} launches missiles using {self.missile_system}")
 
+# Класс Cruiser, производный от Ship
+class Cruiser(Ship):
+    def __init__(self, name, max_speed, num_missiles):
+        super().__init__(name, max_speed)
+        self.num_missiles = num_missiles
 
-# Пример использования классов:
+    def fire_missiles(self):
+        print(f"{self.name} fires {self.num_missiles} missiles")
 
-frigate = Frigate("FrigateA", 2005, 16)
+# Пример использования классов
+frigate = Frigate("FrigateA", 30, 16)
+destroyer = Destroyer("DestroyerB", 40, "Tomahawk")
+cruiser = Cruiser("CruiserC", 35, 32)
+
 frigate.sail()
-frigate.launch_missiles()
-frigate.anchor()
+frigate.fire_cannons()
+frigate.stop()
 
-destroyer = Destroyer("DestroyerB", 2010, 127)
 destroyer.sail()
-destroyer.fire_guns()
-destroyer.anchor()
+destroyer.launch_missiles()
+destroyer.stop()
 
-cruiser = Cruiser("CruiserC", 2018, "Aegis")
 cruiser.sail()
-cruiser.deploy_missile_system()
-cruiser.anchor()
+cruiser.fire_missiles()
+cruiser.stop()
+
 #________________________________________________________________________________________________
 class Money:
     def __init__(self, dollars, cents):
@@ -134,14 +136,21 @@ class Money:
 
 # Пример использования класса Money:
 
-money1 = Money(25, 50)
-money2 = Money(10, 75)
+class Money:
+    def __init__(self, dollars, cents):
+        self.dollars = dollars
+        self.cents = cents
 
-money1.display()
-money2.display()
+    def display(self):
+        print(f"${self.dollars}.{self.cents:02}")
 
-result_add = money1.add(money2)
-result_subtract = money1.subtract(money2)
+    def set_amount(self, dollars, cents):
+        self.dollars = dollars
+        self.cents = cents
 
-result_add.display()
-result_subtract.display()
+# Пример использования класса Money
+money = Money(50, 25)
+money.display()  # Выводит "$50.25"
+
+money.set_amount(75, 50)
+money.display()  # Выводит "$75.50"
