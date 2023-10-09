@@ -131,3 +131,92 @@ while True:
 
 
 #_________________________________________________________________________________________________
+
+class FixedSizeStack:
+    def __init__(self, max_size):
+        self.stack = []
+        self.max_size = max_size
+
+    def push(self, value):
+        if len(self.stack) < self.max_size:
+            self.stack.append(value)
+        else:
+            print("Стек полный. Невозможно добавить элемент.")
+
+    def pop(self):
+        if not self.is_empty():
+            return self.stack.pop()
+        else:
+            print("Стек пуст. Невозможно извлечь элемент.")
+            return None
+
+    def count(self):
+        return len(self.stack)
+
+    def is_empty(self):
+        return len(self.stack) == 0
+
+    def is_full(self):
+        return len(self.stack) == self.max_size
+
+    def clear(self):
+        self.stack = []
+
+    def peek(self):
+        if not self.is_empty():
+            return self.stack[-1]
+        else:
+            print("Стек пуст. Невозможно получить элемент.")
+            return None
+
+# Пример использования
+stack = FixedSizeStack(5)
+
+while True:
+    print("Меню:")
+    print("1. Добавить строку в стек")
+    print("2. Вытолкнуть строку из стека")
+    print("3. Количество строк в стеке")
+    print("4. Проверить пустой ли стек")
+    print("5. Проверить полный ли стек")
+    print("6. Очистить стек")
+    print("7. Получить значение без выталкивания")
+    print("8. Выйти")
+
+    choice = input("Выберите действие (1/2/3/4/5/6/7/8): ")
+
+    if choice == "1":
+        value = input("Введите строку для добавления в стек: ")
+        stack.push(value)
+
+    elif choice == "2":
+        popped_value = stack.pop()
+        if popped_value is not None:
+            print(f"Извлечено: {popped_value}")
+
+    elif choice == "3":
+        print(f"Количество строк в стеке: {stack.count()}")
+
+    elif choice == "4":
+        if stack.is_empty():
+            print("Стек пуст.")
+        else:
+            print("Стек не пуст.")
+
+    elif choice == "5":
+        if stack.is_full():
+            print("Стек полный.")
+        else:
+            print("Стек не полный.")
+
+    elif choice == "6":
+        stack.clear()
+        print("Стек очищен.")
+
+    elif choice == "7":
+        peeked_value = stack.peek()
+        if peeked_value is not None:
+            print(f"Верхняя строка в стеке: {peeked_value}")
+
+    elif choice == "8":
+        break
