@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Документ Abricotine</title>
+        <meta charset='utf-8'/>
+        <link rel="stylesheet" type="text/css" href="./Задание_Архитектура_ToDo_List.html_files/styles.css">
+        <script>
+            window.onload = function() {
+                if (document.querySelector("script[type=\"math/tex; mode=display\"]") !== null) {
+                    var mathjax = document.createElement("script");
+                    mathjax.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML";
+                    document.head.appendChild(mathjax);
+                }
+                if (document.getElementsByTagName("code").length !== 0) {
+                    var highlight = document.createElement("script");
+                    var highlightcss = document.createElement("link");
+                    highlight.src = "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js";
+                    highlightcss.rel = "stylesheet";
+                    highlightcss.href = "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css";
+                    highlight.onload = function() {hljs.initHighlighting();};
+                    document.head.appendChild(highlight);
+                    document.head.appendChild(highlightcss);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <article>
+            <p><strong>Задание: Архитектура ToDo List</strong></p>
+<p><strong>Цель:</strong>
+Разработать программу для управления задачами с использованием класса <code>ToDoList</code>.</p>
+<p><strong>Инструкции:</strong></p>
+<ol>
+<li><p><strong>Архитектура класса <code>ToDoList</code>:</strong></p>
+<ul>
+<li>Класс <code>ToDoList</code> создан для управления списком задач.</li><li>Он принимает <code>filename</code> в качестве аргумента конструктора, который представляет собой имя файла, в котором хранятся задачи.</li><li>Если файл не существует, программа должна создать пустой файл с указанным именем.</li></ul>
+</li><li><p><strong>Метод <code>load_tasks</code>:</strong></p>
+<ul>
+<li>Метод <code>load_tasks</code> загружает задачи из файла Excel, если он существует. Если файл не существует, метод просто завершает работу.</li></ul>
+</li><li><p><strong>Метод <code>save_tasks</code>:</strong></p>
+<ul>
+<li>Метод <code>save_tasks</code> сохраняет текущий список задач в файл Excel.</li></ul>
+</li><li><p><strong>Метод <code>add_task</code>:</strong></p>
+<ul>
+<li>Метод <code>add_task</code> принимает <code>task</code> в качестве аргумента. Он добавляет эту задачу в список.</li></ul>
+</li><li><p><strong>Метод <code>view_tasks</code>:</strong></p>
+<ul>
+<li>Метод <code>view_tasks</code> возвращает список всех задач (как даты, так и самих задач).</li></ul>
+</li><li><p><strong>Метод <code>remove_task</code>:</strong></p>
+<ul>
+<li>Метод <code>remove_task</code> принимает <code>task</code> в качестве аргумента. Если задача существует в списке, она удаляется, и метод возвращает <code>True</code>, в противном случае возвращается <code>False</code>.</li></ul>
+</li><li><p><strong>Метод <code>clear_list</code>:</strong></p>
+<ul>
+<li>Метод <code>clear_list</code> очищает весь список задач.</li></ul>
+</li><li><p><strong>Метод <code>view_day</code>:</strong></p>
+<ul>
+<li>Метод <code>view_day</code> принимает <code>day</code> в качестве аргумента (в формате &quot;YYYY-MM-DD&quot;). Он возвращает список задач для указанной даты.</li></ul>
+</li><li><p><strong>Метод <code>search_tasks</code>:</strong></p>
+<ul>
+<li>Метод <code>search_tasks</code> принимает <code>keyword</code> в качестве аргумента. Он возвращает список задач, в которых содержится указанное ключевое слово.</li></ul>
+</li><li><p><strong>Метод <code>show_menu</code>:</strong></p>
+<ul>
+<li>Метод <code>show_menu</code> отображает простое текстовое меню с возможными действиями.</li></ul>
+</li><li><p><strong>Метод <code>run</code>:</strong></p>
+<ul>
+<li>Метод <code>run</code> запускает бесконечный цикл, в котором выводится меню и ожидается ввод пользователя.</li><li>В зависимости от выбора пользователя, вызываются соответствующие методы.</li></ul>
+</li><li><p><strong>Примечание:</strong></p>
+<ul>
+<li>В коде используется библиотека <code>pandas</code> для работы с данными Excel и <code>os</code> и <code>Path</code> для проверки существования и/или создания файла.</li><li>Класс <code>ToDoList</code> должен быть готов к использованию после его инициализации.</li></ul>
+</li></ol>
+<p><strong>Пример использования:</strong></p>
+<pre><code class="lang-python">if __name__ == &quot;__main__&quot;:
+    # Создаем ToDoList и передаем имя файла
+    my_todo = ToDoList(&quot;tasks.xlsx&quot;)
+
+    # Запускаем меню
+    my_todo.run()
+</code></pre>
+<p><strong>Дополнительные замечания:</strong></p>
+<ul>
+<li>Пожалуйста, убедитесь, что у вас установлены библиотеки <code>pandas</code> и <code>openpyxl</code>.</li><li>Если есть какие-то вопросы по коду или архитектуре, не стесняйтесь спрашивать!</li></ul>
+
+        </article>
+    </body>
+</html>

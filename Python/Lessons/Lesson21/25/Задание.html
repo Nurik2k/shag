@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Задание</title>
+        <meta charset='utf-8'/>
+        <link rel="stylesheet" type="text/css" href="./Задание.html_files/styles.css">
+        <script>
+            window.onload = function() {
+                if (document.querySelector("script[type=\"math/tex; mode=display\"]") !== null) {
+                    var mathjax = document.createElement("script");
+                    mathjax.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML";
+                    document.head.appendChild(mathjax);
+                }
+                if (document.getElementsByTagName("code").length !== 0) {
+                    var highlight = document.createElement("script");
+                    var highlightcss = document.createElement("link");
+                    highlight.src = "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js";
+                    highlightcss.rel = "stylesheet";
+                    highlightcss.href = "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css";
+                    highlight.onload = function() {hljs.initHighlighting();};
+                    document.head.appendChild(highlight);
+                    document.head.appendChild(highlightcss);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <article>
+            <h3 id="%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5">Задание</h3>
+<p><strong>ToDoList с сохранением в Excel</strong></p>
+<p>Вам предоставлен код для простого ToDoList с возможностью сохранения и загрузки задач в Excel файл. Ваша задача - проанализировать и улучшить код в соответствии с лучшими практиками Python.</p>
+<ol>
+<li><p><strong>Комментарии и документация</strong>: Добавьте подробные комментарии и документацию к методам и функциям кода, чтобы другие разработчики могли легко понимать и использовать ваш код.</p>
+</li><li><p><strong>Обработка ошибок</strong>: Добавьте обработку возможных ошибок, таких как некорректный ввод пользователя или ошибки при чтении/записи в файл.</p>
+</li><li><p><strong>Оптимизация кода</strong>: Проверьте код на предмет возможных оптимизаций и улучшений. Можете ли вы улучшить алгоритмы или структуры данных?</p>
+</li><li><p><strong>Интерфейс командной строки</strong>: Добавьте возможность запуска программы с аргументами командной строки (например, <code>python todo.py tasks.xlsx</code>). Реализуйте такой функционал.</p>
+</li><li><p><strong>Дополнительные функции</strong>: Попробуйте добавить новый функционал или улучшить существующий. Например, возможность пометить задачи как выполненные.</p>
+</li><li><p><strong>Тестирование</strong>: Напишите набор тестов для вашего кода, чтобы убедиться в его корректности и надежности.</p>
+</li></ol>
+<p><strong>Дополнительная информация:</strong></p>
+<ul>
+<li><p>Код предоставлен как пример, который можно улучшить. Не обязательно делать все изменения сразу, сосредотачивайтесь на тех аспектах, которые кажутся вам наиболее важными.</p>
+</li><li><p>Код использует библиотеки pandas и os, так что убедитесь, что они установлены перед запуском программы.</p>
+</li><li><p>После внесения изменений, протестируйте код, чтобы убедиться, что он работает правильно.</p>
+</li></ul>
+
+        </article>
+    </body>
+</html>

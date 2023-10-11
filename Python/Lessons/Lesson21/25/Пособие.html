@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Введение в библиотеку pandas в Python</title>
+        <meta charset='utf-8'/>
+        <link rel="stylesheet" type="text/css" href="./Пособие.html_files/styles.css">
+        <script>
+            window.onload = function() {
+                if (document.querySelector("script[type=\"math/tex; mode=display\"]") !== null) {
+                    var mathjax = document.createElement("script");
+                    mathjax.src = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML";
+                    document.head.appendChild(mathjax);
+                }
+                if (document.getElementsByTagName("code").length !== 0) {
+                    var highlight = document.createElement("script");
+                    var highlightcss = document.createElement("link");
+                    highlight.src = "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js";
+                    highlightcss.rel = "stylesheet";
+                    highlightcss.href = "http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css";
+                    highlight.onload = function() {hljs.initHighlighting();};
+                    document.head.appendChild(highlight);
+                    document.head.appendChild(highlightcss);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <article>
+            <h1 id="%D0%B2%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D1%83-pandas-%D0%B2-python">Введение в библиотеку pandas в Python</h1>
+<p><img src="Пособие.html_files/images/pandas.svg" alt="pandas logo"></p>
+<p>Python - мощный инструмент для анализа данных и манипуляций с ними. Однако, для эффективной работы с данными, необходима правильная инфраструктура. В этом контексте, библиотека pandas является одним из наиболее полезных инструментов, предоставляющих высокоуровневые структуры данных и функции для анализа данных.</p>
+<h2 id="%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-pandas">Что такое pandas?</h2>
+<p><strong>pandas</strong> - это библиотека Python, предоставляющая высокоуровневые структуры данных и функции, предназначенные для удобного и быстрого анализа данных. С помощью pandas, вы можете легко считывать, анализировать и манипулировать данными.</p>
+<h2 id="%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8-pandas">Основные возможности pandas</h2>
+<h3 id="1-dataframe">1. DataFrame</h3>
+<p>Основным компонентом pandas является объект <strong>DataFrame</strong>. Это двумерная маркированная структура данных с возможностью хранения разных типов данных в колонках. DataFrame можно сравнить с таблицей базы данных или Excel-таблицей.</p>
+<pre><code class="lang-python">import pandas as pd
+
+# Создание DataFrame из списка словарей
+data = {&#39;Name&#39;: [&#39;Alice&#39;, &#39;Bob&#39;, &#39;Charlie&#39;],
+        &#39;Age&#39;: [25, 30, 35]}
+df = pd.DataFrame(data)
+</code></pre>
+<h3 id="2-%D1%81%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B8-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">2. Считывание и запись данных</h3>
+<p>pandas позволяет считывать данные из различных источников, таких как CSV, Excel, базы данных, JSON и многих других форматов. Также можно легко записывать данные в эти форматы.</p>
+<pre><code class="lang-python"># Считывание данных из CSV файла
+df = pd.read_csv(&#39;data.csv&#39;)
+
+# Запись DataFrame в Excel
+df.to_excel(&#39;data.xlsx&#39;, index=False)
+</code></pre>
+<h3 id="3-%D0%B8%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%B0%D1%86%D0%B8%D1%8F-%D0%B8-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">3. Индексация и выбор данных</h3>
+<p>pandas предоставляет множество методов для индексации и выбора данных, включая метки, позиции и условия.</p>
+<pre><code class="lang-python"># Выбор колонки
+df[&#39;Name&#39;]
+
+# Выбор по условиям
+df[df[&#39;Age&#39;] &gt; 30]
+
+# Выбор по позиции
+df.iloc[0]
+</code></pre>
+<h3 id="4-%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-%D0%B8-%D0%B0%D0%B3%D1%80%D0%B5%D0%B3%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">4. Группировка и агрегация данных</h3>
+<p>pandas позволяет группировать данные по определенным критериям и выполнять агрегационные функции.</p>
+<pre><code class="lang-python"># Группировка по колонке &#39;Category&#39; и вычисление среднего значения
+df.groupby(&#39;Category&#39;)[&#39;Value&#39;].mean()
+</code></pre>
+<h3 id="5-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D0%BF%D1%83%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D1%85-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">5. Обработка пропущенных данных</h3>
+<p>pandas предоставляет методы для обработки пропущенных или нулевых значений.</p>
+<pre><code class="lang-python"># Удаление строк с пропущенными значениями
+df.dropna()
+
+# Заполнение пропущенных значений средним
+df.fillna(df.mean())
+</code></pre>
+<h3 id="6-%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">6. Визуализация данных</h3>
+<p>pandas интегрирована с библиотекой Matplotlib, что позволяет легко визуализировать данные.</p>
+<pre><code class="lang-python">import matplotlib.pyplot as plt
+
+# Построение графика
+df.plot(x=&#39;Date&#39;, y=&#39;Value&#39;, kind=&#39;line&#39;)
+plt.show()
+</code></pre>
+<h2 id="%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5">Заключение</h2>
+<p>Библиотека pandas предоставляет мощные средства для анализа данных в Python. Она позволяет обрабатывать и анализировать большие объемы данных с минимальными усилиями. Пандас популярна среди дата-аналитиков и исследователей данных благодаря своей эффективности и простоте использования. Если вы работаете с данными в Python, pandas - это инструмент, который стоит изучить.</p>
+
+        </article>
+    </body>
+</html>
