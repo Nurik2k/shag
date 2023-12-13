@@ -1,0 +1,14 @@
+S:\shag\NerworkProgramming\http-client\http-client\bin\Debug\net6.0\http-client.exe
+S:\shag\NerworkProgramming\http-client\http-client\bin\Debug\net6.0\http-client.deps.json
+S:\shag\NerworkProgramming\http-client\http-client\bin\Debug\net6.0\http-client.runtimeconfig.json
+S:\shag\NerworkProgramming\http-client\http-client\bin\Debug\net6.0\http-client.dll
+S:\shag\NerworkProgramming\http-client\http-client\bin\Debug\net6.0\http-client.pdb
+S:\shag\NerworkProgramming\http-client\http-client\obj\Debug\net6.0\http-client.GeneratedMSBuildEditorConfig.editorconfig
+S:\shag\NerworkProgramming\http-client\http-client\obj\Debug\net6.0\http-client.AssemblyInfoInputs.cache
+S:\shag\NerworkProgramming\http-client\http-client\obj\Debug\net6.0\http-client.AssemblyInfo.cs
+S:\shag\NerworkProgramming\http-client\http-client\obj\Debug\net6.0\http-client.csproj.CoreCompileInputs.cache
+S:\shag\NerworkProgramming\http-client\http-client\obj\Debug\net6.0\http-client.dll
+S:\shag\NerworkProgramming\http-client\http-client\obj\Debug\net6.0\refint\http-client.dll
+S:\shag\NerworkProgramming\http-client\http-client\obj\Debug\net6.0\http-client.pdb
+S:\shag\NerworkProgramming\http-client\http-client\obj\Debug\net6.0\http-client.genruntimeconfig.cache
+S:\shag\NerworkProgramming\http-client\http-client\obj\Debug\net6.0\ref\http-client.dll
